@@ -90,5 +90,12 @@ Orange — safety gate runs before question set
 - [ ] Crisis resources always included regardless of risk level
 - [ ] Child welfare flagged if child confirmed at risk
 
+## Recommended Next Modules
+- **MOD-14** Safety Plan Builder — build a personal safety plan (if Moderate/High/Critical)
+- **MOD-19** Protective Order Navigation — learn about protective orders (educational)
+- **MOD-25** Service Referral Builder — connect to DV services, shelters, legal aid
+- **MOD-05** Conflict Intake — if safe to proceed, document the broader conflict
+- **MOD-13** Emotional Regulation Plan — build regulation tools for high-stress moments
+
 ## Disclaimer
 Append Blocks A, C, F. Add Block E if child involved.

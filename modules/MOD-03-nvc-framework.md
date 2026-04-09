@@ -72,5 +72,11 @@ Green
 - [ ] Need is universal (not a strategy)
 - [ ] Request is specific, positive, and answerable
 
+## Recommended Next Modules
+- **MOD-01** De-Escalation Message Rewriter — apply NVC to a specific message you need to send
+- **MOD-02** Active Listening Guide — prepare to listen when the other person responds
+- **MOD-09** Mediation Session Prep — use NVC framing in your mediation opening statement
+- **MOD-08** Interests vs. Positions Mapper — dig deeper into underlying needs
+
 ## Disclaimer
 Append Block A.

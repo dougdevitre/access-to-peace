@@ -87,5 +87,12 @@ Green
 - [ ] BATNA noted (even if "I don't know yet")
 - [ ] Neutral language throughout
 
+## Recommended Next Modules
+- **MOD-09** Mediation Session Prep — take your interests map into mediation preparation
+- **MOD-10** Peace Agreement Builder — if both parties are ready to formalize terms
+- **MOD-03** NVC Framework — frame your interests using NVC language
+- **MOD-01** De-Escalation Message Rewriter — communicate your interests without escalation
+- **MOD-12** Community Dialogue Facilitator — if this is a group/community conflict
+
 ## Disclaimer
 Append Block A. Add Block D if mediation or agreement context.

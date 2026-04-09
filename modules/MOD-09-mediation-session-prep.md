@@ -81,5 +81,12 @@ Green
 - [ ] Other party's interests framed without hostility
 - [ ] Mediator role: output is process-neutral — no advocacy for either party
 
+## Recommended Next Modules
+- **MOD-10** Peace Agreement Builder — formalize what was agreed in mediation
+- **MOD-08** Interests vs. Positions Mapper — dig deeper into interests before the session
+- **MOD-13** Emotional Regulation Plan — build a regulation plan for the session day
+- **MOD-01** De-Escalation Message Rewriter — prepare any post-session communications
+- **MOD-06** Conflict History Timeline — build context for the mediation
+
 ## Disclaimer
 Append Blocks A, D.

@@ -104,6 +104,77 @@ Orange (always) — safety gate runs before module loads
 ## Disclaimer
 Append Blocks A, C, F.
 
+## Recommended Next Modules
+- **MOD-07** Power & Safety Assessment — if a full safety assessment hasn't been done yet
+- **MOD-19** Protective Order Navigation — if a protective order may be appropriate (educational)
+- **MOD-13** Emotional Regulation Plan — build regulation tools alongside the safety plan
+- **MOD-25** Service Referral Builder — connect to DV services, shelters, legal aid
+- **MOD-15** Trauma-Informed Self-Care Plan — for ongoing resilience alongside safety
+
+---
+
+## Worked Example
+
+**User input:**
+> Role: Individual (IND). Safety gate: "No, but I want to plan ahead."
+>
+> Warning signs: "When they start texting repeatedly and the messages get angrier. I feel my stomach drop and I freeze."
+> Internal coping: "I listen to music with headphones. Sometimes I go for a drive."
+> Safe people/places: "My sister's house. The library. My friend Maria."
+> Crisis support: "Maria (friend) — text. My sister Jen — call. My therapist Dr. K — office phone."
+> Professional support: "My therapist — Dr. K at Cedar Wellness. I used to go to a DV support group."
+> Environment safety: "I'd rather not share."
+> Reasons to stay safe: "My kids. I want to finish school. I promised my sister."
+
+### My Safety Plan
+
+**Created:** March 15, 2025
+**For:** Me
+
+**Warning signs:**
+- They start texting repeatedly and the messages get angrier
+- I feel my stomach drop
+- I freeze up and can't think clearly
+
+**What I can do on my own:**
+- Listen to music with headphones — put them on right away
+- Go for a drive — keep keys and phone accessible
+- Box breathing: inhale 4, hold 4, exhale 4, hold 4
+
+**People and places that help:**
+- My sister's house
+- The library
+- My friend Maria's place
+
+**People I can contact for support:**
+
+| Name | How to reach them | When to reach out |
+|------|------------------|-------------------|
+| Maria | Text | When messages start escalating |
+| Jen (sister) | Call | When I need a place to go or someone to talk to |
+| Dr. K | Office phone | For planned support and processing |
+
+**Professional support:**
+
+| Organization / Person | Contact |
+|----------------------|---------|
+| Dr. K — Cedar Wellness | [office phone] |
+| DV support group (previously attended) | [contact — reconnect] |
+
+**Crisis lines (always available):**
+- 988 Suicide & Crisis Lifeline: call or text **988**
+- National DV Hotline: **1-800-799-7233**
+- Crisis Text Line: Text **HOME** to **741741**
+- Emergency: **911**
+
+**Making my environment safer:**
+[User chose not to share — respected. This section can be revisited at any time.]
+
+**My reasons to stay safe:**
+- My kids
+- I want to finish school
+- I promised my sister
+
 ## Professional Note (THR/PSY role only)
 > This safety plan was generated as a structured starting point. It should be
 > reviewed, edited, and co-signed by the clinician before use in clinical practice.
