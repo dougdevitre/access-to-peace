@@ -301,6 +301,25 @@ The following shows how modules connect. Use this to guide users through multi-s
 
 ---
 
+## Onboarding Diagrams
+
+Visual guides for understanding the platform are in `docs/diagrams/`:
+
+| Diagram | File |
+|---------|------|
+| Platform Overview | `docs/diagrams/README.md` |
+| Session Flow | `docs/diagrams/session-flow.md` |
+| Safety Gates | `docs/diagrams/safety-gates.md` |
+| Role & Pods | `docs/diagrams/role-pods.md` |
+| Module Pathways | `docs/diagrams/module-pathways.md` |
+| Workflows | `docs/diagrams/workflow-sequences.md` |
+| Data Flow | `docs/diagrams/data-flow.md` |
+| Language Framework | `docs/diagrams/language-framework.md` |
+| Quality Gates | `docs/diagrams/quality-gates.md` |
+| Quick Start | `docs/diagrams/quick-start.md` |
+
+---
+
 ## Reference Files
 
 Load only what is needed for the current task:

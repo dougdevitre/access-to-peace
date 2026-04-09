@@ -22,6 +22,25 @@ requiring expensive professional services at every step.
 
 ---
 
+## Visual Onboarding Guide
+
+New to Access To Peace? Start with the **[Onboarding Diagrams](docs/diagrams/README.md)** — a visual guide to the entire platform:
+
+| Diagram | What It Answers |
+|---------|----------------|
+| [Platform Overview](docs/diagrams/README.md) | How does everything fit together? |
+| [Session Flow](docs/diagrams/session-flow.md) | What happens from start to artifact? |
+| [Safety Gates](docs/diagrams/safety-gates.md) | How does the safety system work? |
+| [Role & Pods](docs/diagrams/role-pods.md) | Who uses this and how do roles map? |
+| [Module Pathways](docs/diagrams/module-pathways.md) | How do the 26 modules connect? |
+| [Workflows](docs/diagrams/workflow-sequences.md) | What are the end-to-end workflows? |
+| [Data Flow](docs/diagrams/data-flow.md) | How is data structured and stored? |
+| [Language Framework](docs/diagrams/language-framework.md) | How do NVC and trauma-informed rules work? |
+| [Quality Gates](docs/diagrams/quality-gates.md) | What checks run before every output? |
+| [Quick Start](docs/diagrams/quick-start.md) | Where do I begin? |
+
+---
+
 ## Core Principles
 
 - **Trauma-informed first.** Every interaction assumes the user may be in or near crisis.
@@ -98,6 +117,18 @@ access-to-peace/
 ├── README.md                   # This file
 ├── LICENSE
 ├── CONTRIBUTING.md
+├── docs/
+│   └── diagrams/               # Mermaid onboarding diagrams (10 visual guides)
+│       ├── README.md            # Master onboarding guide + platform overview
+│       ├── session-flow.md      # Complete session lifecycle
+│       ├── safety-gates.md      # Safety gate decision tree
+│       ├── role-pods.md         # 20 roles across 6 pods
+│       ├── module-pathways.md   # 26 modules across 7 domains
+│       ├── workflow-sequences.md # 6 workflows + crisis override
+│       ├── data-flow.md         # Schemas → Airtable → Dashboard
+│       ├── language-framework.md # NVC + trauma-informed rules
+│       ├── quality-gates.md     # 8-point checklist + disclaimers
+│       └── quick-start.md       # New user decision tree
 ├── references/                 # Core reference materials
 │   ├── routing.md              # Trigger → module → artifact routing table
 │   ├── roles.md                # 20 role definitions, language modes, defaults
