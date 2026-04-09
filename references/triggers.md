@@ -2,6 +2,34 @@
 
 ## 80 Triggers Across 8 Categories
 
+```mermaid
+flowchart TD
+    TRIGGERS["80 Triggers\n8 Categories"]
+
+    TRIGGERS --> C1["Cat 1: Communication\nT-01 to T-10\n🟢 Green (mostly)"]
+    TRIGGERS --> C2["Cat 2: Conflict Assessment\nT-11 to T-20\n🟢🟡🟠 Mixed"]
+    TRIGGERS --> C3["Cat 3: Mediation & Resolution\nT-21 to T-30\n🟢 Green (mostly)"]
+    TRIGGERS --> C4["Cat 4: Mental Wellness\nT-31 to T-40\n🟡🟠 Yellow/Orange"]
+    TRIGGERS --> C5["Cat 5: Legal & Court\nT-41 to T-50\n🟢🟠 Mixed"]
+    TRIGGERS --> C6["Cat 6: School & Youth\nT-51 to T-60\n🟢🟡 Green/Yellow"]
+    TRIGGERS --> C7["Cat 7: Community\nT-61 to T-70\n🟢 Green"]
+    TRIGGERS --> C8["Cat 8: Crisis & Safety\nT-71 to T-80\n🟠🔴 Orange/Red"]
+
+    C1 --> M1["MOD-01 · 02 · 03 · 04"]
+    C2 --> M2["MOD-05 · 06 · 07 · 08 · 20"]
+    C3 --> M3["MOD-09 · 10 · 11 · 12"]
+    C4 --> M4["MOD-13 · 14 · 15 · 16"]
+    C5 --> M5["MOD-17 · 18 · 19 · 20"]
+    C6 --> M6["MOD-21 · 22 · 23"]
+    C7 --> M7["MOD-24 · 25 · 26"]
+    C8 --> CRISIS["CRISIS INTERRUPT\nStop all work\nSurface resources"]
+
+    style C4 fill:#ffeb3b,stroke:#f9a825,color:#000
+    style C8 fill:#d32f2f,stroke:#b71c1c,color:#fff
+    style CRISIS fill:#d32f2f,stroke:#b71c1c,color:#fff
+    style TRIGGERS fill:#1565c0,stroke:#0d47a1,color:#fff
+```
+
 Each trigger includes: safety level, primary module, and artifact output.
 
 ---
@@ -143,6 +171,25 @@ Each trigger includes: safety level, primary module, and artifact output.
 ---
 
 ## Crisis Interrupt Protocol
+
+```mermaid
+flowchart TD
+    TRIGGER["T-71 through T-80\nCrisis Trigger Detected"]
+    TRIGGER --> STOP["1. STOP all module work"]
+    STOP --> SURFACE["2. Surface crisis resources\n911 · 988 · DV Hotline · Crisis Text"]
+    SURFACE --> ASK["3. 'Are you safe right now?'"]
+    ASK --> SAFE{"User response"}
+    SAFE -- "Safe" --> CONTINUE["4. Offer MOD-07\nor MOD-14"]
+    SAFE -- "Not safe" --> HOLD["5. Hold space\nDo not push\nRepeat resources"]
+    SAFE -- "No response" --> HOLD
+    CONTINUE --> LOG["6. Log crisis interrupt\nin session metadata"]
+    HOLD --> LOG
+
+    style TRIGGER fill:#d32f2f,stroke:#b71c1c,color:#fff
+    style STOP fill:#d32f2f,stroke:#b71c1c,color:#fff
+    style SURFACE fill:#ff9800,stroke:#e65100,color:#fff
+    style HOLD fill:#ff9800,stroke:#e65100,color:#fff
+```
 
 When any T-71 through T-80 trigger fires:
 

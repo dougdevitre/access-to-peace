@@ -12,6 +12,44 @@ It is particularly central to MOD-03, MOD-01, and MOD-04.
 
 ## The Four Components of NVC
 
+```mermaid
+flowchart LR
+    O["1. OBSERVATION\n(not evaluation)\nWhat happened?"] --> F["2. FEELING\n(not interpretation)\nHow do I feel?"]
+    F --> N["3. NEED\n(not strategy)\nWhat do I need?"]
+    N --> R["4. REQUEST\n(not demand)\nWould you be willing to...?"]
+
+    style O fill:#e3f2fd,stroke:#1565c0
+    style F fill:#fce4ec,stroke:#c62828
+    style N fill:#e8f5e9,stroke:#2e7d32
+    style R fill:#fff3e0,stroke:#e65100
+```
+
+```mermaid
+flowchart TD
+    subgraph Template["NVC Sentence Template"]
+        direction LR
+        T1["'When I'"] --> T2["observation"]
+        T2 --> T3["'I feel'"]
+        T3 --> T4["feeling"]
+        T4 --> T5["'because I need'"]
+        T5 --> T6["need"]
+        T6 --> T7["'Would you be willing to'"]
+        T7 --> T8["request?"]
+    end
+
+    subgraph Blocks["NVC Blocks to Watch For"]
+        B1["Moralistic judgment\n→ Use observation + feeling"]
+        B2["Comparisons\n→ State need directly"]
+        B3["Denial of responsibility\n→ 'I chose to...'"]
+        B4["Demands\n→ Clear request + rationale"]
+        B5["Diagnoses\n→ Observation of behavior"]
+        B6["Threats\n→ Need + request + consequence"]
+    end
+
+    style Template fill:#e8f5e9,stroke:#2e7d32
+    style Blocks fill:#fff3e0,stroke:#e65100
+```
+
 ### 1. Observation (not evaluation)
 State what you observe — what was actually said or done — without interpretation or judgment.
 

@@ -2,6 +2,52 @@
 
 ## 20 Roles Across 6 Pods
 
+```mermaid
+graph TD
+    PLATFORM["Access To Peace\n20 Roles · 6 Pods"]
+
+    PLATFORM --> P1["Pod 1\nIndividual & Family"]
+    PLATFORM --> P2["Pod 2\nMediation & Conflict"]
+    PLATFORM --> P3["Pod 3\nMental Health"]
+    PLATFORM --> P4["Pod 4\nLegal & Court"]
+    PLATFORM --> P5["Pod 5\nSchool & Youth"]
+    PLATFORM --> P6["Pod 6\nCommunity & Nonprofit"]
+
+    P1 --> IND["IND\nIndividual"]
+    P1 --> PAR["PAR\nParent"]
+    P1 --> YTH["YTH\nYouth/Teen"]
+    P1 --> ELD["ELD\nElder/Caregiver"]
+
+    P2 --> MED["MED\nMediator"]
+    P2 --> ARB["ARB\nArbitrator"]
+    P2 --> CCH["CCH\nConflict Coach"]
+    P2 --> RPF["RPF\nRestorative Facilitator"]
+
+    P3 --> THR["THR\nTherapist"]
+    P3 --> PSY["PSY\nPsychiatrist"]
+    P3 --> SWK["SWK\nSocial Worker"]
+    P3 --> PSS["PSS\nPeer Support"]
+
+    P4 --> ATT["ATT\nAttorney"]
+    P4 --> GAL["GAL\nGuardian ad Litem"]
+    P4 --> JDG["JDG\nJudge/Court Staff"]
+    P4 --> VAD["VAD\nVictim Advocate"]
+
+    P5 --> SCL["SCL\nSchool Counselor"]
+    P5 --> TCH["TCH\nTeacher/Admin"]
+
+    P6 --> ORG["ORG\nCommunity Organizer"]
+    P6 --> NCM["NCM\nCase Manager"]
+
+    style P1 fill:#e3f2fd,stroke:#1565c0
+    style P2 fill:#e8f5e9,stroke:#2e7d32
+    style P3 fill:#fce4ec,stroke:#c62828
+    style P4 fill:#fff3e0,stroke:#e65100
+    style P5 fill:#f3e5f5,stroke:#6a1b9a
+    style P6 fill:#e0f2f1,stroke:#00695c
+    style PLATFORM fill:#1565c0,stroke:#0d47a1,color:#fff
+```
+
 ---
 
 ## Pod 1 — Individual & Family

@@ -14,6 +14,28 @@ IND, PAR, VAD — refer to ATT for legal representation
 ## Safety Level
 Orange — safety gate runs first
 
+```mermaid
+flowchart TD
+    A["Trigger: T-44 / T-45\nProtective Order Inquiry"]:::blue --> B{"SAFETY GATE\nAre you safe right now?"}:::orange
+    B -- "In danger" --> C["Call 911 / DV Hotline\n1-800-799-7233"]:::red
+    B -- "Safe to proceed" --> D["Educational Content:\nWhat Is a Protective Order?"]:::blue
+    D --> E["Who Can File?\nEligibility Overview"]
+    E --> F["Filing Process\n7-Step General Guide"]
+    F --> G["Important Limitations\n& Next Steps"]
+    G --> H["Referrals:\nVictim Advocate / Legal Aid"]:::green
+    H --> I["MOD-14 Safety Plan Builder"]:::green
+    H --> J["MOD-07 Power & Safety Assessment"]:::green
+    H --> K["MOD-25 Service Referral Builder"]:::green
+    H --> L["MOD-18 Court Preparation Checklist"]:::green
+    C --> M["National DV Hotline\nMissouri Advocates\nmocadsv.org"]:::red
+
+    style B stroke:#ff9800,stroke-width:3px
+    classDef blue fill:#1565c0,color:#fff
+    classDef orange fill:#ff9800,color:#fff
+    classDef red fill:#d32f2f,color:#fff
+    classDef green fill:#2e7d32,color:#fff
+```
+
 ---
 
 ## Safety Gate (mandatory)

@@ -2,6 +2,73 @@
 
 ## JSON & CSV Schemas for Access To Peace Structured Outputs
 
+```mermaid
+erDiagram
+    SESSION ||--o| CONFLICT_INTAKE : produces
+    SESSION ||--o| MESSAGE_REWRITE : produces
+    SESSION ||--o| SAFETY_PLAN : produces
+    SESSION ||--o| PEACE_AGREEMENT : produces
+    SESSION ||--o| SERVICE_REFERRAL : produces
+
+    SESSION {
+        string sessionId PK
+        datetime createdAt
+        string role
+        string triggerCode
+        string safetyLevel
+        boolean safetyGateCompleted
+        string moduleCode
+        string artifactType
+        string piiHandling
+    }
+
+    CONFLICT_INTAKE {
+        string intakeId PK
+        string sessionId FK
+        string conflictType
+        string presentingConflict
+        boolean safetyFlag
+        string recommendedModules
+    }
+
+    MESSAGE_REWRITE {
+        string rewriteId PK
+        string sessionId FK
+        string moduleCode
+        string originalMessage
+        string versionFirm
+        string versionCollaborative
+        string versionMinimal
+    }
+
+    SAFETY_PLAN {
+        string safetyPlanId PK
+        string sessionId FK
+        string safetyGateResponse
+        string warningSigns
+        string crisisContacts
+        string reasonsToStaySafe
+    }
+
+    PEACE_AGREEMENT {
+        string agreementId PK
+        string sessionId FK
+        string background
+        string terms
+        date reviewDate
+        boolean legallyBinding
+    }
+
+    SERVICE_REFERRAL {
+        string referralId PK
+        string sessionId FK
+        string organization
+        string category
+        string phone
+        string eligibility
+    }
+```
+
 ---
 
 ## Schema 1 — Session Record

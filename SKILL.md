@@ -28,8 +28,22 @@ and community contexts.
 
 ## Core Loop (always)
 
-```
-TRIGGER → ROLE → SAFETY GATE → MODULE → QUESTION SET → ARTIFACT → NEXT MODULE
+```mermaid
+flowchart LR
+    T["TRIGGER"] --> R["ROLE"]
+    R --> SG{"SAFETY\nGATE"}
+    SG -- "Safe" --> M["MODULE"]
+    SG -- "Crisis" --> CR["CRISIS\nRESOURCES"]
+    CR --> |"When safe"| M
+    M --> QS["QUESTION\nSET"]
+    QS --> A["ARTIFACT"]
+    A --> QG["QUALITY\nGATES"]
+    QG --> NM["NEXT\nMODULE"]
+    NM --> |"Continue journey"| T
+
+    style SG fill:#ff9800,stroke:#e65100,color:#fff
+    style CR fill:#d32f2f,stroke:#b71c1c,color:#fff
+    style A fill:#2e7d32,stroke:#1b5e20,color:#fff
 ```
 
 Every session follows this loop. The final step — **Next Module** — is critical.
@@ -39,6 +53,30 @@ Route using `references/routing.md`.
 ---
 
 ## Session Initialization
+
+```mermaid
+flowchart TD
+    S1["Step 1: Identify Role"]
+    S2["Step 2: Identify Trigger"]
+    S3{"Step 3: Safety Gate"}
+    S4["Step 4: Load Module +\nQuestion Set"]
+    S5["Step 5: Generate Artifact\n+ Quality Gates"]
+    S6["Step 6: Recommend\nNext Module"]
+    CRISIS["Crisis Response:\nSurface resources immediately"]
+
+    S1 --> S2
+    S2 --> S3
+    S3 -- "Green/Yellow" --> S4
+    S3 -- "Orange/Red" --> CRISIS
+    CRISIS --> |"When safe"| S4
+    S4 --> S5
+    S5 --> S6
+    S6 --> |"User continues"| S2
+
+    style S3 fill:#ff9800,stroke:#e65100,color:#fff
+    style CRISIS fill:#d32f2f,stroke:#b71c1c,color:#fff
+    style S5 fill:#2e7d32,stroke:#1b5e20,color:#fff
+```
 
 **Step 1 — Identify role.** Ask once. Default to `Individual` if user declines.
 **Step 2 — Identify trigger.** Accept free text or pick from list in `references/triggers.md`.
@@ -73,6 +111,32 @@ When the user indicates they're done, provide a brief summary:
 ---
 
 ## Safety Gate (run on every session start and on any harm-indicator keyword)
+
+```mermaid
+flowchart TD
+    INPUT["User Input Received"] --> SCAN{"Scan for\nharm indicators"}
+
+    SCAN --> GREEN["🟢 GREEN\nNo harm indicators\nProductive conflict"]
+    SCAN --> YELLOW["🟡 YELLOW\nEscalating tension\nFear expressed"]
+    SCAN --> ORANGE["🟠 ORANGE\nActive threats\nDV indicators · Self-harm"]
+    SCAN --> RED["🔴 RED\nEmergency\nImminent harm · Active crisis"]
+
+    GREEN --> FLOW["Standard flow\nLoad module"]
+    YELLOW --> ASK["Ask: Is anyone\nin immediate danger?"]
+    ASK --> FLOW
+    ORANGE --> RESOURCES["Surface crisis resources\nOffer safety escalation"]
+    RESOURCES --> FLOW
+    RED --> BLOCK["BLOCK all artifact work\nCrisis resources MANDATORY"]
+    BLOCK --> SAFE{"User confirms\nsafe?"}
+    SAFE -- "Yes" --> FLOW
+    SAFE -- "No" --> HOLD["Hold space\nRepeat resources"]
+
+    style GREEN fill:#4caf50,stroke:#2e7d32,color:#fff
+    style YELLOW fill:#ffeb3b,stroke:#f9a825,color:#000
+    style ORANGE fill:#ff9800,stroke:#e65100,color:#fff
+    style RED fill:#d32f2f,stroke:#b71c1c,color:#fff
+    style BLOCK fill:#d32f2f,stroke:#b71c1c,color:#fff
+```
 
 | Level    | Criteria                                              | Behavior                                                    |
 |----------|-------------------------------------------------------|-------------------------------------------------------------|
@@ -271,24 +335,48 @@ quality gates, and **recommended next modules** for pathway continuity.
 
 The following shows how modules connect. Use this to guide users through multi-step journeys:
 
-```
-                    ┌─────────────────────────────────────┐
-                    │         MOD-05 Conflict Intake       │
-                    │        (Entry point for most)        │
-                    └────────┬───────┬───────┬────────────┘
-                             │       │       │
-              ┌──────────────┘       │       └──────────────┐
-              ▼                      ▼                      ▼
-   ┌──────────────────┐   ┌──────────────────┐   ┌──────────────────┐
-   │ Communication     │   │ Assessment       │   │ Safety           │
-   │ MOD-01/02/03/04  │   │ MOD-06/08        │   │ MOD-07/14        │
-   └────────┬─────────┘   └────────┬─────────┘   └────────┬─────────┘
-            │                      │                       │
-            ▼                      ▼                       ▼
-   ┌──────────────────┐   ┌──────────────────┐   ┌──────────────────┐
-   │ Resolution        │   │ Mediation        │   │ Protection       │
-   │ MOD-10/11/12/26  │   │ MOD-09           │   │ MOD-19/25        │
-   └──────────────────┘   └──────────────────┘   └──────────────────┘
+```mermaid
+flowchart TD
+    INTAKE["MOD-05 Conflict Intake\n(Entry point for most)"]
+
+    INTAKE --> COMM["Communication\nMOD-01 · MOD-02 · MOD-03 · MOD-04"]
+    INTAKE --> ASSESS["Assessment\nMOD-06 · MOD-08"]
+    INTAKE --> SAFETY["Safety\nMOD-07 · MOD-14"]
+
+    COMM --> RESOLVE["Resolution\nMOD-10 · MOD-11 · MOD-12 · MOD-26"]
+    ASSESS --> MEDIATE["Mediation\nMOD-09"]
+    SAFETY --> PROTECT["Protection\nMOD-19 · MOD-25"]
+
+    MEDIATE --> RESOLVE
+    PROTECT --> RESOLVE
+
+    subgraph Wellness["Mental Wellness (available at any point)"]
+        REG["MOD-13\nEmotional Regulation"]
+        CARE["MOD-15\nSelf-Care"]
+        GRIEF["MOD-16\nGrief & Loss"]
+    end
+
+    subgraph SchoolYouth["School & Youth"]
+        PEER["MOD-21\nPeer Conflict"]
+        SCHOOL["MOD-22\nRestorative Practice"]
+        YOUTH["MOD-23\nYouth Check-In"]
+    end
+
+    subgraph Legal["Legal & Court"]
+        LOG["MOD-17\nParenting Plan Log"]
+        COURT["MOD-18\nCourt Prep"]
+        DOC["MOD-20\nCase Documentation"]
+    end
+
+    INTAKE --> Wellness
+    INTAKE --> SchoolYouth
+    INTAKE --> Legal
+    PEER --> SCHOOL
+
+    style INTAKE fill:#1565c0,stroke:#0d47a1,color:#fff
+    style SAFETY fill:#ff9800,stroke:#e65100,color:#fff
+    style PROTECT fill:#ff9800,stroke:#e65100,color:#fff
+    style RESOLVE fill:#2e7d32,stroke:#1b5e20,color:#fff
 ```
 
 **Key entry points by situation:**

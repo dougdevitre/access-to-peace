@@ -14,6 +14,40 @@ All — especially MED, ARB, CCH, ATT, IND
 ## Safety Level
 Green
 
+```mermaid
+flowchart TD
+    T12["T-12: Dispute\nresolution needed"] --> ENTRY
+    T17["T-17: Stuck in\nnegotiation"] --> ENTRY
+    T29["T-29: Relationship\nrepair needed"] --> ENTRY
+
+    ENTRY["MOD-08: Interests vs.\nPositions Mapper"]:::blue --> BG["Background: Positions vs.\nInterests (Fisher & Ury)"]
+    BG --> YOUR1["Q1: What are you\nasking for? (position)"]
+    YOUR1 --> YOUR2["Q2: Why is that\nimportant? (dig to core value)"]
+    YOUR2 --> YOUR3["Q3: What would you\nlose without it?"]
+    YOUR3 --> YOUR4["Q4: What is\n'good enough'?"]
+    YOUR4 --> YOUR5["Q5: What is\nnon-negotiable?"]
+
+    YOUR5 --> THEIR["Q6-Q8: Other side's\nposition, motivation, fears"]
+    THEIR --> OVERLAP["Q9: Shared values\nor common ground?"]
+
+    OVERLAP --> MAP_YOU["Your Interests Table:\nPosition | Interest | Non-negotiable?"]
+    MAP_YOU --> BATNA["Your BATNA:\nBest alternative if\nno agreement"]
+    BATNA --> MAP_THEM["Their Likely Interests Table:\nPosition | Interest | Fear"]
+    MAP_THEM --> COMMON["Possible Overlap:\nShared interests"]
+    COMMON --> REFRAME["Reframe for Negotiation:\nPosition → Interest language"]
+
+    REFRAME --> OUTPUT["Interests Map"]:::green
+
+    OUTPUT --> MOD09["MOD-09: Mediation Prep"]
+    OUTPUT --> MOD10["MOD-10: Peace Agreement"]
+    OUTPUT --> MOD03["MOD-03: NVC Framework"]
+    OUTPUT --> MOD01["MOD-01: De-Escalation Rewriter"]
+    OUTPUT --> MOD12["MOD-12: Community Dialogue"]
+
+    classDef blue fill:#1565c0,color:#fff
+    classDef green fill:#2e7d32,color:#fff
+```
+
 ---
 
 ## Background (share with user if unfamiliar)

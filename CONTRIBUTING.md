@@ -25,6 +25,37 @@ trauma-informed, conflict-neutral, and person-centered.
 
 ## How to Contribute
 
+```mermaid
+flowchart TD
+    START["Identify Contribution Type"] --> MOD["New Module"]
+    START --> RES["Resource Update"]
+    START --> TRANS["Translation"]
+    START --> BUG["Bug Report"]
+
+    MOD --> FORMAT["Follow module format:\nPurpose · Triggers · Roles · Safety\nQuestions · Output · Quality Gates"]
+    FORMAT --> ROUTING["Add to routing table\n(references/routing.md)"]
+    ROUTING --> SKILL["Add to SKILL.md\nModule Index"]
+    SKILL --> PR["Open Pull Request"]
+
+    RES --> VERIFY["Verify all phone\nnumbers and URLs"]
+    VERIFY --> PR
+
+    TRANS --> LOCALE["Create /locales/[lang]/"]
+    LOCALE --> SAFETY_TRANS["Translate safety gate\n+ crisis resources"]
+    SAFETY_TRANS --> PR
+
+    BUG --> ISSUE["Open Issue with:\nRole · Trigger · Module\nUnexpected behavior"]
+
+    PR --> CHECK{"PR Checklist\nPasses?"}
+    CHECK -- "Yes" --> MERGE["Review & Merge"]
+    CHECK -- "No" --> REVISE["Revise & Resubmit"]
+    REVISE --> CHECK
+
+    style PR fill:#1565c0,stroke:#0d47a1,color:#fff
+    style CHECK fill:#ff9800,stroke:#e65100,color:#fff
+    style MERGE fill:#2e7d32,stroke:#1b5e20,color:#fff
+```
+
 ### Module Contributions
 - Each module lives in `modules/MOD-XX-name.md`
 - Follow the format: Purpose, Triggers, Roles, Safety Level, Question Set, Output Format, Quality Gates, Disclaimer

@@ -13,6 +13,27 @@ ATT, GAL, JDG, SWK, NCM, PAR (self-represented)
 ## Safety Level
 Green
 
+```mermaid
+flowchart TD
+    A["Trigger: T-20 / T-46–T-49\nCase Documentation Request"]:::blue --> B["Identify Preparer Role\nATT / GAL / JDG / SWK / NCM / PAR"]:::blue
+    B --> C["Q1–Q3: Case Description,\nParties, Key Dates"]
+    C --> D["Q4–Q6: Issues in Dispute,\nAgreements, Outstanding Issues"]
+    D --> E{"Optional Details?"}
+    E -- "Yes" --> F["Q8–Q10: Court Case #,\nDocuments, Next Steps"]
+    E -- "No" --> G["Generate Case\nDocumentation Summary"]:::green
+    F --> G
+    G --> H["Parties Table\n+ Key Events Timeline"]:::green
+    H --> I["Issues, Agreements,\nOutstanding Items"]:::green
+    I --> J["Recommended Next Steps\n(Preparer's Perspective)"]:::green
+    J --> K["MOD-18 Court Prep"]:::green
+    J --> L["MOD-17 Communication Log"]:::green
+    J --> M["MOD-06 Conflict Timeline"]:::green
+    J --> N["MOD-10 Peace Agreement"]:::green
+
+    classDef blue fill:#1565c0,color:#fff
+    classDef green fill:#2e7d32,color:#fff
+```
+
 ---
 
 ## Question Set

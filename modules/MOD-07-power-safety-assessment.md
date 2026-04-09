@@ -13,6 +13,50 @@ All — mandatory for VAD, THR, SWK; available to all
 ## Safety Level
 Orange — safety gate runs before question set
 
+```mermaid
+flowchart TD
+    T14["T-14: Safety concern"] --> ENTRY
+    T15["T-15: Power imbalance"] --> ENTRY
+    T18["T-18: Threats reported"] --> ENTRY
+    T19["T-19: Violence indicated"] --> ENTRY
+    T71["T-71: DV indicators"] --> ENTRY
+    T72["T-72: Stalking behavior"] --> ENTRY
+    T77["T-77: Weapon mention"] --> ENTRY
+    T78["T-78: Child at risk"] --> ENTRY
+
+    ENTRY["MOD-07: Power &\nSafety Assessment"]:::blue --> GATE{"MANDATORY\nSAFETY GATE:\nImmediate danger?"}:::orange
+
+    GATE -- "YES" --> CRISIS["Call 911 NOW\nReturn when safe"]:::red
+    GATE -- "NOT SURE" --> QUESTIONS["Proceed through\nassessment questions"]
+    GATE -- "NO, but concerned" --> QUESTIONS
+
+    QUESTIONS --> S1["Section 1: Current Safety\nSafe location? Other party aware?"]
+    S1 --> S2["Section 2: Risk Factors\nViolence? Weapons? Escalation?\nControl? Children? Substances?"]
+    S2 --> S3["Section 3: Protective Factors\nTrusted people? Safe place?\nPrior contact with help?"]
+
+    S3 --> ASSESS["Safety Assessment\nRisk + Protective factors"]
+    ASSESS --> LEVEL{"Concern Level?"}
+
+    LEVEL -- "Low" --> LOW["Low Concern\nSafe to proceed"]:::green
+    LEVEL -- "Moderate" --> MOD_RISK["Moderate Concern\nSafety plan recommended"]:::orange
+    LEVEL -- "High / Critical" --> HIGH["High/Critical Concern\nImmediate safety steps +\nCrisis resources"]:::red
+
+    LOW --> OUTPUT["Safety Assessment +\nResources Table"]:::green
+    MOD_RISK --> OUTPUT
+    HIGH --> OUTPUT
+
+    OUTPUT --> MOD14["MOD-14: Safety Plan Builder"]
+    OUTPUT --> MOD19["MOD-19: Protective Order Nav"]
+    OUTPUT --> MOD25["MOD-25: Service Referral"]
+    OUTPUT --> MOD05["MOD-05: Conflict Intake"]
+    OUTPUT --> MOD13["MOD-13: Emotional Regulation"]
+
+    classDef blue fill:#1565c0,color:#fff
+    classDef orange fill:#ff9800,color:#fff
+    classDef red fill:#d32f2f,color:#fff
+    classDef green fill:#2e7d32,color:#fff
+```
+
 ---
 
 ## Safety Gate (mandatory)

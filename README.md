@@ -9,6 +9,64 @@
 
 ---
 
+## Platform Architecture
+
+```mermaid
+graph TB
+    subgraph Entry["User Entry Points"]
+        A["Free-text trigger<br/>(e.g. 'I need help with a conflict')"]
+        B["Role selection<br/>(20 roles across 6 pods)"]
+        C["Quick-start scenario<br/>(common pathways)"]
+    end
+
+    subgraph Core["Core Processing Loop"]
+        D["Trigger Identification<br/>80 triggers · 8 categories"]
+        E["Role Assignment<br/>Language mode + defaults"]
+        F{"Safety Gate<br/>Green · Yellow · Orange · Red"}
+        G["Module Loaded<br/>26 modules · 7 domains"]
+        H["Question Set<br/>Required + Optional"]
+        I["Artifact Generated<br/>13 artifact types"]
+        J["Quality Gates<br/>Neutrality · Trauma-informed · PII"]
+    end
+
+    subgraph Safety["Safety Response"]
+        K["Crisis Resources<br/>988 · DV Hotline · 911"]
+        L["Safety Plan<br/>MOD-14"]
+        M["Safety Assessment<br/>MOD-07"]
+    end
+
+    subgraph Output["User Outputs"]
+        N["Completed Artifact"]
+        O["Recommended Next Modules"]
+        P["Session Summary"]
+    end
+
+    A --> D
+    B --> E
+    C --> D
+    D --> E
+    E --> F
+    F -- "Green/Yellow" --> G
+    F -- "Orange" --> M
+    F -- "Red" --> K
+    M --> L
+    L --> G
+    K --> |"When safe"| G
+    G --> H
+    H --> I
+    I --> J
+    J --> N
+    N --> O
+    O --> |"Continue"| D
+    O --> P
+
+    style F fill:#ff9800,stroke:#e65100,color:#fff
+    style K fill:#d32f2f,stroke:#b71c1c,color:#fff
+    style N fill:#2e7d32,stroke:#1b5e20,color:#fff
+```
+
+---
+
 ## What Is Access To Peace?
 
 Access To Peace is one pillar of the [Access To](https://dougdevitre.github.io/access-projects)
@@ -34,6 +92,49 @@ requiring expensive professional services at every step.
 ---
 
 ## Who This Serves
+
+```mermaid
+graph LR
+    subgraph Pod1["Individual & Family"]
+        IND["Individual"]
+        PAR["Parent"]
+        YTH["Youth/Teen"]
+        ELD["Elder/Caregiver"]
+    end
+    subgraph Pod2["Mediation & Conflict"]
+        MED["Mediator"]
+        ARB["Arbitrator"]
+        CCH["Conflict Coach"]
+        RPF["Restorative Facilitator"]
+    end
+    subgraph Pod3["Mental Health"]
+        THR["Therapist"]
+        PSY["Psychiatrist"]
+        SWK["Social Worker"]
+        PSS["Peer Support"]
+    end
+    subgraph Pod4["Legal & Court"]
+        ATT["Attorney"]
+        GAL["Guardian ad Litem"]
+        JDG["Judge/Court Staff"]
+        VAD["Victim Advocate"]
+    end
+    subgraph Pod5["School & Youth"]
+        SCL["School Counselor"]
+        TCH["Teacher/Admin"]
+    end
+    subgraph Pod6["Community & Nonprofit"]
+        ORG["Community Organizer"]
+        NCM["Case Manager"]
+    end
+
+    style Pod1 fill:#e3f2fd,stroke:#1565c0
+    style Pod2 fill:#e8f5e9,stroke:#2e7d32
+    style Pod3 fill:#fce4ec,stroke:#c62828
+    style Pod4 fill:#fff3e0,stroke:#e65100
+    style Pod5 fill:#f3e5f5,stroke:#6a1b9a
+    style Pod6 fill:#e0f2f1,stroke:#00695c
+```
 
 | Pod | Roles |
 |-----|-------|
@@ -173,6 +274,49 @@ by default. Fork and localize `references/crisis-resources.md` for your region.
 ---
 
 ## Common Pathways
+
+```mermaid
+flowchart LR
+    Start{"Where do\nI start?"} --> MSG["Need to send\na message"]
+    Start --> CONFLICT["In a conflict"]
+    Start --> MEDIATION["Mediation\ncoming up"]
+    Start --> UNSAFE["Don't feel\nsafe"]
+    Start --> COPAR["Co-parenting\nproblems"]
+    Start --> SCHOOL["School\nconflict"]
+    Start --> COMMUNITY["Community\ndispute"]
+    Start --> WELLNESS["Overwhelmed\nor grieving"]
+
+    MSG --> M01["MOD-01\nDe-Escalation"]
+    M01 --> M03["MOD-03 NVC\nor MOD-04 Co-Parent"]
+
+    CONFLICT --> M05["MOD-05\nConflict Intake"]
+    M05 --> NEXT["Follow recommended\nnext modules"]
+
+    MEDIATION --> M08["MOD-08\nInterests Mapper"]
+    M08 --> M09["MOD-09\nSession Prep"]
+    M09 --> M13a["MOD-13\nRegulation"]
+
+    UNSAFE --> M07["MOD-07\nSafety Assessment"]
+    M07 --> M14["MOD-14\nSafety Plan"]
+    M14 --> M19["MOD-19 or MOD-25\nProtection/Referral"]
+
+    COPAR --> M04["MOD-04\nCo-Parent Rewriter"]
+    M04 --> M17["MOD-17\nCommunication Log"]
+
+    SCHOOL --> M21["MOD-21\nPeer Conflict"]
+    M21 --> M22["MOD-22\nRestorative Practice"]
+
+    COMMUNITY --> M24["MOD-24\nDispute Navigator"]
+    M24 --> M12["MOD-12 or MOD-26\nDialogue/Agreement"]
+
+    WELLNESS --> M13b["MOD-13 or MOD-15\nRegulation/Self-Care"]
+    M13b --> M25["MOD-25\nService Referral"]
+
+    style Start fill:#1565c0,stroke:#0d47a1,color:#fff
+    style UNSAFE fill:#ff9800,stroke:#e65100,color:#fff
+    style M07 fill:#ff9800,stroke:#e65100,color:#fff
+    style M14 fill:#ff9800,stroke:#e65100,color:#fff
+```
 
 Not sure where to start? Here are the most common user journeys:
 

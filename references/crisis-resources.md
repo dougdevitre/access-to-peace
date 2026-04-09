@@ -2,6 +2,39 @@
 
 ## Always-Available Resources
 
+```mermaid
+flowchart TD
+    CRISIS{"Crisis Type"}
+
+    CRISIS --> EMERGENCY["EMERGENCY\nImmediate physical danger"]
+    CRISIS --> SUICIDE["SUICIDE / SELF-HARM\nMental health crisis"]
+    CRISIS --> DV["DOMESTIC VIOLENCE\nAbuse · threats"]
+    CRISIS --> SA["SEXUAL ASSAULT"]
+    CRISIS --> CHILD["CHILD ABUSE\nChild at risk"]
+    CRISIS --> ELDER["ELDER ABUSE\nElder at risk"]
+    CRISIS --> YOUTH_Q["LGBTQ+ YOUTH\nYouth in crisis"]
+    CRISIS --> VET["VETERAN\nVeteran in crisis"]
+    CRISIS --> GENERAL["GENERAL\nMental health · substance use"]
+
+    EMERGENCY --> E911["Call 911"]
+    SUICIDE --> S988["Call or text 988\nSuicide & Crisis Lifeline"]
+    DV --> DV_LINE["1-800-799-7233\nNational DV Hotline"]
+    SA --> SA_LINE["1-800-656-4673\nRAINN"]
+    CHILD --> CHILD_LINE["1-800-422-4453\nChildhelp · MO CPS: 800-392-3738"]
+    ELDER --> ELDER_LINE["1-833-FRAUD-11\nMO APS: 800-392-0210"]
+    YOUTH_Q --> TREVOR["1-866-488-7386\nTrevor Project"]
+    VET --> VET_LINE["988 then press 1\nVeterans Crisis Line"]
+    GENERAL --> SAMHSA["1-800-662-4357\nSAMHSA Helpline"]
+
+    TEXT["Crisis Text Line:\nText HOME to 741741\n(always available)"]
+
+    style EMERGENCY fill:#d32f2f,stroke:#b71c1c,color:#fff
+    style E911 fill:#d32f2f,stroke:#b71c1c,color:#fff
+    style SUICIDE fill:#ff9800,stroke:#e65100,color:#fff
+    style DV fill:#ff9800,stroke:#e65100,color:#fff
+    style TEXT fill:#1565c0,stroke:#0d47a1,color:#fff
+```
+
 These resources are embedded in all Orange and Red safety gate outputs.
 They are also available as an interrupt at any point in any session.
 

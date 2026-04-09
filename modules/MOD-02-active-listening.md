@@ -13,6 +13,34 @@ All
 ## Safety Level
 Green
 
+```mermaid
+flowchart TD
+    T05["T-05: Preparing for\ndifficult conversation"] --> ENTRY
+    T09["T-09: Communication\nbreakdown"] --> ENTRY
+    T29["T-29: Relationship\nrepair needed"] --> ENTRY
+
+    ENTRY["MOD-02: Active\nListening Guide"]:::blue --> Q1["Q1: Who are you\nlistening to?"]
+    Q1 --> Q2["Q2: What is the\nconversation about?"]
+    Q2 --> Q3["Q3: What makes it\nhard to listen?"]
+    Q3 --> Q4["Q4-Q5: What they need,\nyour goal (optional)"]
+
+    Q4 --> BEFORE["Before: Environment,\nbreathing, mindset"]
+    BEFORE --> DURING_DO["During — Do:\nReflect, clarify,\neye contact, pause"]
+    DURING_DO --> DURING_AVOID["During — Avoid:\nRebuttals, minimizing,\nfixing, comparing"]
+    DURING_AVOID --> PERSONAL["Personal Challenge:\nUser's stated obstacle"]
+    PERSONAL --> GOAL["Listening Goal:\nReframed intention"]
+
+    GOAL --> OUTPUT["Active Listening\nPrep Sheet"]:::green
+
+    OUTPUT --> MOD03["MOD-03: NVC Framework"]
+    OUTPUT --> MOD01["MOD-01: De-Escalation Rewriter"]
+    OUTPUT --> MOD08["MOD-08: Interests vs. Positions"]
+    OUTPUT --> MOD13["MOD-13: Emotional Regulation"]
+
+    classDef blue fill:#1565c0,color:#fff
+    classDef green fill:#2e7d32,color:#fff
+```
+
 ---
 
 ## Question Set

@@ -13,6 +13,31 @@ YTH (primary) / SCL, TCH (facilitated)
 ## Safety Level
 Green / Yellow — safety check built in
 
+```mermaid
+flowchart TD
+    A["Trigger: T-54, T-55\nYouth Check-In Requested"]:::blue --> B{"Built-In Safety Check\nIs anyone hurting you\nor making you feel unsafe?"}:::orange
+    B -- "YES" --> C["Tell a trusted adult\nCall/text 988"]:::red
+    B -- "NO" --> D["How are you feeling?\nGood / Okay / Not Great /\nReally Bad / Frustrated /\nScared / Confused"]:::blue
+    D --> E["What's going on?\n(free text, no pressure)"]
+    E --> F["What do you need most?\nListen / Problem-solving /\nTime alone / Help talking /\nNot sure"]
+    F --> G["One thing that might help\n(youth's idea or suggestion)"]
+    G --> H["Who can you talk to?\n(named person or resources)"]
+    H --> I{"Facilitated by\nSCL/TCH?"}
+    I -- "Yes" --> J["Output: Youth Check-In\nSummary for staff"]:::green
+    I -- "No (youth alone)" --> K["Output: My Check-In\n+ Support contacts"]:::green
+    J --> L["Guardian copy?\n(youth's choice)"]:::green
+    L --> M["Follow-up scheduled"]:::green
+    K --> N["MOD-21 Peer Conflict Guide"]:::green
+    M --> N
+    M --> O["MOD-13 Emotional Regulation"]:::green
+    M --> P["MOD-14 Safety Plan Builder"]:::green
+
+    classDef blue fill:#1565c0,color:#fff
+    classDef orange fill:#ff9800,color:#fff
+    classDef red fill:#d32f2f,color:#fff
+    classDef green fill:#2e7d32,color:#fff
+```
+
 ---
 
 ## Built-In Safety Check (always runs for YTH role)

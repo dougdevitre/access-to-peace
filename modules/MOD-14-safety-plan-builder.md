@@ -14,6 +14,49 @@ THR, PSY, SWK, VAD, IND, PAR
 ## Safety Level
 Orange (always) — safety gate runs before module loads
 
+```mermaid
+flowchart TD
+    A["Trigger: T-34 / T-35 /\nT-71-T-74"] -->|"THR, PSY, SWK, VAD, IND, PAR"| SG
+
+    subgraph SG["MANDATORY SAFETY GATE"]
+        direction TB
+        B{"Are you in\nimmediate danger?"}
+        B -->|"YES"| C["CALL 911 NOW\nReturn when safe"]
+        B -->|"NOT SURE"| D["Route to MOD-07\nPower & Safety Assessment"]
+        B -->|"NO - plan ahead"| E["Proceed to\nSafety Plan"]
+    end
+
+    E --> F["Section 1:\nIdentify Warning Signs"]
+    F --> G["Section 2:\nInternal Coping Strategies"]
+    G --> H["Section 3:\nSafe People & Places"]
+    H --> I["Section 4:\nCrisis Contacts\n(up to 3 people)"]
+    I --> J["Section 5:\nProfessional Support"]
+    J --> K{"Section 5:\nEnvironment Safety\n(optional)"}
+    K -->|"User shares"| L["Environment\nSafety Steps"]
+    K -->|"User declines"| M["Respected -\nCan Revisit Later"]
+    L --> N["Section 6:\nReasons to Stay Safe"]
+    M --> N
+    N --> O["Attach Mandatory\nCrisis Resources\n988 / DV Hotline / 741741 / 911"]
+    O --> P["My Safety Plan\nArtifact"]
+
+    P --> Q["MOD-07 Safety Assessment"]
+    P --> R["MOD-19 Protective Order"]
+    P --> S["MOD-13 Emotional Regulation"]
+    P --> T["MOD-25 Service Referral"]
+
+    style A fill:#1565c0,color:#fff
+    style SG fill:#ff9800,color:#000,stroke:#ff9800
+    style B fill:#ff9800,color:#fff
+    style C fill:#d32f2f,color:#fff
+    style D fill:#d32f2f,color:#fff
+    style O fill:#d32f2f,color:#fff
+    style P fill:#2e7d32,color:#fff
+    style Q fill:#1565c0,color:#fff
+    style R fill:#1565c0,color:#fff
+    style S fill:#1565c0,color:#fff
+    style T fill:#1565c0,color:#fff
+```
+
 ---
 
 ## Safety Gate (mandatory before question set)

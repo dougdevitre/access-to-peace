@@ -1,6 +1,22 @@
 # Mediation Prep Checklist
 ## Use: Before any mediation session (MED, ARB, ATT, IND)
 
+```mermaid
+flowchart LR
+    subgraph Timeline["Mediation Prep Timeline"]
+        W2["1-2 Weeks Before\nParties confirmed\nMOD-09 · MOD-08"]
+        H48["48 Hours Before\nDocuments · Interests\nBATNA · Regulation"]
+        DAY["Day Of\nArrive early\nOpening ready"]
+        DURING["During Session\nLead with interests\nNVC language"]
+        AFTER["After Session\nMOD-10 · MOD-20\nReview date"]
+    end
+
+    W2 --> H48 --> DAY --> DURING --> AFTER
+
+    style W2 fill:#e3f2fd,stroke:#1565c0
+    style AFTER fill:#2e7d32,stroke:#1b5e20,color:#fff
+```
+
 ### 1–2 Weeks Before
 - [ ] Both parties confirmed and voluntary
 - [ ] Mediator confirmed and neutral
@@ -38,6 +54,23 @@
 # Safety Assessment Checklist
 ## Use: Any Orange or Red session, or any session involving safety concerns
 
+```mermaid
+flowchart TD
+    START["Safety Concern Detected\nOrange or Red Session"] --> Q1["Ask: Are you in\nimmediate danger?"]
+    Q1 --> E911{"Immediate\ndanger?"}
+    E911 -- "Yes" --> CALL["Surface 911"]
+    E911 -- "No/Unsure" --> RESOURCES["Surface 988 · DV Hotline\nCrisis Text Line"]
+    RESOURCES --> ASSESS["Complete MOD-07\nPower & Safety Assessment"]
+    ASSESS --> RISK["Document risk factors\n+ protective factors"]
+    RISK --> PLAN["Initiate safety plan\nMOD-14"]
+    PLAN --> LOCAL["Provide local resources\nMOD-25 + crisis-resources.md"]
+    LOCAL --> FLAG["Flag session metadata\nsafety_level = Orange/Red"]
+
+    style START fill:#ff9800,stroke:#e65100,color:#fff
+    style CALL fill:#d32f2f,stroke:#b71c1c,color:#fff
+    style FLAG fill:#ff9800,stroke:#e65100,color:#fff
+```
+
 - [ ] Safety gate question asked: "Are you in immediate danger?"
 - [ ] 911 surfaced if immediate danger indicated
 - [ ] 988, DV Hotline, Crisis Text Line surfaced
@@ -54,6 +87,46 @@
 
 # Restorative Circle Day Checklist
 ## Use: Day of a restorative circle (RPF, SCL, TCH)
+
+```mermaid
+flowchart TD
+    subgraph Before["Before Circle"]
+        B1["Participants confirmed\nvoluntary"]
+        B2["Space prepared\nCircle · Tissues"]
+        B3["Facilitator grounded"]
+        B4["Agenda ready\nMOD-11"]
+    end
+
+    subgraph Opening["Opening Phase"]
+        O1["Welcome &\nIntroductions"]
+        O2["Purpose stated"]
+        O3["Ground rules"]
+        O4["Check-in round"]
+    end
+
+    subgraph Harm["Harm Acknowledgment"]
+        H1["Person responsible\nspeaks"]
+        H2["Person harmed\nshares impact"]
+        H3["Facilitator reflects\nwithout judgment"]
+    end
+
+    subgraph Repair["Repair Phase"]
+        R1["Repair agreement\ndiscussed"]
+        R2["Terms: specific\n& achievable"]
+        R3["Follow-up date set"]
+    end
+
+    subgraph Closing["Closing & Documentation"]
+        C1["Check-out round"]
+        C2["MOD-20 documentation"]
+        C3["MOD-10 agreement"]
+    end
+
+    Before --> Opening --> Harm --> Repair --> Closing
+
+    style Harm fill:#fce4ec,stroke:#c62828
+    style Repair fill:#e8f5e9,stroke:#2e7d32
+```
 
 ### Before Circle
 - [ ] All participants confirmed voluntary
@@ -96,6 +169,19 @@
 # Court Prep Checklist
 ## Use: Before any hearing, deposition, or court proceeding
 
+```mermaid
+flowchart LR
+    W1["1 Week Before\nDocuments organized\nMOD-18 · MOD-17\nAttorney briefed"]
+    D1["Day Before\nOutfit · Sleep · Eat\nMOD-13 regulation"]
+    DAY["Day Of\nArrive 30 min early\nPhone silent · Water"]
+    COURT["In Courtroom\nSpeak when addressed\nAnswer directly\nDon't argue"]
+
+    W1 --> D1 --> DAY --> COURT
+
+    style W1 fill:#e3f2fd,stroke:#1565c0
+    style COURT fill:#fff3e0,stroke:#e65100
+```
+
 ### 1 Week Before
 - [ ] Know the date, time, courtroom number, and parking
 - [ ] Organize all documents (3 copies: yours, opposing, judge)
@@ -127,6 +213,25 @@
 
 # Crisis Response Checklist
 ## Use: Any session with safety gate level Orange or Red
+
+```mermaid
+flowchart TD
+    DETECT["Orange/Red\nSafety Gate"] --> STOP["STOP all module\nand artifact work"]
+    STOP --> SURFACE["Surface crisis resources\n911 · 988 · DV · Text"]
+    SURFACE --> ASK["'Are you safe\nright now?'"]
+    ASK --> SAFE{"Safe?"}
+    SAFE -- "No" --> HOLD["Hold space\nRepeat resources\nDo not push"]
+    SAFE -- "Yes" --> OFFER["Offer MOD-07\nor MOD-14"]
+    OFFER --> META["Log session metadata\nsafety_level = Red\ncrisis_interrupt = true"]
+    HOLD --> META
+
+    CHILD{"Child\nat risk?"} --> CPS["MO CPS\n800-392-3738"]
+    ELDER{"Elder\nat risk?"} --> APS["MO APS\n800-392-0210"]
+
+    style DETECT fill:#d32f2f,stroke:#b71c1c,color:#fff
+    style STOP fill:#d32f2f,stroke:#b71c1c,color:#fff
+    style HOLD fill:#ff9800,stroke:#e65100,color:#fff
+```
 
 - [ ] All module/artifact work STOPPED immediately
 - [ ] Crisis resources surfaced (911 / 988 / DV Hotline / Crisis Text Line)

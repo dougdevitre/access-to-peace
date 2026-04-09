@@ -13,6 +13,32 @@ IND, ORG, NCM
 ## Safety Level
 Green / Yellow if safety concern indicated
 
+```mermaid
+flowchart TD
+    A["Trigger: T-61, T-62, T-64, T-65\nNeighborhood Dispute"]:::blue --> B["Q1: Dispute Type?\nNoise / Boundary / Shared Space /\nParking / Pets / Trash / Other"]:::blue
+    B --> C["Q2: Who is involved?\nNeighbor / Landlord / Tenant / HOA"]
+    C --> D["Q3: Duration?\nQ4: What have you tried?"]
+    D --> E["Q5: What outcome\ndo you want?"]
+    E --> F{"Q8: Do you feel safe?"}:::orange
+    F -- "No / Sometimes" --> G["Safety resources:\nNon-emergency police / 911"]:::red
+    F -- "Yes" --> H["Generate Navigation Plan"]:::green
+    G --> H
+    H --> I["Step 1: Direct Conversation\n(if safe)"]:::green
+    I --> J["Step 2: Written Request\n(certified letter/email)"]:::green
+    J --> K["Step 3: Third-Party\nMediation (often free)"]:::green
+    K --> L["Step 4: Formal Complaint\n(code enforcement / small claims)"]:::green
+    L --> M["Local Resources:\n211 / Legal Aid / Mediation"]:::green
+    M --> N["MOD-01 De-Escalation"]:::green
+    M --> O["MOD-12 Community Dialogue"]:::green
+    M --> P["MOD-26 Community Peace Agreement"]:::green
+    M --> Q["MOD-25 Service Referral"]:::green
+
+    classDef blue fill:#1565c0,color:#fff
+    classDef orange fill:#ff9800,color:#fff
+    classDef red fill:#d32f2f,color:#fff
+    classDef green fill:#2e7d32,color:#fff
+```
+
 ---
 
 ## Question Set

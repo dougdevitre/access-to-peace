@@ -13,6 +13,43 @@ All
 ## Safety Level
 Green (standard) / Yellow if T-06 or T-07
 
+```mermaid
+flowchart TD
+    T01["T-01: Angry message"] --> ENTRY
+    T02["T-02: Hostile email"] --> ENTRY
+    T03["T-03: Aggressive voicemail"] --> ENTRY
+    T06["T-06: Threatening language"] --> ENTRY
+    T07["T-07: Escalation pattern"] --> ENTRY
+
+    ENTRY["MOD-01: De-Escalation\nMessage Rewriter"]:::blue --> SAFETY{"Safety Check:\nT-06 or T-07 present?"}
+    SAFETY -- "No → Green" --> Q1
+    SAFETY -- "Yes → Yellow" --> YELLOW["Flag elevated concern\nProceed with caution"]:::orange
+    YELLOW --> Q1
+
+    Q1["Q1: Paste original message"] --> Q2["Q2: Relationship to recipient"]
+    Q2 --> Q3["Q3: Core need from message"]
+    Q3 --> Q4["Q4-Q6: Tone, child involved,\naudience (optional)"]
+
+    Q4 --> ASSESS["Neutrality Assessment\nAccusatory / Escalation / Child-centering"]
+    ASSESS --> V1["Version 1: Firm"]
+    ASSESS --> V2["Version 2: Collaborative"]
+    ASSESS --> V3["Version 3: Minimal"]
+
+    V1 --> OUTPUT["Rewritten Versions +\nWhat Changed summary"]:::green
+    V2 --> OUTPUT
+    V3 --> OUTPUT
+
+    OUTPUT --> MOD03["MOD-03: NVC Framework"]
+    OUTPUT --> MOD09["MOD-09: Mediation Prep"]
+    OUTPUT --> MOD04["MOD-04: Co-Parenting Rewriter"]
+    OUTPUT --> MOD13["MOD-13: Emotional Regulation"]
+    OUTPUT --> MOD05["MOD-05: Conflict Intake"]
+
+    classDef blue fill:#1565c0,color:#fff
+    classDef orange fill:#ff9800,color:#fff
+    classDef green fill:#2e7d32,color:#fff
+```
+
 ---
 
 ## Question Set

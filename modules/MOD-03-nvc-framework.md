@@ -13,6 +13,35 @@ All
 ## Safety Level
 Green
 
+```mermaid
+flowchart TD
+    T08["T-08: Needs help\ncommunicating"] --> ENTRY
+    T09["T-09: Communication\nbreakdown"] --> ENTRY
+    T10["T-10: Wants to express\nfeelings constructively"] --> ENTRY
+
+    ENTRY["MOD-03: NVC\nFramework"]:::blue --> Q1["Q1: What situation are you\ncommunicating about?"]
+    Q1 --> OBS["Q2: Observation\nWhat was said or done?\n(facts only)"]
+    OBS --> FEEL["Q3: Feeling\nHow did that make you feel?\n(emotion words, not judgments)"]
+    FEEL --> NEED["Q4: Need\nWhat do you need?\n(universal value)"]
+    NEED --> REQ["Q5: Request\nWhat would you like them to do?\n(specific, positive, actionable)"]
+
+    REQ --> EMPATHY{"Q6-Q7: Other person's\nfeelings & needs?\n(optional)"}
+
+    EMPATHY -- "Provided" --> SCRIPT["Full NVC Script +\nEmpathy Statement"]:::green
+    EMPATHY -- "Skipped" --> SCRIPT2["Full NVC Script"]:::green
+
+    SCRIPT --> WATCH["What to Watch For:\nAvoid 'always/never',\njudgments, demands"]
+    SCRIPT2 --> WATCH
+
+    WATCH --> MOD01["MOD-01: De-Escalation Rewriter"]
+    WATCH --> MOD02["MOD-02: Active Listening Guide"]
+    WATCH --> MOD09["MOD-09: Mediation Session Prep"]
+    WATCH --> MOD08["MOD-08: Interests vs. Positions"]
+
+    classDef blue fill:#1565c0,color:#fff
+    classDef green fill:#2e7d32,color:#fff
+```
+
 ---
 
 ## Question Set

@@ -13,6 +13,41 @@ RPF, SCL, TCH, ORG
 ## Safety Level
 Green
 
+```mermaid
+flowchart TD
+    A["Trigger: T-24 / T-25"] -->|"RPF, SCL, TCH, ORG"| B["Identify Harm\n& Conflict"]
+    B --> C["Identify Person(s)\nHarmed"]
+    C --> D["Identify Person(s)\nResponsible"]
+    D --> E["Identify Affected\nCommunity Members"]
+    E --> F["Set Circle Context\n(school / workplace /\ncommunity / family / court)"]
+    F --> G{"Safety Concern\nCheck"}
+    G -->|"Safety concern exists"| H["STOP: Escalate\nBefore Circle"]
+    G -->|"No safety concern"| I{"Voluntary\nParticipation?"}
+    I -->|"Not confirmed"| J["Flag: Participation\nMust Be Voluntary"]
+    I -->|"Confirmed"| K{"Harm\nAcknowledged?"}
+    J --> K
+    K -->|"Not yet"| L["Flag: Acknowledgment\nNeeded Before Circle"]
+    K -->|"Yes"| M["Build Circle Agenda"]
+    L --> M
+    M --> N["Opening &\nCommunity Building"]
+    N --> O["Harm Acknowledgment\n& Impact Sharing"]
+    O --> P["Accountability Round"]
+    P --> Q["Build Harm\nRepair Plan"]
+    Q --> R["Circle Agenda +\nRepair Plan Artifact"]
+
+    R --> S["MOD-10 Peace Agreement"]
+    R --> T["MOD-13 Emotional Regulation"]
+    R --> U["MOD-23 Youth Check-In"]
+
+    style A fill:#1565c0,color:#fff
+    style G fill:#ff9800,color:#fff
+    style H fill:#d32f2f,color:#fff
+    style R fill:#2e7d32,color:#fff
+    style S fill:#1565c0,color:#fff
+    style T fill:#1565c0,color:#fff
+    style U fill:#1565c0,color:#fff
+```
+
 ---
 
 ## Question Set

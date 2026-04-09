@@ -2,6 +2,36 @@
 
 ## Standard Disclaimer Blocks
 
+```mermaid
+flowchart TD
+    ART["Artifact Produced"] --> CHECK{"Content type?"}
+
+    CHECK --> ALL["ALL artifacts"]
+    CHECK --> LEGAL["Legal content?\nStatutes · court · custody"]
+    CHECK --> CLINICAL["Clinical content?\nMental health · trauma · safety"]
+    CHECK --> MEDIATION["Mediation/agreement\ncontent?"]
+    CHECK --> CHILD["Minor involved?"]
+    CHECK --> SAFETY["Safety/protective\norder content?"]
+    CHECK --> YOUTH_ROLE["YTH role?"]
+    CHECK --> PEER_ROLE["PSS role?"]
+
+    ALL --> BA["Block A\nGeneral Platform"]
+    LEGAL --> BB["Block B\nLegal Information Only"]
+    CLINICAL --> BC["Block C\nClinical Information Only"]
+    MEDIATION --> BD["Block D\nNot a Legal Contract"]
+    CHILD --> BE["Block E\nChild Safety Notice"]
+    SAFETY --> BF["Block F\nSafety Resources"]
+    YOUTH_ROLE --> BG["Block G\nFor Young People"]
+    PEER_ROLE --> BH["Block H\nPeer Support Scope"]
+
+    BA & BB & BC & BD & BE & BF & BG & BH --> APPEND["Append to artifact\n(multiple blocks may apply)"]
+
+    style ART fill:#1565c0,stroke:#0d47a1,color:#fff
+    style APPEND fill:#2e7d32,stroke:#1b5e20,color:#fff
+    style BF fill:#ff9800,stroke:#e65100,color:#fff
+    style BE fill:#ff9800,stroke:#e65100,color:#fff
+```
+
 Append the appropriate block to every artifact based on content type.
 Multiple blocks may apply. Never omit when applicable.
 

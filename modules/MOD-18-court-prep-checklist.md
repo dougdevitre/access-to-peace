@@ -13,6 +13,39 @@ ATT, PAR, IND, GAL
 ## Safety Level
 Green
 
+```mermaid
+flowchart TD
+    A["Trigger: T-41 / T-42"] -->|"ATT, PAR, IND, GAL"| B["Identify Proceeding Type\n(hearing / deposition /\nmediation / trial)"]
+    B --> C["Define What\nProceeding Is About"]
+    C --> D["Set Date &\nIdentify Your Role\n(party / attorney /\nwitness / other)"]
+    D --> E["State Desired\nOutcome"]
+    E --> F{"Have an\nAttorney?"}
+    F -->|"Yes"| G["Coordinate with\nAttorney"]
+    F -->|"No / Getting one"| H["Note: Consider\nLegal Representation"]
+    G --> I["Document Checklist"]
+    H --> I
+    I --> J["Summons / Notice\n& Court Orders"]
+    J --> K["Communication Logs\n& Financial Records"]
+    K --> L["User-Specific\nDocuments Needed"]
+    L --> M["Preparation Checklist\n(location, arrival,\ndress, copies, phone)"]
+    M --> N["Court Communication\nGuidelines\n(speak when addressed,\nanswer directly, don't interrupt)"]
+    N --> O["Emotional Preparation\n(regulation plan,\nsleep, water, support person)"]
+    O --> P["Reframe Goal as\nWhat You Can Control"]
+    P --> Q["Court Preparation\nChecklist Artifact"]
+
+    Q --> R["MOD-13 Emotional Regulation"]
+    Q --> S["MOD-17 Parenting Log"]
+    Q --> T["MOD-20 Case Documentation"]
+
+    style A fill:#1565c0,color:#fff
+    style F fill:#ff9800,color:#fff
+    style H fill:#ff9800,color:#fff
+    style Q fill:#2e7d32,color:#fff
+    style R fill:#1565c0,color:#fff
+    style S fill:#1565c0,color:#fff
+    style T fill:#1565c0,color:#fff
+```
+
 ---
 
 ## Question Set

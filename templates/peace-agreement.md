@@ -2,6 +2,27 @@
 
 **Access To Peace · MOD-10 Output**
 
+```mermaid
+flowchart TD
+    subgraph Agreement["Peace Agreement Structure"]
+        PARTIES["Parties Identified\nParty A · Party B · Others"]
+        BG["Background\nNeutral conflict description"]
+        TERMS["Terms Agreed To\nSpecific · Actionable · Time-bound"]
+        DURATION["Duration & Review\nEffective date · Review date"]
+        BREACH["Breach Protocol\nStep 1 → Step 2 → Escalation"]
+        SIGN["Acknowledgment\nSignatures · Date"]
+    end
+
+    PARTIES --> BG --> TERMS --> DURATION --> BREACH --> SIGN
+
+    DISCLAIMER["Not a legally binding contract\nunless reviewed by legal counsel"]
+
+    SIGN --> DISCLAIMER
+
+    style TERMS fill:#2e7d32,stroke:#1b5e20,color:#fff
+    style DISCLAIMER fill:#ff9800,stroke:#e65100,color:#fff
+```
+
 ---
 
 ## PEACE AGREEMENT

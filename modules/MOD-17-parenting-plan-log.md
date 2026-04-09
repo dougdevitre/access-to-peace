@@ -13,6 +13,41 @@ PAR, ATT, GAL
 ## Safety Level
 Green
 
+```mermaid
+flowchart TD
+    A["Trigger: T-41 / T-43 / T-50"] -->|"PAR, ATT, GAL"| B["Identify Parties\n(Parent A / Parent B)"]
+    B --> C["Identify Children\n& Log Period"]
+    C --> D["Create Log Entry"]
+    D --> E["Record Date, Time,\n& Method\n(text / email / app /\nin-person / phone / voicemail)"]
+    E --> F["Record Initiator\n& Topic\n(schedule / expenses / medical /\nschool / behavior / handoff / legal)"]
+    F --> G["Neutral Summary\nof Communication"]
+    G --> H["Record Response\n& Resolution Status"]
+    H --> I{"Document /\nScreenshot Exists?"}
+    I -->|Yes| J["Note Reference"]
+    I -->|No| K["Continue"]
+    J --> L{"3+ Entries\nRecorded?"}
+    K --> L
+    L -->|Yes| M["Auto-Generate\nPattern Notes\n(response rate, avg time,\ntopic frequency, tone)"]
+    L -->|No| N["Add Another\nEntry or Finalize"]
+    M --> O{"Intimidation\nPattern Detected?"}
+    O -->|Yes| P["Flag: Route to\nMOD-07 Safety Assessment"]
+    O -->|No| Q["Communication Log\nArtifact"]
+    N --> Q
+
+    Q --> R["MOD-04 Co-Parenting Rewriter"]
+    Q --> S["MOD-18 Court Prep"]
+    Q --> T["MOD-20 Case Documentation"]
+
+    style A fill:#1565c0,color:#fff
+    style M fill:#ff9800,color:#fff
+    style O fill:#ff9800,color:#fff
+    style P fill:#d32f2f,color:#fff
+    style Q fill:#2e7d32,color:#fff
+    style R fill:#1565c0,color:#fff
+    style S fill:#1565c0,color:#fff
+    style T fill:#1565c0,color:#fff
+```
+
 ---
 
 ## Question Set (per log entry)
