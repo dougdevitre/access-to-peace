@@ -59,5 +59,12 @@ Green / Yellow if pattern indicates escalation or safety concern
 - [ ] Safety flag raised if escalation pattern detected
 - [ ] Gap periods noted, not assumed
 
+## Recommended Next Modules
+- **MOD-07** Power & Safety Assessment — if the timeline reveals escalation or safety concerns
+- **MOD-20** Case Documentation Summary — compile the timeline into a formal case document
+- **MOD-09** Mediation Session Prep — use the timeline to prepare for mediation
+- **MOD-05** Conflict Intake — if the timeline reveals additional issues not yet triaged
+- **MOD-08** Interests vs. Positions Mapper — understand what's driving the pattern
+
 ## Disclaimer
 Append Block A. Add Block B if court context.

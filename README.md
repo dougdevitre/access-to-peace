@@ -94,20 +94,20 @@ requiring expensive professional services at every step.
 
 ```
 access-to-peace/
-├── SKILL.md                    # Claude skill root — triggers, roles, routing
+├── SKILL.md                    # Claude skill root — triggers, roles, routing, quick-start scenarios
 ├── README.md                   # This file
 ├── LICENSE
 ├── CONTRIBUTING.md
-├── references/
+├── references/                 # Core reference materials
 │   ├── routing.md              # Trigger → module → artifact routing table
 │   ├── roles.md                # 20 role definitions, language modes, defaults
-│   ├── triggers.md             # Trigger catalog with safety levels
-│   ├── artifacts.md            # Artifact definitions and quality gates
+│   ├── triggers.md             # 80-trigger catalog with safety levels
+│   ├── artifacts.md            # 13 artifact definitions and quality gates
 │   ├── nvc-framework.md        # Nonviolent Communication language patterns
 │   ├── trauma-informed.md      # Trauma-informed principles and language guide
-│   ├── legal-disclaimer.md     # Standard disclaimer blocks by context
+│   ├── legal-disclaimer.md     # 8 standard disclaimer blocks by context
 │   └── crisis-resources.md     # Crisis lines and local service finders
-├── modules/
+├── modules/                    # 26 modules — each with triggers, questions, output, pathways, examples
 │   ├── MOD-01-deescalation-rewriter.md
 │   ├── MOD-02-active-listening.md
 │   ├── MOD-03-nvc-framework.md
@@ -134,48 +134,21 @@ access-to-peace/
 │   ├── MOD-24-neighborhood-dispute.md
 │   ├── MOD-25-service-referral.md
 │   └── MOD-26-community-peace-agreement.md
-├── roles/
-│   ├── pod-1-individual-family.md
-│   ├── pod-2-mediation-conflict.md
-│   ├── pod-3-mental-health.md
-│   ├── pod-4-legal-court.md
-│   ├── pod-5-school-youth.md
-│   └── pod-6-community-nonprofit.md
-├── workflows/
-│   ├── individual-conflict-nav.md
-│   ├── mediation-session.md
-│   ├── coparenting-communication.md
-│   ├── restorative-circle.md
-│   ├── school-conflict-response.md
-│   ├── community-dispute.md
-│   └── crisis-response.md
-├── templates/
-│   ├── conflict-intake-form.md
-│   ├── peace-agreement.md
-│   ├── safety-plan.md
-│   ├── emotional-regulation-plan.md
-│   ├── restorative-circle-agenda.md
-│   ├── mediation-session-notes.md
-│   ├── case-documentation-summary.md
-│   ├── service-referral-form.md
-│   └── community-dialogue-agenda.md
-├── checklists/
-│   ├── mediation-prep.md
-│   ├── safety-assessment.md
-│   ├── restorative-circle-day.md
-│   ├── court-prep.md
-│   └── crisis-response.md
-├── schemas/
-│   ├── data-schemas.md         # JSON + CSV schemas for all structured outputs
+├── workflows/                  # End-to-end workflow guides
+│   ├── all-workflows.md
+│   └── individual-conflict-nav.md
+├── templates/                  # Fillable artifact templates
+│   ├── all-templates.md
+│   └── peace-agreement.md
+├── checklists/                 # Pre-built checklists for key workflows
+│   └── all-checklists.md
+├── schemas/                    # Data schemas for structured outputs
+│   ├── data-schemas.md         # JSON + CSV schemas
 │   └── airtable-schema.md      # Airtable base design for case tracking
-├── artifacts/
-│   ├── peace-dashboard.md
-│   ├── conflict-tracker.md
-│   └── agreement-registry.md
-└── routines/
-    ├── daily-check-in.md
-    ├── weekly-case-review.md
-    └── post-session-closeout.md
+├── artifacts/                  # Dashboard and tracker concepts
+│   └── peace-dashboard.md
+└── routines/                   # Recurring workflow patterns
+    └── all-routines.md
 ```
 
 ---
@@ -183,7 +156,7 @@ access-to-peace/
 ## Quick Start
 
 ### As a Claude Skill
-1. Copy `SKILL.md` and the `references/` directory to your Claude skill directory.
+1. Copy `SKILL.md`, `references/`, and `modules/` to your Claude skill directory.
 2. Add the skill description to your Claude Code `CLAUDE.md` or skill registry.
 3. Trigger with any conflict, mediation, peace, or de-escalation request.
 
@@ -196,6 +169,25 @@ access-to-peace/
 Missouri is the reference deployment. Roles, statutes referenced (educational only),
 and service resources are calibrated for Missouri — but all modules are state-agnostic
 by default. Fork and localize `references/crisis-resources.md` for your region.
+
+---
+
+## Common Pathways
+
+Not sure where to start? Here are the most common user journeys:
+
+| Situation | Start With | Then |
+|-----------|-----------|------|
+| Need to send a message without escalating | MOD-01 De-Escalation Rewriter | MOD-03 NVC or MOD-04 Co-Parenting |
+| In a conflict, don't know what to do | MOD-05 Conflict Intake | Follow recommended next modules |
+| Mediation coming up | MOD-08 Interests Mapper → MOD-09 Session Prep | MOD-13 Emotional Regulation |
+| Don't feel safe | MOD-07 Safety Assessment | MOD-14 Safety Plan → MOD-19 or MOD-25 |
+| Co-parenting communication problems | MOD-04 Co-Parenting Rewriter | MOD-17 Communication Log |
+| School conflict with students | MOD-21 Peer Conflict Guide | MOD-22 Restorative Practice |
+| Community/neighborhood dispute | MOD-24 Dispute Navigator | MOD-12 Dialogue or MOD-26 Agreement |
+| Overwhelmed, burned out, grieving | MOD-13 Regulation or MOD-15 Self-Care | MOD-25 Service Referral |
+
+Every module includes **Recommended Next Modules** so users are always guided to the next step.
 
 ---
 

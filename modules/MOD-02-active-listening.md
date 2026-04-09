@@ -73,5 +73,11 @@ Green
 - [ ] User's personal obstacle addressed specifically
 - [ ] No clinical labels applied
 
+## Recommended Next Modules
+- **MOD-03** NVC Framework — structure your words using observations, feelings, needs, requests
+- **MOD-01** De-Escalation Message Rewriter — if you need to write a message after the conversation
+- **MOD-08** Interests vs. Positions Mapper — understand what both sides really need
+- **MOD-13** Emotional Regulation Plan — if you need to regulate before listening
+
 ## Disclaimer
 Append Block A.

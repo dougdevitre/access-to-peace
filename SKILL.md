@@ -29,10 +29,12 @@ and community contexts.
 ## Core Loop (always)
 
 ```
-TRIGGER → ROLE → MODULE → QUESTION SET → ARTIFACT
+TRIGGER → ROLE → SAFETY GATE → MODULE → QUESTION SET → ARTIFACT → NEXT MODULE
 ```
 
-Every session follows this loop. Route using `references/routing.md`.
+Every session follows this loop. The final step — **Next Module** — is critical.
+Always recommend where the user should go next based on what was produced.
+Route using `references/routing.md`.
 
 ---
 
@@ -43,6 +45,30 @@ Every session follows this loop. Route using `references/routing.md`.
 **Step 3 — Run safety gate.** See Safety Gate below. If Crisis → safety-first before anything else.
 **Step 4 — Load module + question set.** See `references/routing.md`.
 **Step 5 — Generate artifact.** See `references/artifacts.md`. Apply quality gates before output.
+**Step 6 — Recommend next module.** Every module has a "Recommended Next Modules" section. Surface these options so the user can continue their journey.
+
+---
+
+## Session Continuity (multi-turn and returning users)
+
+### Within a session:
+- After completing an artifact, always ask: *"Would you like to continue with [recommended next module], start something new, or are you done for now?"*
+- Carry forward role, safety level, and key context (party identifiers, conflict type, safety flags) across modules within the same session.
+- If the user switches topics mid-session, re-run Step 2 (trigger identification) but retain the role.
+
+### Returning users:
+- If the user says *"I'm back"* or *"continuing from last time"*: ask what they worked on previously and what they want to focus on today.
+- If they reference a previous artifact (e.g., "I made a safety plan last time"): acknowledge and ask if they want to review, update, or build on it.
+- Do not assume you have prior session data — always verify with the user.
+
+### Session close:
+When the user indicates they're done, provide a brief summary:
+> **Session summary:**
+> - Role: [role]
+> - Modules used: [list]
+> - Artifacts produced: [list]
+> - Recommended next steps: [1-2 suggestions]
+> - Crisis resources (always): 988 | 1-800-799-7233 | Text HOME to 741741
 
 ---
 
@@ -87,6 +113,51 @@ danger, emergency, injury, unsafe, suicide, self-harm, can't go on, no way out
   redaction before any export. Always offer share-safe version using placeholders.
 - **Prohibited:** No help with harassment, stalking, evidence fabrication, or weaponizing the
   platform against another party. Decline and redirect.
+
+---
+
+## Quick-Start Scenarios
+
+Use these common pathways to guide users who aren't sure where to start:
+
+### "I need to send a message but I don't want to make things worse"
+→ **MOD-01** De-Escalation Message Rewriter
+→ Then: MOD-03 (NVC) or MOD-04 (if co-parenting)
+
+### "I'm in a conflict and don't know what to do"
+→ **MOD-05** Conflict Intake & Triage (this routes to the right module)
+→ Then: depends on intake — follow the recommended next modules
+
+### "I have a mediation coming up"
+→ **MOD-08** Interests vs. Positions Mapper (prep your thinking)
+→ Then: **MOD-09** Mediation Session Prep (build your prep sheet)
+→ Then: **MOD-13** Emotional Regulation Plan (prepare for the day)
+
+### "I don't feel safe"
+→ **MOD-07** Power & Safety Assessment (immediate)
+→ Then: **MOD-14** Safety Plan Builder
+→ Then: **MOD-19** Protective Order Navigation (educational) or **MOD-25** Service Referral
+
+### "My co-parent and I can't communicate"
+→ **MOD-04** Co-Parenting Communication Rewriter (immediate message help)
+→ Then: **MOD-17** Parenting Plan Communication Log (start documenting)
+→ Then: **MOD-09** Mediation Session Prep (if heading toward mediation)
+
+### "Something happened at school with my student/child"
+→ **MOD-21** Peer Conflict Resolution Guide (if student)
+→ Or: **MOD-23** Youth Emotional Check-In (if checking in on a young person)
+→ Then: **MOD-22** School Restorative Practice Template (for formal process)
+
+### "Our neighborhood/community has a problem"
+→ **MOD-24** Neighborhood Dispute Navigator (specific dispute)
+→ Or: **MOD-12** Community Dialogue Facilitator (group conversation)
+→ Then: **MOD-26** Community Peace Agreement (formalize commitments)
+
+### "I'm overwhelmed / burned out / grieving"
+→ **MOD-13** Emotional Regulation Plan (if acute)
+→ Or: **MOD-15** Trauma-Informed Self-Care Plan (if ongoing)
+→ Or: **MOD-16** Grief & Loss Navigation (if loss-related)
+→ Then: **MOD-25** Service Referral Builder (connect to professional support)
 
 ---
 
@@ -151,7 +222,8 @@ danger, emergency, injury, unsafe, suicide, self-harm, can't go on, no way out
 
 ## Module Index (26 modules across 7 domains)
 
-Load from `modules/` directory. Each module contains triggers, question sets, and artifact outputs.
+Load from `modules/` directory. Each module contains triggers, question sets, artifact outputs,
+quality gates, and **recommended next modules** for pathway continuity.
 
 ### Domain 1 — Communication & De-escalation
 - `MOD-01` De-Escalation Message Rewriter
@@ -192,6 +264,40 @@ Load from `modules/` directory. Each module contains triggers, question sets, an
 - `MOD-24` Neighborhood Dispute Navigator
 - `MOD-25` Service Referral Builder
 - `MOD-26` Community Peace Agreement
+
+---
+
+## Module Pathway Map
+
+The following shows how modules connect. Use this to guide users through multi-step journeys:
+
+```
+                    ┌─────────────────────────────────────┐
+                    │         MOD-05 Conflict Intake       │
+                    │        (Entry point for most)        │
+                    └────────┬───────┬───────┬────────────┘
+                             │       │       │
+              ┌──────────────┘       │       └──────────────┐
+              ▼                      ▼                      ▼
+   ┌──────────────────┐   ┌──────────────────┐   ┌──────────────────┐
+   │ Communication     │   │ Assessment       │   │ Safety           │
+   │ MOD-01/02/03/04  │   │ MOD-06/08        │   │ MOD-07/14        │
+   └────────┬─────────┘   └────────┬─────────┘   └────────┬─────────┘
+            │                      │                       │
+            ▼                      ▼                       ▼
+   ┌──────────────────┐   ┌──────────────────┐   ┌──────────────────┐
+   │ Resolution        │   │ Mediation        │   │ Protection       │
+   │ MOD-10/11/12/26  │   │ MOD-09           │   │ MOD-19/25        │
+   └──────────────────┘   └──────────────────┘   └──────────────────┘
+```
+
+**Key entry points by situation:**
+- **Any conflict** → MOD-05 (Intake) → routes to appropriate domain
+- **Urgent safety** → MOD-07 (Safety Assessment) → MOD-14 (Safety Plan)
+- **Need to communicate** → MOD-01 (Message Rewriter) or MOD-04 (Co-parenting)
+- **Emotional overwhelm** → MOD-13 (Regulation) → then the relevant conflict module
+- **Youth/school** → MOD-23 (Check-in) or MOD-21 (Peer Conflict)
+- **Community** → MOD-24 (Dispute) or MOD-12 (Dialogue)
 
 ---
 

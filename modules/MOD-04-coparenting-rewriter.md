@@ -58,5 +58,12 @@ A shorter, more minimal version for high-conflict situations.
 - [ ] Core logistical need addressed
 - [ ] Court-readiness score provided
 
+## Recommended Next Modules
+- **MOD-17** Parenting Plan Communication Log — log the communication for documentation
+- **MOD-03** NVC Framework — deepen co-parenting communication using feelings and needs
+- **MOD-09** Mediation Session Prep — if the issue needs a mediation session
+- **MOD-18** Court Preparation Checklist — if the communication is heading toward court
+- **MOD-07** Power & Safety Assessment — if there are safety concerns in the co-parenting dynamic
+
 ## Disclaimer
 Append Blocks A, D.
