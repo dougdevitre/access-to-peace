@@ -113,5 +113,44 @@ flowchart TD
 - **MOD-26** Community Peace Agreement — if the circle leads to broader community commitments
 - **MOD-23** Youth Emotional Check-In — if youth are involved, check in before and after
 
+---
+
+## Worked Example
+
+**User input:**
+> Role: School Counselor (SCL). A bullying incident occurred at our middle school. One student ([Person A]) spread rumors about another student ([Person B]) on social media. Setting: middle school, 60 minutes available. All participants have agreed to participate voluntarily. [Person A] has acknowledged what happened. [Person B] is hoping for a genuine apology and for the rumors to stop. No safety concerns about having both students in the same space. Community members attending include two classmates who witnessed the impact and one teacher.
+
+### Circle Agenda
+
+**Circle type:** School
+**Estimated time:** 60 minutes
+**Facilitator:** School Counselor (SCL)
+
+| Phase | Time | Purpose | Sample Opening |
+|-------|------|---------|---------------|
+| **Opening** | 5 min | Set tone, establish safety | "Thank you all for being here. Let's start by each sharing one word for how you're feeling right now." |
+| **Community Building** | 8 min | Build trust before addressing harm | "Before we get into why we're here, I'd like each person to share something they enjoy doing outside of school." |
+| **Harm Acknowledgment** | 10 min | Name what happened in neutral terms | "We're here because some things were posted online that affected people in this room. I'm going to invite each person to share what happened from their perspective." |
+| **Impact Sharing** | 12 min | Person harmed shares how they were affected | "I'd like to invite [Person B] to share how this situation has affected them. Everyone else, please listen without interrupting." |
+| **Accountability Round** | 10 min | Person responsible responds to what they heard | "I'd like to invite [Person A] to share what they heard, how they feel about it, and what they want to do about it." |
+| **Repair Agreement** | 10 min | Build a concrete repair plan together | "What would repair look like? What can each of us commit to moving forward?" |
+| **Closing** | 5 min | Affirm commitments and close the circle | "Let's close the way we opened. Share one word for how you're leaving today." |
+
+### Harm Repair Plan
+
+**Harm described:** [Person A] spread false rumors about [Person B] through social media, which were seen by multiple classmates and caused [Person B] emotional distress and social difficulties at school.
+**Person(s) harmed:** [Person B]
+**Person(s) responsible:** [Person A]
+
+| Repair Action | Responsible Party | Timeline | How We'll Know It's Done |
+|--------------|------------------|----------|------------------------|
+| Remove all posts and messages containing the rumors | [Person A] | Within 24 hours of the circle | School counselor confirms posts are no longer visible |
+| Write a personal letter of apology to [Person B] acknowledging the specific impact | [Person A] | Within 3 school days | Letter reviewed by counselor and delivered to [Person B] |
+| Correct the record with the two classmates who witnessed the rumors by stating the information was false | [Person A] | Within 1 week | Classmates confirm the conversation took place |
+| Participate in two follow-up check-ins with the school counselor to reflect on online behavior | [Person A] | Weeks 2 and 4 after circle | Counselor documents completed check-ins |
+
+**Check-in date:** 2 weeks after circle
+**Check-in facilitated by:** School Counselor (SCL)
+
 ## Disclaimer
 Append Block A. Add Block E if youth involved.

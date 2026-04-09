@@ -121,5 +121,60 @@ flowchart TD
 - **MOD-01** De-Escalation Message Rewriter — prepare any post-session communications
 - **MOD-06** Conflict History Timeline — build context for the mediation
 
+---
+
+## Worked Example
+
+**User input:**
+> Role: Individual (IND). I am preparing for a divorce mediation session about property division and parenting time. My primary goal is to reach a fair division of our shared home and establish a stable parenting schedule. My core interests are stability for the children and a fair financial split. My BATNA is proceeding to litigation if mediation fails. I am worried the other party will insist on selling the house immediately. I think the other party wants maximum parenting time and to keep the house. I am willing to be flexible on personal property and some financial terms. My non-negotiable is that the children remain in their current school district. Yes, I would like help drafting an opening statement.
+
+### Mediation Prep Sheet
+
+**Session date:** To be scheduled
+**Your role:** Participant
+**Conflict type:** Divorce — property division and parenting time
+
+**Your goals for this session:**
+- Reach an agreement on equitable division of the shared home
+- Establish a stable, predictable parenting time schedule that prioritizes the children's routines
+- Avoid the cost and stress of litigation
+
+**Your core interests:**
+- Stability and continuity for the children (school, friendships, daily routines)
+- A financially fair division that allows both parties to move forward
+- A parenting arrangement that keeps both parents actively involved
+- Predictability — knowing what the schedule and living situation will look like
+
+**Your BATNA:**
+- Proceed to litigation and let the court decide property division and custody arrangements
+- Note: litigation is typically more costly, time-consuming, and unpredictable than a mediated agreement
+
+**What you're willing to offer:**
+- Flexibility on division of personal property (furniture, vehicles, other shared items)
+- Willingness to adjust financial terms (e.g., buyout timeline, offset arrangements)
+- Openness to creative scheduling solutions (e.g., alternating weeks, split holidays)
+
+**Non-negotiables:**
+- The children remain enrolled in their current school district
+- Both parents maintain meaningful, regular time with the children
+
+**What you're most concerned about:**
+- That the conversation may stall if the other party insists on an immediate sale of the home, which could disrupt the children's living situation before a transition plan is in place
+
+**The other party's likely interests:**
+- Maintaining a close, active relationship with the children
+- Financial security and a sense of fairness in the property division
+- Possibly wanting to keep the family home, or wanting a prompt resolution for financial clarity
+
+**Questions to ask in session:**
+- "What matters most to you in this situation?"
+- "What would a successful outcome look like for you?"
+- "What has prevented resolution so far, from your perspective?"
+- "How can we structure the parenting schedule so the children feel secure with both of us?"
+- "What timeline for decisions about the house would feel workable for you?"
+
+**Opening statement draft:**
+> My name is [Person A], and I appreciate everyone being here today. I am coming into this session hoping we can find an arrangement that gives our children stability and allows both of us to move forward in a way that feels fair. I care about keeping disruption to a minimum for the kids, and I am committed to listening and working together toward solutions. I believe we both want what is best for our children, and I am here in good faith to find that common ground.
+
 ## Disclaimer
 Append Blocks A, D.

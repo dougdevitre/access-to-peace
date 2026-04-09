@@ -98,5 +98,37 @@ flowchart TD
 - **MOD-05** Conflict Intake — if the timeline reveals additional issues not yet triaged
 - **MOD-08** Interests vs. Positions Mapper — understand what's driving the pattern
 
+---
+
+## Worked Example
+
+**User input:**
+> Role: Individual (IND). Q1: About 8 months ago, around August 2025. Q2: [Person B] (supervisor) reassigned my key project without explanation. Q3: (see events below in order). Q4: Most recent event was a written warning I received last week. Q5: Escalating. Q6: I have emails and one written warning document. Q7: No court or police involvement. I did file an internal HR complaint.
+
+### Conflict History Timeline
+
+**Conflict type:** Workplace — supervisor/employee dispute
+**Parties:** [Person A] (employee) / [Person B] (supervisor)
+**Timeline prepared:** April 9, 2026
+
+| Date (approx.) | Event | Parties Involved | Notes / Evidence |
+|----------------|-------|-----------------|-----------------|
+| Aug 2025 | [Person A]'s lead project reassigned to another team member without prior discussion or explanation. | [Person A], [Person B] | Email from [Person B] notifying reassignment |
+| Sep 2025 | [Person A] requested a meeting with [Person B] to discuss the reassignment. [Person B] declined, stating the decision was final. | [Person A], [Person B] | Email exchange |
+| Nov 2025 | [Person A] received a negative performance review citing "lack of initiative," which [Person A] disputes as inconsistent with prior reviews. | [Person A], [Person B] | Performance review document; prior reviews available for comparison |
+| Jan 2026 | [Person A] filed an internal complaint with Human Resources describing a pattern of exclusion and unexplained changes in responsibilities. | [Person A], [Person B], HR | HR complaint record |
+| Mar 2026 | [Person B] reassigned [Person A] to a different team without discussion. Workload reduced significantly. | [Person A], [Person B] | Internal transfer notification |
+| Apr 2026 | [Person A] received a written warning for "performance issues." [Person A] reports this is the first formal warning and does not reflect prior feedback. | [Person A], [Person B] | Written warning document |
+
+**Pattern assessment:**
+- Escalating
+- The timeline shows a progression from a single unexplained decision to repeated exclusion, a disputed performance review, and a formal written warning. Each event represents an increase in severity. The pattern accelerated after the HR complaint was filed.
+
+**Safety flag:** None
+
+**Gaps in timeline:**
+- October 2025: No specific events reported between the declined meeting (September) and the performance review (November). It may be helpful to note whether any informal interactions, emails, or changes in duties occurred during this period.
+- December 2025: No events reported between the performance review and the HR complaint. Any relevant communications from this period could strengthen documentation.
+
 ## Disclaimer
 Append Block A. Add Block B if court context.

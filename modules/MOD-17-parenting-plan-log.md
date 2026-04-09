@@ -101,5 +101,30 @@ flowchart TD
 - **MOD-20** Case Documentation Summary — compile the log into a case narrative
 - **MOD-07** Power & Safety Assessment — if a pattern of intimidation emerges
 
+---
+
+## Worked Example
+
+**User input:**
+> Role: Parent (PAR). I need to log 3 co-parenting communications from the past 2 weeks. Entry 1: March 26, 3:15 PM, text from me to [Parent B] about a schedule change for Saturday pickup — tone was calm, [Parent B] agreed, resolved. Entry 2: April 2, 10:00 AM, email from me to [Parent B] about [Child]'s upcoming medical appointment and whether [Parent B] wants to attend — tone was tense, no response yet, pending. Entry 3: April 7, 6:45 PM, text from [Parent B] to me about [Child]'s school event — tone was hostile, [Parent B] accused me of not informing them sooner, unresolved. I have screenshots of entries 1 and 3.
+
+### Parenting Plan Communication Log
+
+**Parties:** [Parent A] / [Parent B]
+**Child(ren):** [Child]
+**Log maintained by:** [Parent A]
+**Log period:** March 26 - April 7 (ongoing)
+
+| Date | Time | Method | Initiated By | Topic | Summary | Response | Resolved | Record Exists |
+|------|------|--------|-------------|-------|---------|----------|----------|--------------|
+| Mar 26 | 3:15 PM | Text | [Parent A] | Schedule | [Parent A] requested change to Saturday pickup time due to a scheduling conflict. | [Parent B] agreed to the adjusted time. | Yes | Yes (screenshot) |
+| Apr 2 | 10:00 AM | Email | [Parent A] | Medical | [Parent A] informed [Parent B] of upcoming medical appointment for [Child] and asked if [Parent B] would like to attend. | No response received. | Pending | No |
+| Apr 7 | 6:45 PM | Text | [Parent B] | School | [Parent B] contacted [Parent A] about [Child]'s school event. [Parent B] stated they were not informed of the event in a timely manner. | [Parent A] has not yet responded. | No | Yes (screenshot) |
+
+**Pattern notes:**
+- Response rate: 1 of 2 messages sent by [Parent A] received a response from [Parent B]. The medical appointment email (Apr 2) remains unanswered after 5 days.
+- Topics: Schedule (1), Medical (1), School (1) — varied topics across the log period.
+- Tone pattern: Communications initiated by [Parent A] were noted as calm to tense. The communication initiated by [Parent B] was noted as hostile. There is a pattern of escalating tone over the two-week period, particularly around topics where timeliness of information sharing is involved.
+
 ## Disclaimer
 Append Blocks A, B.

@@ -107,5 +107,58 @@ flowchart TD
 - **MOD-08** Interests vs. Positions Mapper — understand what both sides really need
 - **MOD-13** Emotional Regulation Plan — if you need to regulate before listening
 
+---
+
+## Worked Example
+
+**User input:**
+> Role: Individual (IND). I am preparing to listen to my co-parent about changing the school pickup schedule. Q1: My co-parent. Q2: Changing the school pickup schedule. Q3: I get defensive when they imply I am not reliable. Q4: To be heard. Q5: To reach a workable agreement about pickups without it turning into a fight.
+
+### Active Listening Prep Sheet
+
+**Your listening goal:**
+To understand [Person B]'s perspective on the pickup schedule change and demonstrate that you are hearing their concerns, even if you see it differently.
+
+**Potential obstacles:**
+You have identified that you tend to get defensive when [Person B] implies you are not reliable. This is normal and understandable. Being aware of it is the first step toward managing it.
+
+**Before the conversation:**
+- [ ] Set aside enough time — don't rush this conversation
+- [ ] Choose a calm environment (no interruptions, not in front of [Child])
+- [ ] Take 3 slow breaths before starting
+- [ ] Remind yourself: *"My job right now is to understand, not to fix or win."*
+- [ ] Turn your phone to silent and put it away
+
+**During the conversation — what to do:**
+- Make eye contact and face [Person B]
+- Nod to signal you are following
+- Don't interrupt — let them finish each thought
+- Reflect back what you heard: *"So what I'm hearing is that you'd like the pickup time to change because..."*
+- Ask one clarifying question at a time: *"Can you help me understand what's not working about the current schedule?"*
+- Notice your own body — if you feel your jaw tightening or your chest getting hot, breathe and pause before responding
+
+**During the conversation — what to avoid:**
+- Planning your rebuttal while they are talking
+- Minimizing: *"It's not that big of a deal"*
+- Defending immediately: *"I'm always on time, you're the one who..."*
+- Comparing: *"Well, I have to rearrange my schedule too"*
+- Checking out: looking at your phone, breaking eye contact, sighing
+
+**Empathy phrases to use:**
+- *"That sounds really frustrating."*
+- *"I can see why that would be stressful for you."*
+- *"I hear you."*
+- *"Tell me more about what that looks like on your end."*
+- *"I didn't realize that was happening. Thank you for telling me."*
+
+**Your personal challenge in this conversation:**
+You noted that you get defensive when [Person B] implies you are not reliable. When you notice that feeling rising, try this: silently name it (*"There's that defensiveness"*), take one breath, and then respond with a question instead of a counter-statement. For example: *"It sounds like reliability is really important to you here — can you tell me what would help?"* You do not have to agree with their characterization to acknowledge their concern.
+
+**Your goal for this conversation:**
+You want to reach a workable agreement about pickups. Reframed as a listening intention: *"I want to fully understand what [Person B] needs from the pickup schedule so we can find something that works for both of us and for [Child]."* Focus on understanding first — the agreement will follow more naturally once both people feel heard.
+
+**Follow-up:**
+After the conversation, take a few minutes to write down what you heard. Note any areas of agreement, any points that still need discussion, and how you felt during the conversation. This can help you prepare for the next step, whether that is a follow-up conversation, a written proposal, or mediation.
+
 ## Disclaimer
 Append Block A.

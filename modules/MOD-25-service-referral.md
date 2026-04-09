@@ -98,5 +98,30 @@ Many services offer phone or video appointments. Ask when you call.
 - **MOD-15** Trauma-Informed Self-Care Plan — alongside professional referrals
 - **MOD-24** Neighborhood Dispute Navigator — if the need is dispute-related
 
+---
+
+## Worked Example
+
+**User input:**
+> Role: Individual (IND). Needs: legal aid for a custody matter and mental health counseling. Location: St. Louis, Missouri. Free or low-cost services needed: yes. Language preference: none. Transportation barrier: no. Preference: trauma-informed services.
+
+### Service Referral List
+
+**Needs identified:** Legal aid (custody matter), mental health counseling
+**Location:** St. Louis, Missouri
+**Cost filter:** Free / low-cost
+
+| Organization | Category | Contact | Cost | Notes |
+|-------------|---------|---------|------|-------|
+| Legal Services of Eastern Missouri | Legal aid | 314-534-4200 / lsem.org | Free | Serves low-income residents in eastern Missouri. Handles family law including custody matters. Income eligibility required. |
+| Missouri Legal Aid | Legal aid | 800-990-0340 / molegaid.org | Free | Statewide legal assistance for qualifying individuals. Can help with custody, visitation, and family law matters. |
+| Behavioral Health Response | Mental health | 314-469-6644 | Free / sliding scale | St. Louis-based. Provides crisis counseling and ongoing mental health support. Trauma-informed approach available. |
+| NAMI Missouri | Mental health | 800-374-2138 / namimissouri.org | Free | Offers support groups, education, and referrals for mental health services. Can connect you with trauma-informed providers. |
+| Places for People | Mental health | 314-335-2600 | Sliding scale | St. Louis community mental health center. Offers counseling, psychiatric services, and case management. Trauma-informed care model. |
+
+**Start here:**
+- For any need: Call or text **211** — free, confidential, statewide navigator. Tell them you need legal help with a custody matter and mental health counseling in St. Louis. They can confirm eligibility and current availability for the organizations listed above.
+- For crisis: Call or text **988** (mental health) / **1-800-799-7233** (DV)
+
 ## Disclaimer
 Append Block A.

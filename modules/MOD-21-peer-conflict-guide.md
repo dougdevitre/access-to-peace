@@ -116,5 +116,44 @@ flowchart TD
 - **MOD-11** Restorative Circle Prep — for a full restorative circle
 - **MOD-13** Emotional Regulation Plan — help students with emotional activation
 
+---
+
+## Worked Example
+
+**User input:**
+> Role: School Counselor (SCL). Two 8th-grade students are involved in a conflict. [Student A] posted a message about [Student B] in a group chat. [Student B] saw the message, confronted [Student A] in the hallway, and a shouting match followed. No physical contact or property damage. This is a new incident. [Student A] says they were "just venting" and didn't mean for [Student B] to see it. [Student B] says they feel humiliated and want an apology. Both students need to feel heard and to rebuild trust.
+
+### Conflict Response Plan
+
+**Incident summary:** [Student A] posted a message about [Student B] in a group chat visible to peers. [Student B] became aware of the message and confronted [Student A] in the hallway during a passing period. The confrontation involved raised voices. No physical contact occurred and no property was damaged. Staff intervened and separated both students.
+
+**Parties involved:** [Student A] / [Student B]
+**Type:** verbal / cyberbullying (social media / group chat)
+**Pattern:** new incident
+
+**Recommended response:**
+
+| Step | Action | Who | When |
+|------|--------|-----|------|
+| 1 | Separate parties, confirm immediate safety, allow both students time to settle | Staff on duty | Immediately |
+| 2 | Individual check-in with [Student A] and [Student B] — hear each student's perspective without judgment | School Counselor | Same day |
+| 3 | Notify parents/guardians of both students about the incident and planned resolution steps | Administration | Within 24 hours |
+| 4 | Facilitated restorative conversation between [Student A] and [Student B] — focus on impact, accountability, and agreements going forward | School Counselor | Within 3-5 school days |
+| 5 | Follow-up check-in with both students individually to assess how agreements are holding | School Counselor | 2 weeks after restorative conversation |
+
+**What each student needs:**
+- [Student A]: Needs to understand the impact of the post on [Student B] without being shamed. Needs space to take responsibility and identify how to make things right.
+- [Student B]: Needs to feel heard and validated. Needs a genuine acknowledgment from [Student A] and confidence that it will not happen again.
+
+**Agreed actions:**
+1. [Student A] will remove or request removal of the group chat message.
+2. [Student A] will participate in a facilitated restorative conversation and offer a genuine acknowledgment of harm to [Student B].
+3. [Student B] will participate in the restorative conversation and share what they need in order to feel safe moving forward.
+4. Both students will agree on boundaries for online communication and check in with the school counselor in two weeks.
+
+**Follow-up plan:** School Counselor will meet individually with each student in two weeks to assess emotional well-being and whether agreements are being honored. If either student reports continued difficulties, a restorative circle with a wider support group may be considered.
+
+**Escalation note:** If the group chat message is shared further or if either student experiences retaliation, the incident will be escalated to administration for additional intervention, including possible involvement of MOD-22 (School Restorative Practice Template).
+
 ## Disclaimer
 Append Block A. Add Block E for SCL/TCH if child welfare concern.

@@ -117,5 +117,55 @@ flowchart TD
 - **MOD-20** Case Documentation Summary — prepare a case narrative
 - **MOD-01** De-Escalation Message Rewriter — if post-hearing communication is needed
 
+---
+
+## Worked Example
+
+**User input:**
+> Role: Individual (IND). I don't have an attorney — I'm self-represented. I'm preparing for a custody hearing in 10 days about temporary custody. My role is party (self-represented). My goal is to demonstrate that I am stable and involved in my children's daily routine. I have school records and a communication log. I still need to get a copy of the current temporary order.
+
+### Court Preparation Checklist
+
+**Proceeding type:** Hearing — temporary custody
+**Date:** 10 days from today
+**Your role:** Party (self-represented)
+
+#### Documents
+- [ ] Summons / notice of hearing (confirm you have it and check the courtroom number)
+- [ ] Any court orders currently in effect — you noted you still need a copy of the current temporary order. Contact the court clerk's office as soon as possible to obtain this.
+- [ ] Communication log with the other parent (you have this — organize it by date)
+- [ ] School records for [Child] and/or [Child] (you have these — bring originals and copies)
+- [ ] Evidence of involvement in daily routine: school pickup/dropoff records, medical appointment records, activity sign-up sheets, or similar documentation
+- [ ] Any financial records relevant to the children's care (if applicable)
+- [ ] Documents you still need: copy of the current temporary custody order
+
+#### Preparation
+- [ ] Know the courtroom location and parking — visit the courthouse before the hearing day if possible
+- [ ] Arrive 30 minutes early
+- [ ] Dress professionally and neutrally
+- [ ] Bring 3 copies of every document (yourself / opposing party / judge)
+- [ ] Turn phone to silent before entering courtroom
+- [ ] Prepare a brief written outline of key points you want to make — keep it factual and focused on the children's well-being and your involvement
+
+#### Communication in Court
+- [ ] Speak only when addressed by the judge
+- [ ] Answer questions directly and calmly — do not volunteer extra information
+- [ ] If you don't understand a question, say "I don't understand the question" — don't guess
+- [ ] Do not argue with opposing counsel — address the judge
+- [ ] Do not interrupt — even if you disagree with something said
+- [ ] When describing your involvement, use specific examples: "I take [Child] to school every morning" rather than "I'm a good parent"
+
+#### Emotional Preparation
+- [ ] Review your regulation plan before the day (see MOD-13 Emotional Regulation Plan)
+- [ ] Eat a full meal and get sleep the night before
+- [ ] Bring water and something to hold (notebook, pen) — it can help manage nervous energy
+- [ ] Have a support person available for the waiting room if allowed
+- [ ] Remind yourself: you cannot control the outcome, but you can control how you present yourself
+
+#### Your goal for this proceeding:
+You want to demonstrate stability and involvement in your children's daily routine. Reframed as what you can control: "I will clearly and calmly present factual evidence of my consistent involvement in my children's daily lives — including school, health, and day-to-day care — and show that I provide a stable environment."
+
+*Note: Because you are self-represented, consider contacting your local court's self-help center or legal aid office. Many courts offer free guidance for self-represented parties on courtroom procedures.*
+
 ## Disclaimer
 Append Blocks A, B.
