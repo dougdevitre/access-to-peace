@@ -14,6 +14,39 @@ MED, ARB, ATT, IND, PAR
 ## Safety Level
 Green
 
+```mermaid
+flowchart TD
+    T21["T-21: Mediation\nscheduled"] --> ENTRY
+    T22["T-22: Preparing for\nmediation"] --> ENTRY
+    T27["T-27: Needs negotiation\nstrategy"] --> ENTRY
+    T29["T-29: Relationship\nrepair needed"] --> ENTRY
+
+    ENTRY["MOD-09: Mediation\nSession Prep"]:::blue --> Q1["Q1: Your role?\nparticipant / mediator / attorney"]
+    Q1 --> Q2["Q2: What is the\nconflict about?"]
+    Q2 --> Q3["Q3: Primary goal\nfor this session"]
+    Q3 --> Q4["Q4: Core interests\nwhat you really need"]
+    Q4 --> Q5["Q5: BATNA — best\nalternative if no deal"]
+
+    Q5 --> Q6["Q6-Q9: Worries,\nother party's wants,\nconcessions, non-negotiables"]
+    Q6 --> Q10{"Q10: Need opening\nstatement draft?"}
+
+    Q10 -- "Yes" --> STATEMENT["Draft Opening Statement\n3-5 sentences, NVC framing\nno positions, interests only"]
+    Q10 -- "No" --> PREP
+
+    STATEMENT --> PREP["Build Prep Sheet:\nGoals | Interests | BATNA |\nOffers | Non-negotiables |\nConcerns | Their interests"]
+    PREP --> QUESTIONS["Session Questions:\nWhat matters most?\nWhat does success look like?\nWhat prevented resolution?"]
+    QUESTIONS --> OUTPUT["Mediation Prep Sheet"]:::green
+
+    OUTPUT --> MOD10["MOD-10: Peace Agreement"]
+    OUTPUT --> MOD08["MOD-08: Interests vs. Positions"]
+    OUTPUT --> MOD13["MOD-13: Emotional Regulation"]
+    OUTPUT --> MOD01["MOD-01: De-Escalation Rewriter"]
+    OUTPUT --> MOD06["MOD-06: Conflict Timeline"]
+
+    classDef blue fill:#1565c0,color:#fff
+    classDef green fill:#2e7d32,color:#fff
+```
+
 ---
 
 ## Question Set

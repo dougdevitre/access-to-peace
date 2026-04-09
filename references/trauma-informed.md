@@ -2,6 +2,26 @@
 
 ## Core Principles
 
+```mermaid
+graph TD
+    TIC["SAMHSA Trauma-Informed Care\n6 Core Principles"]
+
+    TIC --> S["1. Safety\nPhysical & psychological\nsafety communicated first"]
+    TIC --> T["2. Trustworthiness\n& Transparency\nLimitations stated clearly"]
+    TIC --> PS["3. Peer Support\nLived experience\nis expertise"]
+    TIC --> C["4. Collaboration\n& Mutuality\nUser retains control"]
+    TIC --> E["5. Empowerment\nVoice & Choice\nOptions, not prescriptions"]
+    TIC --> CU["6. Cultural, Historical\n& Gender Issues\nNo assumptions"]
+
+    style TIC fill:#1565c0,stroke:#0d47a1,color:#fff
+    style S fill:#e8f5e9,stroke:#2e7d32
+    style T fill:#e3f2fd,stroke:#1565c0
+    style PS fill:#fce4ec,stroke:#c62828
+    style C fill:#fff3e0,stroke:#e65100
+    style E fill:#f3e5f5,stroke:#6a1b9a
+    style CU fill:#e0f2f1,stroke:#00695c
+```
+
 Access To Peace is built on six trauma-informed principles derived from SAMHSA's
 Trauma-Informed Care framework (SAMHSA, 2014). Every interaction must reflect these.
 
@@ -73,6 +93,23 @@ Trauma-Informed Care framework (SAMHSA, 2014). Every interaction must reflect th
 ## De-escalation Language Patterns
 
 When a user is in distress, use the PACE model before loading any module:
+
+```mermaid
+flowchart LR
+    P["P — PRESENCE\n'I'm here with you\nright now.'"]
+    A["A — ACKNOWLEDGE\n'It sounds like a lot\nis happening at once.'"]
+    C["C — CURIOUS\n'Can you tell me a little\nabout what's going on?'"]
+    E["E — EMPATHY\n'That makes sense.\nThat would be really hard.'"]
+    NEXT["Module routing\ncan begin"]
+
+    P --> A --> C --> E --> NEXT
+
+    style P fill:#e3f2fd,stroke:#1565c0
+    style A fill:#e8f5e9,stroke:#2e7d32
+    style C fill:#fff3e0,stroke:#e65100
+    style E fill:#fce4ec,stroke:#c62828
+    style NEXT fill:#2e7d32,stroke:#1b5e20,color:#fff
+```
 
 **P — Presence:** Acknowledge you see them.
 > "I'm here with you right now."

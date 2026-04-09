@@ -2,6 +2,90 @@
 
 ## Base Name: `access-to-peace`
 
+```mermaid
+erDiagram
+    SESSIONS ||--o{ CONFLICT_INTAKES : links
+    SESSIONS ||--o{ MESSAGE_REWRITES : links
+    SESSIONS ||--o{ SAFETY_PLANS : links
+    SESSIONS ||--o{ PEACE_AGREEMENTS : links
+    SESSIONS ||--o{ SERVICE_REFERRALS : links
+
+    SESSIONS {
+        text session_id PK
+        date created_at
+        select role_code
+        text trigger_raw
+        select trigger_code
+        select safety_level
+        checkbox safety_gate_completed
+        select module_code
+        select artifact_type
+        select pii_handling
+    }
+
+    CONFLICT_INTAKES {
+        text intake_id PK
+        link session_id FK
+        select conflict_type
+        text presenting_conflict
+        checkbox safety_flag
+        multiselect recommended_modules
+    }
+
+    MESSAGE_REWRITES {
+        text rewrite_id PK
+        link session_id FK
+        select module
+        text version_firm
+        text version_collaborative
+        text version_minimal
+        number neutrality_accusatory
+    }
+
+    SAFETY_PLANS {
+        text plan_id PK
+        link session_id FK
+        select safety_gate_response
+        text warning_signs
+        text crisis_contacts
+        checkbox professional_review_required
+        select status
+    }
+
+    PEACE_AGREEMENTS {
+        text agreement_id PK
+        link session_id FK
+        text terms
+        date review_date
+        select status
+        checkbox legally_binding
+    }
+
+    SERVICE_REFERRALS {
+        text referral_id PK
+        link session_id FK
+        text organization
+        select category
+        select cost
+        checkbox connected
+    }
+```
+
+```mermaid
+graph LR
+    subgraph Views["Key Airtable Views"]
+        V1["Active Orange/Red\nSessions"]
+        V2["Active Safety Plans\nNeeding Review"]
+        V3["Upcoming Agreement\nReviews (30 days)"]
+        V4["Unverified Referrals\n(6+ months old)"]
+        V5["Breached\nAgreements"]
+    end
+
+    style V1 fill:#d32f2f,stroke:#b71c1c,color:#fff
+    style V2 fill:#ff9800,stroke:#e65100,color:#fff
+    style V5 fill:#ff9800,stroke:#e65100,color:#fff
+```
+
 ---
 
 ## Table 1: Sessions

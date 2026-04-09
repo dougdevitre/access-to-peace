@@ -1,6 +1,26 @@
 # Safety Plan Template
 ## Access To Peace · MOD-14 Output
 
+```mermaid
+flowchart TD
+    subgraph SafetyPlan["Safety Plan Structure"]
+        WS["Warning Signs\nThoughts · Feelings · Body · Behavior"]
+        IC["Internal Coping\nSelf-soothing strategies"]
+        PP["People & Places\nSafe contacts and locations"]
+        CS["Crisis Support\nPeople I can call/text"]
+        PS["Professional Support\nTherapists · Agencies"]
+        CL["Crisis Lines\n911 · 988 · DV Hotline"]
+        ES["Environment Safety\nMaking space safer"]
+        RS["Reasons to Stay Safe\nPeople · Goals · Values"]
+
+        WS --> IC --> PP --> CS --> PS --> CL --> ES --> RS
+    end
+
+    style CL fill:#d32f2f,stroke:#b71c1c,color:#fff
+    style WS fill:#ff9800,stroke:#e65100,color:#fff
+    style RS fill:#2e7d32,stroke:#1b5e20,color:#fff
+```
+
 ---
 
 # MY SAFETY PLAN
@@ -97,6 +117,29 @@ _______________________________________________________________________________
 # Mediation Session Notes Template
 ## Access To Peace · MOD-09 / MOD-10 Output
 
+```mermaid
+flowchart LR
+    subgraph MedNotes["Mediation Session Notes Flow"]
+        SETUP["Session Setup\nParties · Mediator\nType · Location"]
+        GOALS["Session Goals\nParty A · Party B\nFacilitator"]
+        ISSUES["Issues\nIdentified"]
+        DISCUSS["Discussion\nSummary\n(both perspectives)"]
+        PROGRESS{"Agreement\nReached?"}
+        PARTIAL["Partial agreement\n+ outstanding issues"]
+        FULL["Full agreement\n→ Peace Agreement"]
+        NONE["No agreement\n→ continuation"]
+        NEXT["Next Session\nDate · Tasks"]
+    end
+
+    SETUP --> GOALS --> ISSUES --> DISCUSS --> PROGRESS
+    PROGRESS -- "Partial" --> PARTIAL --> NEXT
+    PROGRESS -- "Full" --> FULL
+    PROGRESS -- "None" --> NONE --> NEXT
+
+    style FULL fill:#2e7d32,stroke:#1b5e20,color:#fff
+    style PROGRESS fill:#1565c0,stroke:#0d47a1,color:#fff
+```
+
 **Date:** _______________
 **Mediator / Facilitator:** _______________
 **Location / Platform:** _______________
@@ -169,6 +212,27 @@ _______________________________________________________________________________
 
 # Service Referral Form Template
 ## Access To Peace · MOD-25 Output
+
+```mermaid
+flowchart TD
+    NEEDS["Identify Needs"] --> CATS{"Categories"}
+    CATS --> LEGAL["Legal aid"]
+    CATS --> MH["Mental health"]
+    CATS --> DV["DV support"]
+    CATS --> HOUSING["Housing"]
+    CATS --> FINANCIAL["Financial"]
+    CATS --> CHILD["Child/family"]
+    CATS --> MEDIATION["Mediation"]
+    CATS --> YOUTH["Youth services"]
+    CATS --> ELDER["Elder services"]
+    CATS --> OTHER["Other needs"]
+
+    LEGAL & MH & DV & HOUSING & FINANCIAL & CHILD & MEDIATION & YOUTH & ELDER & OTHER --> MATCH["Match to organizations\nPhone · Website · Eligibility · Cost"]
+    MATCH --> DELIVER["Deliver referral list\n+ 211 starting point"]
+
+    style NEEDS fill:#1565c0,stroke:#0d47a1,color:#fff
+    style DELIVER fill:#2e7d32,stroke:#1b5e20,color:#fff
+```
 
 **Date:** _______________
 **Prepared for:** [Person A] or [role identifier]

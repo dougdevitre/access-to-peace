@@ -13,6 +13,37 @@ All
 ## Safety Level
 Yellow — check in briefly before loading
 
+```mermaid
+flowchart TD
+    A["Trigger: T-31 / T-32 /\nT-33 / T-40"] -->|"All Roles"| B{"Yellow Safety Check\nAre you safe right now?"}
+    B -->|"In danger"| C["Call 911"]
+    B -->|"Emotional crisis"| D["Text HOME to 741741\nor Call 988"]
+    B -->|"Overwhelmed but safe"| E["Proceed with Module"]
+    E --> F["Describe Current\nSituation"]
+    F --> G["Body Scan:\nWhere do you feel it?"]
+    G --> H["Rate Activation\nLevel (1-10)"]
+    H --> I["Identify Past\nCalming Strategies"]
+    I --> J["Identify What\nMakes It Worse"]
+    J --> K["Build Grounding Tools\n(5-4-3-2-1 + Box Breathing)"]
+    K --> L["Create Personalized\nAnchor from User Input"]
+    L --> M["Build Cool-Down\nProtocol (10-30 min)"]
+    M --> N["Create Re-Engagement\nReadiness Check"]
+    N --> O["Emotional Regulation\nPlan Artifact"]
+
+    O --> P["MOD-01 De-Escalation"]
+    O --> Q["MOD-03 NVC Framework"]
+    O --> R["MOD-15 Self-Care Plan"]
+
+    style A fill:#1565c0,color:#fff
+    style B fill:#ff9800,color:#fff
+    style C fill:#d32f2f,color:#fff
+    style D fill:#d32f2f,color:#fff
+    style O fill:#2e7d32,color:#fff
+    style P fill:#1565c0,color:#fff
+    style Q fill:#1565c0,color:#fff
+    style R fill:#1565c0,color:#fff
+```
+
 ---
 
 ## Brief Safety Check (Yellow gate)

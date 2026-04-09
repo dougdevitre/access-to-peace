@@ -13,6 +13,38 @@ All — especially ATT, GAL, JDG, MED
 ## Safety Level
 Green / Yellow if pattern indicates escalation or safety concern
 
+```mermaid
+flowchart TD
+    T13["T-13: Needs conflict\ndocumentation"] --> ENTRY
+    T16["T-16: Pattern of\nescalation"] --> ENTRY
+
+    ENTRY["MOD-06: Conflict\nHistory Timeline"]:::blue --> SAFETY{"Escalation or safety\nconcern in pattern?"}
+    SAFETY -- "No → Green" --> Q1
+    SAFETY -- "Yes → Yellow" --> YELLOW["Flag safety concern"]:::orange
+    YELLOW --> Q1
+
+    Q1["Q1: When did\nconflict begin?"] --> Q2["Q2: First incident\nor triggering event"]
+    Q2 --> Q3["Q3: Key events in order\ndate + description + parties"]
+    Q3 --> Q4["Q4: Most recent event"]
+    Q4 --> Q5["Q5: Escalating, stable,\nor de-escalating?"]
+    Q5 --> Q6["Q6-Q7: Supporting documents?\nCourt/police involvement?"]
+
+    Q6 --> TABLE["Build Chronological Table\nDate | Event | Parties | Evidence"]
+    TABLE --> PATTERN["Pattern Assessment:\nEscalating / Stable /\nDe-escalating"]
+    PATTERN --> GAPS["Note Timeline Gaps"]
+    GAPS --> OUTPUT["Conflict History\nTimeline Document"]:::green
+
+    OUTPUT --> MOD07["MOD-07: Power & Safety"]
+    OUTPUT --> MOD20["MOD-20: Case Documentation"]
+    OUTPUT --> MOD09["MOD-09: Mediation Prep"]
+    OUTPUT --> MOD05["MOD-05: Conflict Intake"]
+    OUTPUT --> MOD08["MOD-08: Interests vs. Positions"]
+
+    classDef blue fill:#1565c0,color:#fff
+    classDef orange fill:#ff9800,color:#fff
+    classDef green fill:#2e7d32,color:#fff
+```
+
 ---
 
 ## Question Set

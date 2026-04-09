@@ -13,6 +13,31 @@ YTH, SCL, TCH
 ## Safety Level
 Green / Yellow if bullying or physical contact involved
 
+```mermaid
+flowchart TD
+    A["Trigger: T-51–T-53, T-57\nPeer Conflict Reported"]:::blue --> B{"Who is using\nthis module?"}:::blue
+    B -- "Youth (YTH)" --> C["Q1: What happened?\n(your own words)"]
+    B -- "Counselor/Teacher\n(SCL/TCH)" --> D["Q1: Describe the conflict\n(neutral)"]
+    C --> C2["Q2: How did it make you feel?"]
+    C2 --> C3["Q3: What do you need?"]
+    C3 --> C4["Q4: What do you want\nto happen next?"]
+    C4 --> E["Output: My Conflict Plan\n+ Who Can Help Me"]:::green
+    D --> D2{"Q2: Physical contact\nor property damage?"}:::orange
+    D2 -- "Yes" --> D2a["Flag: Yellow Safety\nEnsure immediate safety"]:::orange
+    D2 -- "No" --> D3["Q3–Q5: What's been tried?\nPattern? Needs?"]
+    D2a --> D3
+    D3 --> F["Output: Conflict Response Plan\nIncident Summary + Action Table"]:::green
+    E --> G["MOD-22 Restorative Practice"]:::green
+    E --> H["MOD-23 Youth Check-In"]:::green
+    F --> G
+    F --> I["MOD-11 Restorative Circle"]:::green
+    F --> J["MOD-13 Emotional Regulation"]:::green
+
+    classDef blue fill:#1565c0,color:#fff
+    classDef orange fill:#ff9800,color:#fff
+    classDef green fill:#2e7d32,color:#fff
+```
+
 ---
 
 ## Question Set

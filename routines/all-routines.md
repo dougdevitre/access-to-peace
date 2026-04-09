@@ -2,6 +2,32 @@
 ## Schedule: Daily (for active conflict situations) or as needed
 ## Time required: 5–10 minutes
 
+```mermaid
+flowchart TD
+    MORNING["Morning Check-In\n5-10 minutes"]
+
+    MORNING --> SAFETY["1. Safety Pulse\nIs everyone safe?"]
+    SAFETY --> SAFE{"Safe?"}
+    SAFE -- "No" --> CRISIS["Crisis Response\nWorkflow"]
+    SAFE -- "Yes" --> BASELINE["2. Emotional Baseline\nScale 1-10"]
+
+    BASELINE --> LOW["1-3: Clear\nProceed normally"]
+    BASELINE --> MID["4-6: Elevated\nUse MOD-13 first"]
+    BASELINE --> HIGH["7-10: Do NOT\ncommunicate today"]
+
+    LOW --> TASK["3. Today's One Thing\nMessage · Log · Prep · Rest"]
+    MID --> TASK
+    HIGH --> REST["Rest is valid"]
+
+    TASK --> RESOURCE{"4. Need\nresources?"}
+    RESOURCE -- "Yes" --> M25["MOD-25\nService Referral"]
+    RESOURCE -- "No" --> DONE["Check-in complete"]
+
+    style CRISIS fill:#d32f2f,stroke:#b71c1c,color:#fff
+    style HIGH fill:#ff9800,stroke:#e65100,color:#fff
+    style REST fill:#e8f5e9,stroke:#2e7d32
+```
+
 ---
 
 ### Morning Check-In (for individuals in active conflict)
@@ -32,6 +58,23 @@
 ## Schedule: Weekly (Monday or first workday)
 ## Roles: MED, ATT, SWK, SCL, NCM, GAL — professional users
 ## Time required: 15–30 minutes
+
+```mermaid
+flowchart TD
+    REVIEW["Weekly Case Review\n15-30 minutes"]
+
+    REVIEW --> S1["1. Dashboard Refresh\nUpdate all active cases\nFlag safety changes"]
+    S1 --> S2["2. Safety Sweep\nOrange/Red from last week?\nPlans current?"]
+    S2 --> S3["3. Agreement Review\nDue this week?\nBreaches to address?"]
+    S3 --> S4["4. Communication Audit\nUnanswered messages?\nPatterns in MOD-17?"]
+    S4 --> S5["5. Upcoming Sessions\nCourt · Mediation · Circles\nPrep complete?"]
+    S5 --> S6["6. Referrals Follow-up\nDid they connect?\nResource gaps?"]
+    S6 --> S7["7. This Week's Priorities\nTop 3 actions"]
+
+    style REVIEW fill:#1565c0,stroke:#0d47a1,color:#fff
+    style S2 fill:#ff9800,stroke:#e65100,color:#fff
+    style S7 fill:#2e7d32,stroke:#1b5e20,color:#fff
+```
 
 ---
 
@@ -76,6 +119,23 @@
 ## Schedule: Within 2 hours of each session
 ## Roles: All professional users (MED, ATT, SCL, SWK, RPF, NCM)
 ## Time required: 10–15 minutes
+
+```mermaid
+flowchart TD
+    CLOSE["Post-Session Closeout\n10-15 minutes"]
+
+    CLOSE --> S1["1. Session Summary\nTrigger · Module\nArtifact · Outcome"]
+    S1 --> S2["2. Safety Log\nLevel start/end\nCrisis interrupt?\nPlan updated?"]
+    S2 --> S3["3. Action Items\nDocument saved\nNext steps communicated\nFollow-up date set"]
+    S3 --> S4["4. Agreement Registry\nAdd to dashboard\nReview date calendared"]
+    S4 --> S5["5. Facilitator Self-Check\nAm I regulated?\nDo I need support?"]
+
+    S5 --> NOTE["Vicarious trauma is real.\nTaking care of yourself is\npart of taking care of others."]
+
+    style CLOSE fill:#1565c0,stroke:#0d47a1,color:#fff
+    style S5 fill:#fce4ec,stroke:#c62828
+    style NOTE fill:#f3e5f5,stroke:#6a1b9a
+```
 
 ---
 

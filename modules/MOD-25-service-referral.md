@@ -13,6 +13,29 @@ All
 ## Safety Level
 Green
 
+```mermaid
+flowchart TD
+    A["Trigger: T-66, T-67, T-68\nService Referral Requested"]:::blue --> B["Q1: What help do you need?\nLegal / Mental Health / DV /\nHousing / Financial / Child-Family /\nMediation / Youth / Elder /\nSubstance Use / Food / Employment"]:::blue
+    B --> C["Q2: State / City"]
+    C --> D["Q3: Free or low-cost\nservices needed?"]
+    D --> E{"Optional barriers?"}
+    E -- "Yes" --> F["Q4: Language preference\nQ5: Transportation barrier\nQ6: Trauma/DV-informed needed"]
+    E -- "No" --> G["Build Referral List"]:::green
+    F --> G
+    G --> H["Service Referral Table:\nOrganization / Category /\nContact / Cost / Notes"]:::green
+    H --> I["Always included:\n211 Navigator (any need)\n988 Crisis / DV Hotline"]:::green
+    I --> J{"Safety need\nidentified?"}:::orange
+    J -- "Yes" --> K["MOD-14 Safety Plan Builder"]:::red
+    J -- "No" --> L["MOD-05 Conflict Intake"]:::green
+    I --> M["MOD-15 Self-Care Plan"]:::green
+    I --> N["MOD-24 Neighborhood Dispute"]:::green
+
+    classDef blue fill:#1565c0,color:#fff
+    classDef orange fill:#ff9800,color:#fff
+    classDef red fill:#d32f2f,color:#fff
+    classDef green fill:#2e7d32,color:#fff
+```
+
 ---
 
 ## Question Set

@@ -13,6 +13,41 @@ All
 ## Safety Level
 Yellow — check for crisis before proceeding
 
+```mermaid
+flowchart TD
+    A["Trigger: T-37 / T-38"] -->|"All Roles"| B{"Safety Check:\nThoughts of\nhurting yourself?"}
+    B -->|"Yes"| C["Call or Text 988\nImmediate Crisis Support"]
+    B -->|"No"| D["Describe the Loss\n(even a word is enough)"]
+    D --> E["Timeline:\nHow Long Ago?\nOngoing?"]
+    E --> F["Name the\nHardest Part"]
+    F --> G{"What do you\nneed today?"}
+    G -->|"Make sense\nof feelings"| H["Normalize Grief\nExperience"]
+    G -->|"Know what's\nnormal"| I["Share What's Normal\n(waves, physical symptoms,\nnon-linear timeline)"]
+    G -->|"Find support"| J["Connect to\nSupport Resources"]
+    G -->|"Other"| K["Tailored\nGuidance"]
+    H --> L["Build Grief\nNavigation Guide"]
+    I --> L
+    J --> L
+    K --> L
+    L --> M["Acknowledge\nHardest Part\n(without fixing)"]
+    M --> N["Small, Doable\nNext Steps"]
+    N --> O["When to Seek\nMore Support\n(2-week check, substances,\nself-harm thoughts)"]
+    O --> P["Support Resources\n(SAMHSA, GriefShare,\nTherapist Finder)"]
+    P --> Q["Grief Navigation\nGuide Artifact"]
+
+    Q --> R["MOD-15 Self-Care Plan"]
+    Q --> S["MOD-13 Emotional Regulation"]
+    Q --> T["MOD-25 Service Referral"]
+
+    style A fill:#1565c0,color:#fff
+    style B fill:#ff9800,color:#fff
+    style C fill:#d32f2f,color:#fff
+    style Q fill:#2e7d32,color:#fff
+    style R fill:#1565c0,color:#fff
+    style S fill:#1565c0,color:#fff
+    style T fill:#1565c0,color:#fff
+```
+
 ---
 
 ## Brief Safety Check

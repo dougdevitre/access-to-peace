@@ -13,6 +13,38 @@ All — especially ELD, SWK, PSS, NCM
 ## Safety Level
 Yellow
 
+```mermaid
+flowchart TD
+    A["Trigger: T-35 / T-36 / T-37"] -->|"All Roles\n(esp. ELD, SWK, PSS, NCM)"| B{"Yellow Safety Check"}
+    B -->|"Crisis detected"| C["Route to Crisis\nResources (988 / 741741)"]
+    B -->|"Safe to proceed"| D["Identify Primary\nEnergy Drain"]
+    D --> E["Select Affected Areas\n(sleep / eating / relationships /\nwork / health / emotional / spiritual)"]
+    E --> F["Recall Restorative\nActivities You Have Let Go"]
+    F --> G["Identify Barriers\n(time / guilt / money /\ndon't know where to start)"]
+    G --> H{"Support Person\nIdentified?"}
+    H -->|Yes| I["Name Support\nPerson"]
+    H -->|No| J["Suggest Identifying\nOne Support Person"]
+    I --> K["Build Self-Care Plan"]
+    J --> K
+    K --> L["One Thing to\nStart This Week"]
+    L --> M["Non-Negotiables\nfor Next 2 Weeks"]
+    M --> N["Barrier Workaround\nPlan"]
+    N --> O["Set 7-Day\nCheck-In Reminder"]
+    O --> P["Self-Care Plan\nArtifact"]
+
+    P --> Q["MOD-13 Emotional Regulation"]
+    P --> R["MOD-16 Grief & Loss"]
+    P --> S["MOD-25 Service Referral"]
+
+    style A fill:#1565c0,color:#fff
+    style B fill:#ff9800,color:#fff
+    style C fill:#d32f2f,color:#fff
+    style P fill:#2e7d32,color:#fff
+    style Q fill:#1565c0,color:#fff
+    style R fill:#1565c0,color:#fff
+    style S fill:#1565c0,color:#fff
+```
+
 ---
 
 ## Question Set

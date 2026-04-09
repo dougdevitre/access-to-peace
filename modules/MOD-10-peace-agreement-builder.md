@@ -13,6 +13,39 @@ MED, ARB, IND, PAR, ORG, NCM
 ## Safety Level
 Green
 
+```mermaid
+flowchart TD
+    A["Trigger: T-22 / T-23 / T-28"] -->|"MED, ARB, IND, PAR, ORG, NCM"| B["Identify Parties\n& Conflict"]
+    B --> C["Gather Commitments\nfrom Each Party"]
+    C --> D["Set Start Date\n& Review Date"]
+    D --> E{"Optional:\nAccountability Person?"}
+    E -->|Yes| F["Assign Accountability\nHolder"]
+    E -->|No| G["Self-Monitored\nAgreement"]
+    F --> H["Draft Agreement Terms"]
+    G --> H
+    H --> I{"Term Quality Check\nSpecific? Actionable?\nMutual? Realistic?"}
+    I -->|"Fails check"| J["Surface Rewrite\nSuggestion"]
+    J --> H
+    I -->|"Passes check"| K["Build Peace Agreement"]
+    K --> L["Background Section\n(neutral, no blame)"]
+    L --> M["Numbered Terms\n(time-bound)"]
+    M --> N["Breach Protocol\n1. Direct Talk\n2. Mediator\n3. Escalation"]
+    N --> O["Signature Block\n& Legal Disclaimer"]
+    O --> P["Peace Agreement\nArtifact"]
+
+    P --> Q["MOD-09 Mediation Prep"]
+    P --> R["MOD-08 Interests Mapper"]
+    P --> S["MOD-17 Parenting Log"]
+
+    style A fill:#1565c0,color:#fff
+    style I fill:#ff9800,color:#fff
+    style J fill:#ff9800,color:#fff
+    style P fill:#2e7d32,color:#fff
+    style Q fill:#1565c0,color:#fff
+    style R fill:#1565c0,color:#fff
+    style S fill:#1565c0,color:#fff
+```
+
 ---
 
 ## Question Set

@@ -13,6 +13,32 @@ ORG, NCM, MED, RPF
 ## Safety Level
 Green
 
+```mermaid
+flowchart TD
+    A["Trigger: T-69, T-70\nCommunity Peace Agreement"]:::blue --> B["Q1: What community\nor group?"]:::blue
+    B --> C["Q2: Shared challenge\nor conflict addressed"]
+    C --> D["Q3: Community values\n(group names 3-5)"]
+    D --> E["Q4: Specific behaviors\n& commitments"]
+    E --> F["Q5: How will you know\nit's working?"]
+    F --> G["Q6: Who facilitates\naccountability?"]
+    G --> H{"Optional details?"}
+    H -- "Yes" --> I["Q7: Review period\nQ8: Signed/witnessed?\nQ9: Part of larger process?"]
+    H -- "No" --> J["Generate Community\nPeace Agreement"]:::green
+    I --> J
+    J --> K["Shared Values\n(community's own words)"]:::green
+    K --> L["Numbered Commitments\n(specific & observable)"]:::green
+    L --> M["Success Indicators"]:::green
+    M --> N["Breakdown Protocol:\n1. Direct conversation\n2. Return to facilitator\n3. Community circle"]:::green
+    N --> O["Review Date +\nSignature Block"]:::green
+    O --> P["MOD-12 Community Dialogue"]:::green
+    O --> Q["MOD-11 Restorative Circle"]:::green
+    O --> R["MOD-08 Interests vs Positions"]:::green
+    O --> S["MOD-24 Neighborhood Dispute"]:::green
+
+    classDef blue fill:#1565c0,color:#fff
+    classDef green fill:#2e7d32,color:#fff
+```
+
 ---
 
 ## Question Set

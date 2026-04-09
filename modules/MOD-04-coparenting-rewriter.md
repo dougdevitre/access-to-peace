@@ -13,6 +13,41 @@ PAR, ATT, GAL, IND
 ## Safety Level
 Green (standard) / Yellow if conflict language indicates safety concern
 
+```mermaid
+flowchart TD
+    T04["T-04: Co-parenting\nmessage needed"] --> ENTRY
+    T08["T-08: Needs help\ncommunicating"] --> ENTRY
+    T50["T-50: Child-related\nconflict"] --> ENTRY
+
+    ENTRY["MOD-04: Co-Parenting\nCommunication Rewriter"]:::blue --> SAFETY{"Safety language\ndetected?"}
+    SAFETY -- "No → Green" --> Q1
+    SAFETY -- "Yes → Yellow" --> YELLOW["Flag safety concern\nProceed with caution"]:::orange
+    YELLOW --> Q1
+
+    Q1["Q1: Paste original message"] --> Q2["Q2: Topic\nschedule / expense /\nschool / medical / behavior"]
+    Q2 --> Q3["Q3: Outcome needed\nconfirmation / agreement /\ninformation / acknowledgment"]
+    Q3 --> Q4["Q4-Q6: Court use?\nChild's age?\nActive court order?"]
+
+    Q4 --> SCORE["Neutrality Score\nAccusatory / Escalation /\nChild-centering / Court-readiness"]
+    SCORE --> REWRITE["Rewritten Message:\nChild-centered,\ncourt-neutral"]
+
+    REWRITE --> COURT["Court-Readiness Note\nScore X/10"]
+    COURT --> CHECK{"Score < 7?"}
+    CHECK -- "Yes" --> ALT["Alternate Minimal\nVersion"]:::green
+    CHECK -- "No" --> OUTPUT["Neutrality-Scored\nCo-Parenting Message"]:::green
+    ALT --> OUTPUT
+
+    OUTPUT --> MOD17["MOD-17: Parenting Plan Log"]
+    OUTPUT --> MOD03["MOD-03: NVC Framework"]
+    OUTPUT --> MOD09["MOD-09: Mediation Prep"]
+    OUTPUT --> MOD18["MOD-18: Court Prep Checklist"]
+    OUTPUT --> MOD07["MOD-07: Power & Safety"]
+
+    classDef blue fill:#1565c0,color:#fff
+    classDef orange fill:#ff9800,color:#fff
+    classDef green fill:#2e7d32,color:#fff
+```
+
 ---
 
 ## Question Set

@@ -13,6 +13,44 @@ All
 ## Safety Level
 Green (default) / Yellow if tension or safety language present
 
+```mermaid
+flowchart TD
+    T11["T-11: General\nconflict help"] --> ENTRY
+    T12["T-12: Dispute\nresolution needed"] --> ENTRY
+    T20["T-20: Unsure\nwhere to start"] --> ENTRY
+    T50["T-50: Child-related\nconflict"] --> ENTRY
+
+    ENTRY["MOD-05: Conflict\nIntake & Triage"]:::blue --> SAFETY{"Safety or tension\nlanguage present?"}
+    SAFETY -- "No → Green" --> Q1
+    SAFETY -- "Yes → Yellow" --> YELLOW["Flag elevated concern"]:::orange
+    YELLOW --> Q1
+
+    Q1["Q1: Who is involved?\n(relationship, not names)"] --> Q2["Q2: What is the\nconflict about?"]
+    Q2 --> Q3["Q3: How long has\nthis been going on?"]
+    Q3 --> Q4["Q4: Most recent event"]
+    Q4 --> Q5["Q5: What do you need?\ndocumentation / next steps /\ncommunication / mediation /\nsafety / resources"]
+    Q5 --> Q9{"Q9: Do you feel unsafe?"}
+
+    Q9 -- "Yes" --> MOD07["MOD-07: Power &\nSafety Assessment"]:::orange
+    Q9 -- "No" --> OUTPUT["Conflict Intake Summary\nType / Parties / Timeline /\nImpact / Safety / Needs"]:::green
+
+    OUTPUT --> ROUTE{"Dynamic Routing\nBased on Intake"}
+
+    ROUTE -- "Communication" --> MOD01["MOD-01 / MOD-03"]
+    ROUTE -- "Co-parenting" --> MOD04["MOD-04 / MOD-17"]
+    ROUTE -- "Safety concern" --> MOD14["MOD-07 / MOD-14"]
+    ROUTE -- "Mediation" --> MOD09["MOD-09: Mediation Prep"]
+    ROUTE -- "Emotional overwhelm" --> MOD13["MOD-13: Regulation"]
+    ROUTE -- "Resources" --> MOD25["MOD-25: Referral"]
+    ROUTE -- "Court-related" --> MOD18["MOD-18 / MOD-20"]
+    ROUTE -- "School/youth" --> MOD21["MOD-21 / MOD-23"]
+    ROUTE -- "Neighborhood" --> MOD24["MOD-24: Neighborhood"]
+
+    classDef blue fill:#1565c0,color:#fff
+    classDef orange fill:#ff9800,color:#fff
+    classDef green fill:#2e7d32,color:#fff
+```
+
 ---
 
 ## Question Set

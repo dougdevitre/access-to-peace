@@ -13,6 +13,39 @@ ORG, NCM, MED, RPF, SCL
 ## Safety Level
 Green
 
+```mermaid
+flowchart TD
+    A["Trigger: T-26 / T-30 / T-63"] -->|"ORG, NCM, MED, RPF, SCL"| B["Define Topic\n& Issue"]
+    B --> C["Identify Attendees\n& Group Size"]
+    C --> D["Set Dialogue Goal\n(share / understand /\ndecide / agree)"]
+    D --> E["Choose Format\n(in-person / virtual / hybrid)"]
+    E --> F{"Power Imbalance\nFlagged?"}
+    F -->|Yes| G["Structure for\nEquitable Voices"]
+    F -->|No| H["Standard\nDialogue Format"]
+    G --> I["Establish\nGround Rules"]
+    H --> I
+    I --> J["Build Dialogue Agenda"]
+    J --> K["Welcome &\nFraming"]
+    K --> L["Opening Round\n(individual sharing)"]
+    L --> M["Small Group\nDiscussion"]
+    M --> N["Report Back\n& Theme Capture"]
+    N --> O["Full Group\nDialogue"]
+    O --> P["Action Items &\nCommitments"]
+    P --> Q["Community Dialogue\nAgenda Artifact"]
+
+    Q --> R["MOD-26 Community Agreement"]
+    Q --> S["MOD-08 Interests Mapper"]
+    Q --> T["MOD-24 Neighborhood Dispute"]
+
+    style A fill:#1565c0,color:#fff
+    style F fill:#ff9800,color:#fff
+    style G fill:#ff9800,color:#fff
+    style Q fill:#2e7d32,color:#fff
+    style R fill:#1565c0,color:#fff
+    style S fill:#1565c0,color:#fff
+    style T fill:#1565c0,color:#fff
+```
+
 ---
 
 ## Question Set

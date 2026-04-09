@@ -2,6 +2,57 @@
 
 ## Artifact Definitions, Formats, and Quality Gates
 
+```mermaid
+flowchart TD
+    subgraph Production["Artifact Production"]
+        MODULE["Module generates\nraw artifact"] --> QG{"Quality Gates"}
+    end
+
+    subgraph Gates["8 Quality Gates"]
+        QG --> Q1["Required fields\ncomplete?"]
+        QG --> Q2["Conflict-neutral?\nNo accusations"]
+        QG --> Q3["Trauma-informed?\nNo shaming/blaming"]
+        QG --> Q4["PII handling\ndecision made?"]
+        QG --> Q5["Safety gate done?\n(if Yellow+)"]
+        QG --> Q6["Language mode\nmatches role?"]
+        QG --> Q7["Disclaimers\nappended?"]
+        QG --> Q8["No fabricated\nreferences?"]
+    end
+
+    Q1 & Q2 & Q3 & Q4 & Q5 & Q6 & Q7 & Q8 --> PASS{"All gates\npass?"}
+    PASS -- "Yes" --> OUTPUT["Final Artifact\nDelivered to user"]
+    PASS -- "No" --> REVISE["Revise artifact\nbefore output"]
+    REVISE --> QG
+
+    style QG fill:#ff9800,stroke:#e65100,color:#fff
+    style OUTPUT fill:#2e7d32,stroke:#1b5e20,color:#fff
+    style PASS fill:#1565c0,stroke:#0d47a1,color:#fff
+```
+
+```mermaid
+graph LR
+    subgraph Artifacts["13 Artifact Types"]
+        A01["A-01\nConflict Intake"]
+        A02["A-02\nRewritten Message"]
+        A03["A-03\nCo-Parent Message"]
+        A04["A-04\nMediation Prep"]
+        A05["A-05\nPeace Agreement"]
+        A06["A-06\nCircle Agenda"]
+        A07["A-07\nSafety Assessment"]
+        A08["A-08\nSafety Plan"]
+        A09["A-09\nRegulation Plan"]
+        A10["A-10\nService Referral"]
+        A11["A-11\nCase Documentation"]
+        A12["A-12\nYouth Check-In"]
+        A13["A-13\nCommunity Agreement"]
+    end
+
+    style A07 fill:#ff9800,stroke:#e65100,color:#fff
+    style A08 fill:#ff9800,stroke:#e65100,color:#fff
+    style A05 fill:#2e7d32,stroke:#1b5e20,color:#fff
+    style A13 fill:#2e7d32,stroke:#1b5e20,color:#fff
+```
+
 ---
 
 ## Artifact Quality Gates (enforced before every artifact output)

@@ -13,6 +13,28 @@ SCL, TCH
 ## Safety Level
 Green
 
+```mermaid
+flowchart TD
+    A["Trigger: T-56, T-59\nRestorative Practice Needed"]:::blue --> B["Q1: Purpose?\nRepair Harm / Prevent Escalation /\nCommunity Building / Suspension Alt"]:::blue
+    B --> C["Q2: Participants\n(students + staff)"]
+    C --> D["Q3: What happened?\n(neutral description)"]
+    D --> E["Q4: Hoped-for outcome"]
+    E --> F{"Optional:\nPrior experience?\nSafety separations?"}
+    F --> G["Generate Restorative\nPractice Template"]:::green
+    G --> H["Opening Questions\n(ice-breaker round)"]:::green
+    H --> I["Harm Acknowledgment\n+ Impact Round"]:::green
+    I --> J["Accountability & Repair\nCommitments"]:::green
+    J --> K["Closing Affirmation"]:::green
+    K --> L["Documentation:\nIncident, Participants,\nRepair Agreement, Follow-up"]:::green
+    L --> M["MOD-21 Peer Conflict Guide"]:::green
+    L --> N["MOD-11 Restorative Circle Prep"]:::green
+    L --> O["MOD-23 Youth Check-In"]:::green
+    L --> P["MOD-26 Community Peace Agreement"]:::green
+
+    classDef blue fill:#1565c0,color:#fff
+    classDef green fill:#2e7d32,color:#fff
+```
+
 ---
 
 ## Question Set
