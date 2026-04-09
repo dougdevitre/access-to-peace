@@ -128,5 +128,53 @@ flowchart TD
 - **MOD-01** De-Escalation Message Rewriter — communicate your interests without escalation
 - **MOD-12** Community Dialogue Facilitator — if this is a group/community conflict
 
+---
+
+## Worked Example
+
+**User input:**
+> Role: Parent (PAR). Q1: I want the children on weekdays. Q2: I want to be involved in their school routine and help with homework. Q3: I would lose daily involvement in their education and feel disconnected from their school life. Q4: Good enough would be having them on most school nights and being the contact for school communications. Q5: Non-negotiable: being able to attend all school events — conferences, performances, games. Q6: I think they want equal time — a 50/50 schedule. Q7: They want to feel like an equal parent and not be sidelined. Q8: They might be afraid of losing time with the children and being seen as a less involved parent. Q9: We both want the children to succeed in school and feel supported by both parents.
+
+### Interests Map
+
+#### Your Interests
+
+| Position (what you said you want) | Underlying Interest (why you want it) | Non-negotiable? |
+|----------------------------------|--------------------------------------|----------------|
+| Children on weekdays | Daily involvement in school routine and homework | No |
+| Be the school contact parent | Connection to children's education and ability to support their learning | No |
+| Attend all school events | Presence at conferences, performances, and games — maintaining visible involvement in children's lives | Yes |
+
+**Your core interests (distilled):**
+- Being actively involved in your children's day-to-day education
+- Maintaining a close connection to their school life and routines
+- Being present for meaningful school moments
+
+**Your BATNA (best alternative if no agreement):**
+If no agreement is reached, the current arrangement or a court-determined schedule would apply. This may result in less weekday time than desired and less control over school involvement. Reaching a mediated agreement is likely to give both parents more flexibility than a court order.
+
+---
+
+#### Their Likely Interests (your perspective)
+
+| Their Position | Likely Underlying Interest | What They Might Fear Losing |
+|---------------|--------------------------|---------------------------|
+| Equal (50/50) time | Feeling like an equal, involved parent | Time with the children; being seen as less important or less involved |
+| Shared schedule | Fairness and recognition as a capable, engaged parent | Their role in the children's daily life and routines |
+
+---
+
+#### Possible Overlap
+- Both parents want the children to succeed in school and feel supported
+- Both parents want to be actively involved — neither wants to be sidelined
+- Both parents value the children's stability and educational success
+- There may be room for a schedule that gives both parents meaningful school-night time while ensuring [Parent A] can attend all school events — and [Parent B] can too
+
+---
+
+#### Reframe for Negotiation
+> Instead of: *"I want the children on weekdays."*
+> Try: *"What I really need is to be involved in the children's school routine — helping with homework, being available for school communications, and attending every school event. Is there a way we could build a schedule that lets me do that while also making sure you have meaningful time with them during the week?"*
+
 ## Disclaimer
 Append Block A. Add Block D if mediation or agreement context.

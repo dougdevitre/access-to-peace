@@ -101,5 +101,53 @@ flowchart TD
 - **MOD-23** Youth Emotional Check-In — post-circle check-in with students
 - **MOD-26** Community Peace Agreement — if the class wants to formalize norms
 
+---
+
+## Worked Example
+
+**User input:**
+> Role: Teacher (TCH). Purpose: repair harm. A classroom incident occurred where one student took another student's belongings and denied it. 5 students involved — 2 directly (the student who took the item and the student whose item was taken) and 3 witnesses. Grade level: 6. Estimated time: 30 minutes. The school has used restorative circles before. No students need to be separated.
+
+### School Restorative Practice Template
+
+**Purpose:** Repair harm
+**Grade level:** 6
+**Estimated time:** 30 minutes
+
+**Participants:** [Student A] (student whose belongings were taken), [Student B] (student who took the belongings), [Student C], [Student D], [Student E] (witnesses), [Teacher] (facilitator)
+
+**Opening questions (choose 1-2):**
+- "Share your name and one word for how you're feeling right now."
+- "What does respect mean to you?"
+
+**Harm acknowledgment prompt:**
+- "In your own words, can you tell us what happened and how it affected others?"
+- "[Student B], without needing to defend yourself, can you describe what happened from your perspective?"
+- "[Student A], can you share what happened from your perspective?"
+
+**Impact round:**
+- "[Student A]: How did this situation affect you?"
+- "[Student A]: What has been the hardest part about it?"
+- "[Student C], [Student D], [Student E]: How did this situation affect you or the classroom?"
+- "[Student B]: How do you think this affected others?"
+
+**Accountability and repair:**
+- "[Student B]: What do you think would help make this right?"
+- "[Student A]: What would you need in order to feel like this has been addressed?"
+- "What are you each willing to commit to going forward?"
+- "How can the group support both [Student A] and [Student B] after today?"
+
+**Closing affirmation:**
+- "What is one thing you are taking away from today?"
+- "What is one thing you appreciate about someone in this circle?"
+
+**Documentation:**
+- Incident: One student took another student's belongings and denied doing so. The incident was witnessed by three classmates.
+- Date of circle: [date]
+- Facilitator: [Teacher]
+- Participants: [Student A], [Student B], [Student C], [Student D], [Student E]
+- Repair agreement: [To be completed after circle — e.g., [Student B] agrees to return the item and offer a direct apology to [Student A]. Both students agree to a check-in with [Teacher] in one week. See MOD-10 / MOD-11 for full agreement template if needed.]
+- Follow-up date: [one week from circle date]
+
 ## Disclaimer
 Append Block A.

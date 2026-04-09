@@ -102,5 +102,26 @@ Good | Okay | Not great | Really bad | Frustrated | Scared | Confused
 - **MOD-15** Trauma-Informed Self-Care Plan — for ongoing stress or burnout
 - **MOD-14** Safety Plan Builder — if safety concerns are identified
 
+---
+
+## Worked Example
+
+**User input:**
+> Role: School Counselor (SCL) facilitating check-in with a youth (YTH), age 15. Safety check: "No, no one is hurting me." Feeling: "Not great" and "Frustrated." What's going on: "My parents keep fighting and I can hear them at night. I don't want to pick sides." Need: "Someone to listen." One thing that might help: "Maybe talking to my school counselor more." Who can you talk to: "My school counselor and my aunt." Guardian copy: "No." Follow-up: scheduled.
+
+### Youth Check-In Summary
+
+**Date:** April 9, 2026
+**Student identifier:** [Youth]
+**Facilitated by:** School Counselor (SCL)
+
+**Current emotional state:** Not great / Frustrated
+**Situation described:** "My parents keep fighting and I can hear them at night. I don't want to pick sides."
+**Stated need:** Someone to listen
+**Support identified:** School counselor and aunt
+**Next step:** Schedule regular weekly check-ins with school counselor to provide consistent support and a space to talk. School counselor will also help [Youth] identify ways to cope when things feel overwhelming at home.
+**Guardian copy requested:** No — youth's choice
+**Follow-up scheduled:** April 23, 2026
+
 ## Disclaimer
 Append Blocks A, G.
