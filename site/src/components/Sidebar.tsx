@@ -50,8 +50,18 @@ export default function Sidebar({ navigation }: SidebarProps) {
   return (
     <nav className="w-64 flex-shrink-0 bg-slate-50 border-r border-slate-200 overflow-y-auto h-full">
       <div className="p-4">
-        <Link href="/" className="flex items-center gap-2 mb-6">
+        <Link href="/" className="flex items-center gap-2 mb-4">
           <span className="text-lg font-bold text-slate-900">Access To Peace</span>
+        </Link>
+        <Link
+          href="/start"
+          className={`block w-full px-4 py-2.5 mb-6 text-center font-medium rounded-lg transition-colors ${
+            pathname === '/start'
+              ? 'bg-blue-600 text-white'
+              : 'bg-blue-50 text-blue-700 border border-blue-200 hover:bg-blue-100'
+          }`}
+        >
+          Start a Session
         </Link>
         {sectionOrder.map(section => {
           const items = navigation[section];
