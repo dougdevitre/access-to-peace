@@ -72,7 +72,7 @@ export default async function CatchAllPage({
     // Otherwise it's a root page
     const page = await getPage("root", segment);
     if (!page) return <div className="text-slate-500">Page not found</div>;
-    return <MarkdownRenderer htmlContent={page.htmlContent} />;
+    return <MarkdownRenderer htmlContent={page.htmlContent} mermaidCharts={page.mermaidCharts} />;
   }
 
   // Two segments: section/slug detail page
@@ -80,7 +80,7 @@ export default async function CatchAllPage({
     const [section, pageSlug] = slug;
     const page = await getPage(section, pageSlug);
     if (!page) return <div className="text-slate-500">Page not found</div>;
-    return <MarkdownRenderer htmlContent={page.htmlContent} />;
+    return <MarkdownRenderer htmlContent={page.htmlContent} mermaidCharts={page.mermaidCharts} />;
   }
 
   return <div className="text-slate-500">Page not found</div>;

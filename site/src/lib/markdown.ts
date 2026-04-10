@@ -14,6 +14,7 @@ export interface ContentPage {
   title: string;
   content: string; // raw markdown
   htmlContent: string; // rendered HTML
+  mermaidCharts: string[]; // extracted mermaid diagram code
 }
 
 // Get all markdown files recursively, excluding site/ and node_modules
@@ -73,9 +74,12 @@ export async function parseMarkdownFile(filepath: string, section: string, slug:
   const titleMatch = content.match(/^#\s+(.+)$/m);
   const title = titleMatch ? titleMatch[1] : slug.replace(/-/g, ' ');
 
-  // Process markdown to HTML, but preserve mermaid blocks
+  // Extract mermaid blocks into a separate array, replace with indexed markers
+  const mermaidCharts: string[] = [];
   const processedContent = content.replace(/```mermaid\n([\s\S]*?)```/g, (_, code) => {
-    return `<div class="mermaid-diagram" data-chart="${encodeURIComponent(code.trim())}"></div>`;
+    const index = mermaidCharts.length;
+    mermaidCharts.push(code.trim());
+    return `\n\nMERMAID_CHART_${index}\n\n`;
   });
 
   const result = await remark().use(remarkGfm).use(remarkHtml, { sanitize: false }).process(processedContent);
@@ -86,6 +90,7 @@ export async function parseMarkdownFile(filepath: string, section: string, slug:
     title,
     content,
     htmlContent: result.toString(),
+    mermaidCharts,
   };
 }
 

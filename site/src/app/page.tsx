@@ -4,5 +4,5 @@ import MarkdownRenderer from "@/components/MarkdownRenderer";
 export default async function HomePage() {
   const page = await getPage("root", "readme");
   if (!page) return <div>Content not found</div>;
-  return <MarkdownRenderer htmlContent={page.htmlContent} />;
+  return <MarkdownRenderer htmlContent={page.htmlContent} mermaidCharts={page.mermaidCharts} />;
 }

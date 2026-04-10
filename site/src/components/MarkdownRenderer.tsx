@@ -1,41 +1,39 @@
 'use client';
 
-import { useEffect, useState } from 'react';
 import MermaidDiagram from './MermaidDiagram';
 
-export default function MarkdownRenderer({ htmlContent }: { htmlContent: string }) {
-  const [parts, setParts] = useState<{ type: 'html' | 'mermaid'; content: string }[]>([]);
+interface MarkdownRendererProps {
+  htmlContent: string;
+  mermaidCharts?: string[];
+}
 
-  useEffect(() => {
-    // Split HTML content at mermaid placeholders
-    const regex = /<div class="mermaid-diagram" data-chart="([^"]+)"><\/div>/g;
-    const result: { type: 'html' | 'mermaid'; content: string }[] = [];
-    let lastIndex = 0;
-    let match;
+export default function MarkdownRenderer({ htmlContent, mermaidCharts = [] }: MarkdownRendererProps) {
+  // Split HTML at MERMAID_CHART_N markers (remark wraps them in <p> tags)
+  const parts: { type: 'html' | 'mermaid'; content: string; chartIndex?: number }[] = [];
+  const regex = /<p>MERMAID_CHART_(\d+)<\/p>/g;
+  let lastIndex = 0;
+  let match;
 
-    while ((match = regex.exec(htmlContent)) !== null) {
-      if (match.index > lastIndex) {
-        result.push({ type: 'html', content: htmlContent.slice(lastIndex, match.index) });
-      }
-      result.push({ type: 'mermaid', content: decodeURIComponent(match[1]) });
-      lastIndex = match.index + match[0].length;
+  while ((match = regex.exec(htmlContent)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push({ type: 'html', content: htmlContent.slice(lastIndex, match.index) });
     }
+    parts.push({ type: 'mermaid', content: '', chartIndex: parseInt(match[1], 10) });
+    lastIndex = match.index + match[0].length;
+  }
 
-    if (lastIndex < htmlContent.length) {
-      result.push({ type: 'html', content: htmlContent.slice(lastIndex) });
-    }
-
-    setParts(result);
-  }, [htmlContent]);
+  if (lastIndex < htmlContent.length) {
+    parts.push({ type: 'html', content: htmlContent.slice(lastIndex) });
+  }
 
   return (
     <div className="prose prose-slate max-w-none prose-headings:scroll-mt-20 prose-table:text-sm prose-th:bg-slate-50 prose-td:border prose-th:border prose-th:px-3 prose-th:py-2 prose-td:px-3 prose-td:py-2">
       {parts.map((part, i) =>
-        part.type === 'mermaid' ? (
-          <MermaidDiagram key={i} chart={part.content} />
-        ) : (
+        part.type === 'mermaid' && part.chartIndex !== undefined && mermaidCharts[part.chartIndex] ? (
+          <MermaidDiagram key={i} chart={mermaidCharts[part.chartIndex]} />
+        ) : part.type === 'html' ? (
           <div key={i} dangerouslySetInnerHTML={{ __html: part.content }} />
-        )
+        ) : null
       )}
     </div>
   );
