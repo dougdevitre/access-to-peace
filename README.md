@@ -3,8 +3,10 @@
 > A trauma-informed, open-source platform for conflict resolution, mediation, mental wellness,
 > co-parenting de-escalation, restorative practices, and community peace-building.
 
+> Part of **[Access To](https://dougdevitre.org)** — open-source tools for the access gaps that matter most. [See all projects →](https://dougdevitre.org/#pillars)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Access To Initiative](https://img.shields.io/badge/Access%20To-Initiative-green)](https://dougdevitre.github.io/access-projects)
+[![Access To Initiative](https://img.shields.io/badge/Access%20To-Initiative-green)](https://dougdevitre.org)
 [![Status: Active Development](https://img.shields.io/badge/Status-Active%20Development-yellow)]()
 
 ---
@@ -69,7 +71,7 @@ graph TB
 
 ## What Is Access To Peace?
 
-Access To Peace is one pillar of the [Access To](https://dougdevitre.github.io/access-projects)
+Access To Peace is one pillar of the [Access To](https://dougdevitre.org)
 civic technology initiative — a family of open-source platforms designed to democratize access
 to essential services across justice, education, housing, health, and safety.
 
