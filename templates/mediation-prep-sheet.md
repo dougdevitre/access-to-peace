@@ -157,4 +157,4 @@ _______________________________________________________________________________
 > orders, or settlement agreements, work with a licensed attorney and file
 > through the appropriate court.
 
-*Access To Peace · accesstopeace.org · Educational purposes only.*
+*Access To Peace · github.com/dougdevitre/access-to-peace · Educational purposes only.*

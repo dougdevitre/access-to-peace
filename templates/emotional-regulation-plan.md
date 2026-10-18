@@ -144,4 +144,4 @@ If not: give yourself more time. It's okay.
 > For ongoing mental health support, consult a licensed mental health professional.
 > SAMHSA National Helpline: 1-800-662-4357 (free, confidential, 24/7)
 
-*Access To Peace · accesstopeace.org · Educational purposes only.*
+*Access To Peace · github.com/dougdevitre/access-to-peace · Educational purposes only.*

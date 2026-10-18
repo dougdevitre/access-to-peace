@@ -111,4 +111,4 @@ _______________________________________________________________________________
 > emergency services, legal advice, or licensed clinical care. Content generated
 > by this platform is for informational and organizational purposes only.
 
-*Access To Peace · accesstopeace.org · Educational purposes only.*
+*Access To Peace · github.com/dougdevitre/access-to-peace · Educational purposes only.*

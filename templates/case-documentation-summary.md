@@ -136,4 +136,4 @@ _______________________________________________________________________________
 > Missouri legal aid: Legal Services of Eastern Missouri — 314-534-4200 · lsem.org
 > Missouri Bar Referral: 573-635-4128 · mobar.org
 
-*Access To Peace · accesstopeace.org · Educational purposes only.*
+*Access To Peace · github.com/dougdevitre/access-to-peace · Educational purposes only.*
