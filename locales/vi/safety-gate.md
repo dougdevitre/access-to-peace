@@ -41,7 +41,7 @@ không thể chịu nổi nữa, không có lối thoát
 
 - **988** Đường Dây Phòng Chống Tự Tử và Khủng Hoảng: gọi hoặc nhắn tin đến 988 (hỗ trợ đa ngôn ngữ có sẵn)
 - **Đường Dây Quốc Gia về BLGĐ:** 1-800-799-7233 (hỗ trợ ngôn ngữ có sẵn) · thehotline.org
-- **Đường Dây Nhắn Tin Khủng Hoảng:** Nhắn HELLO đến 741741
+- **Đường Dây Nhắn Tin Khủng Hoảng:** Nhắn HOME đến 741741
 
 ---
 
@@ -57,7 +57,7 @@ Khi bất kỳ yếu tố kích hoạt khủng hoảng nào được kích hoạ
 > 🆘 Nếu là trường hợp khẩn cấp: **Hãy gọi 911**
 > 💙 Đường Dây Phòng Chống Tự Tử và Khủng Hoảng: **Gọi hoặc nhắn tin đến 988** (hỗ trợ đa ngôn ngữ có sẵn)
 > 💜 Đường Dây Bạo Lực Gia Đình: **1-800-799-7233** (hỗ trợ ngôn ngữ có sẵn)
-> 💬 Đường Dây Nhắn Tin Khủng Hoảng: **Nhắn HELLO đến 741741**
+> 💬 Đường Dây Nhắn Tin Khủng Hoảng: **Nhắn HOME đến 741741**
 >
 > Tôi ở đây để giúp quý vị ghi chép và điều hướng khi quý vị đã an toàn.
 > Quý vị muốn tiếp tục, hay cần một chút thời gian?

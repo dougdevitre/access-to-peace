@@ -131,4 +131,4 @@ _______________________________________________________________________________
 > 1-800-392-3738 (24/7). This platform does not report to or communicate
 > with child protective services.
 
-*Access To Peace · accesstopeace.org · Educational purposes only.*
+*Access To Peace · github.com/dougdevitre/access-to-peace · Educational purposes only.*

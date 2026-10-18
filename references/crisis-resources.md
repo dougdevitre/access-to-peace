@@ -2,6 +2,8 @@
 
 ## Always-Available Resources
 
+*Last verified: 2026-10-18 (phone numbers and links checked against official sources).*
+
 ```mermaid
 flowchart TD
     CRISIS{"Crisis Type"}
@@ -21,7 +23,7 @@ flowchart TD
     DV --> DV_LINE["1-800-799-7233\nNational DV Hotline"]
     SA --> SA_LINE["1-800-656-4673\nRAINN"]
     CHILD --> CHILD_LINE["1-800-422-4453\nChildhelp · MO CPS: 800-392-3738"]
-    ELDER --> ELDER_LINE["1-833-FRAUD-11\nMO APS: 800-392-0210"]
+    ELDER --> ELDER_LINE["1-833-FRAUD-11\nMO APS: 800-392-0210 (7am-8pm)"]
     YOUTH_Q --> TREVOR["1-866-488-7386\nTrevor Project"]
     VET --> VET_LINE["988 then press 1\nVeterans Crisis Line"]
     GENERAL --> SAMHSA["1-800-662-4357\nSAMHSA Helpline"]
@@ -44,14 +46,14 @@ They are also available as an interrupt at any point in any session.
 
 | Resource | Contact | Notes |
 |----------|---------|-------|
-| **988 Suicide & Crisis Lifeline** | Call or text **988** | 24/7. English and Spanish. TTY: 800-799-4889 |
+| **988 Suicide & Crisis Lifeline** | Call or text **988** | 24/7. Press 2 for Spanish. TTY: dial 711, then 988. |
 | **Crisis Text Line** | Text **HOME** to **741741** | 24/7. Text-based. |
 | **National DV Hotline** | **1-800-799-7233** | 24/7. Chat: thehotline.org |
 | **National Sexual Assault Hotline** | **1-800-656-4673** | 24/7. RAINN. |
 | **Childhelp National Child Abuse Hotline** | **1-800-422-4453** | 24/7. |
-| **National Elder Fraud Hotline** | **1-833-FRAUD-11** | DOJ. |
+| **National Elder Fraud Hotline** | **1-833-FRAUD-11** (1-833-372-8311) | DOJ. 7 days, 6 a.m.–11 p.m. ET. |
 | **Veterans Crisis Line** | Call **988**, then press **1** | Text: 838255. Chat: veteranscrisisline.net |
-| **Trans Lifeline** | **877-565-8860** | Trans peer support. |
+| **Trans Lifeline** | **877-565-8860** | Trans peer support. Not 24/7: weekdays 1–9 p.m. ET. Press 2 for Spanish. |
 | **The Trevor Project (LGBTQ+ Youth)** | **1-866-488-7386** | Text: START to 678-678 |
 | **SAMHSA National Helpline** | **1-800-662-4357** | Mental health & substance use. Free, confidential, 24/7. |
 
@@ -70,33 +72,31 @@ Access To Peace cannot replace emergency services. When in doubt, call 911.
 ### Domestic Violence
 | Organization | Contact |
 |-------------|---------|
-| Missouri DV Hotline | 1-800-799-7233 (national) |
+| National DV Hotline (serves Missouri) | 1-800-799-7233 |
 | ALIVE (St. Louis) | 314-993-2777 |
-| SafeHouse (St. Louis County) | 314-531-2003 |
+| Safe Connections (St. Louis) | 314-531-2003 |
 | Rose Brooks Center (Kansas City) | 816-861-6100 |
-| DOVES (St. Louis) | 314-993-2777 |
 
 ### Legal Aid
 | Organization | Contact |
 |-------------|---------|
 | Legal Services of Eastern Missouri | 314-534-4200 · lsem.org |
-| Missouri Legal Aid | 800-990-0340 · molegaid.org |
-| Missouri Bar Lawyer Referral Service | 573-635-4128 |
+| Missouri Legal Services (statewide legal aid portal) | lsmo.org |
+| The Missouri Bar (LawyerSearch) | 573-635-4128 · mobar.org |
 
 ### Mediation & Conflict Resolution
 | Organization | Contact |
 |-------------|---------|
 | Missouri Bar Mediation Referral | mobar.org |
-| Conflict Resolution Center (St. Louis) | 314-534-4200 |
-| Show Me Mediation (statewide) | showmemediation.com |
+| Conflict Resolution Center (St. Louis) | 314-255-7449 · crcstl.org |
 
 ### Mental Health
 | Organization | Contact |
 |-------------|---------|
 | Missouri Department of Mental Health | dmh.mo.gov · 573-751-4122 |
-| NAMI Missouri | namimissouri.org · 800-374-2138 |
-| Places for People (St. Louis) | 314-335-2600 |
-| Behavioral Health Response (St. Louis) | 314-469-6644 |
+| NAMI Missouri | namimissouri.org · 573-634-7727 |
+| Places for People (St. Louis) | 314-535-5600 |
+| Behavioral Health Response (St. Louis) | 988 · 314-819-8811 |
 
 ### Child & Family
 | Organization | Contact |
@@ -108,14 +108,14 @@ Access To Peace cannot replace emergency services. When in doubt, call 911.
 ### Youth
 | Organization | Contact |
 |-------------|---------|
-| Missouri Youth Services | dmh.mo.gov |
-| Youth In Need (St. Louis) | youthinneed.org · 636-946-9927 |
-| Peter & Paul Community Services | petermissouri.org |
+| Missouri Division of Youth Services | dss.mo.gov/dys · 573-751-3324 |
+| Youth In Need (St. Louis) | youthinneed.org · 636-946-3771 (24-hour) |
+| Peter & Paul Community Services | ppcsinc.org · 314-588-7111 |
 
 ### Elder Services
 | Organization | Contact |
 |-------------|---------|
-| Missouri Adult Protective Services | 800-392-0210 |
+| Missouri Adult Abuse & Neglect Hotline | 800-392-0210 (daily 7 a.m.–8 p.m.; online any time at moapss.health.mo.gov) |
 | St. Louis Area Agency on Aging | 314-612-5918 |
 | Legal Services for the Elderly (Missouri) | lsem.org |
 
@@ -125,7 +125,7 @@ Access To Peace cannot replace emergency services. When in doubt, call 911.
 
 | Resource | URL | Use For |
 |----------|-----|---------|
-| 211 | 211.org or call/text **211** | Any social service referral |
+| 211 | 211.org or call **211** | Any social service referral |
 | SAMHSA Treatment Locator | findtreatment.gov | Mental health & substance use treatment |
 | LawHelp | lawhelp.org | Legal aid by state |
 | DomesticShelters.org | domesticshelters.org | DV shelter finder |

@@ -44,22 +44,22 @@ Access To Peace no puede reemplazar los servicios de emergencia. En caso de duda
 |-------------|----------|
 | Línea Nacional de VD (español) | 1-800-799-7233 (presione 1 para español) |
 | ALIVE (St. Louis) | 314-993-2777 |
-| SafeHouse (Condado de St. Louis) | 314-531-2003 |
+| Safe Connections (Condado de St. Louis) | 314-531-2003 |
 | Rose Brooks Center (Kansas City) | 816-861-6100 |
 
 ### Asistencia Legal
 | Organización | Contacto |
 |-------------|----------|
 | Legal Services of Eastern Missouri | 314-534-4200 · lsem.org |
-| Missouri Legal Aid | 800-990-0340 · molegaid.org |
+| Missouri Legal Aid | lsmo.org |
 | Servicio de Referencia de Abogados de Missouri | 573-635-4128 |
 
 ### Salud Mental
 | Organización | Contacto |
 |-------------|----------|
 | Departamento de Salud Mental de Missouri | dmh.mo.gov · 573-751-4122 |
-| NAMI Missouri | namimissouri.org · 800-374-2138 |
-| Behavioral Health Response (St. Louis) | 314-469-6644 |
+| NAMI Missouri | namimissouri.org · 573-634-7727 |
+| Behavioral Health Response (St. Louis) | 988 · 314-819-8811 |
 
 ### Servicios para Niños y Familias
 | Organización | Contacto |

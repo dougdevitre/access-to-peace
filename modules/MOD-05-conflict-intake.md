@@ -139,9 +139,9 @@ Dynamically determined by intake — include in every output:
 **Conflict type:** Co-parenting
 
 **Parties involved:**
-- [Parent A]: self (reporting parent)
-- [Parent B]: co-parent
-- [Child]: son (school-age)
+- \[Parent A]: self (reporting parent)
+- \[Parent B]: co-parent
+- \[Child]: son (school-age)
 
 **Presenting conflict:**
 [Parent A] and [Parent B] are in ongoing disagreement regarding their son's school schedule and extracurricular activities. Communication about logistics frequently escalates into conflict. Both parents appear to want what's best for [Child] but disagree on responsibilities and communication methods.

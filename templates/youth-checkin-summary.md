@@ -97,4 +97,4 @@ _______________________________________________________________________________
 > adult or call 988. A simplified summary of this document can be shared with
 > a parent, guardian, or school counselor — but only if you choose to share it.
 
-*Access To Peace · accesstopeace.org · Educational purposes only.*
+*Access To Peace · github.com/dougdevitre/access-to-peace · Educational purposes only.*

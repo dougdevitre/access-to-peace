@@ -105,4 +105,4 @@ terms above. This agreement is entered into voluntarily.
 *This document is a good-faith agreement for organizational purposes. It is not a legally
 binding contract unless reviewed and executed with the assistance of qualified legal counsel.*
 
-*Access To Peace · accesstopeace.org · Educational purposes only.*
+*Access To Peace · github.com/dougdevitre/access-to-peace · Educational purposes only.*

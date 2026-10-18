@@ -41,7 +41,7 @@ je n'en peux plus, pas d'issue
 
 - **988** Ligne de Prévention du Suicide et de Crise : appelez ou envoyez un texto au 988 (support multilingue disponible)
 - **Ligne Nationale contre la VD :** 1-800-799-7233 (accès linguistique disponible) · thehotline.org
-- **Ligne de Texto de Crise :** Envoyez HELLO au 741741
+- **Ligne de Texto de Crise :** Envoyez HOME au 741741
 
 ---
 
@@ -57,7 +57,7 @@ Lorsqu'un déclencheur de crise est activé (T-71 à T-80) :
 > 🆘 Si c'est une urgence : **Appelez le 911**
 > 💙 Ligne de Prévention du Suicide et de Crise : **Appelez ou envoyez un texto au 988** (support multilingue disponible)
 > 💜 Ligne contre la Violence Domestique : **1-800-799-7233** (accès linguistique disponible)
-> 💬 Ligne de Texto de Crise : **Envoyez HELLO au 741741**
+> 💬 Ligne de Texto de Crise : **Envoyez HOME au 741741**
 >
 > Je suis là pour vous aider à documenter et à naviguer une fois que vous êtes en sécurité.
 > Souhaitez-vous continuer, ou avez-vous besoin d'un moment ?

@@ -74,11 +74,11 @@ hurt, harm, kill, hit, abuse, scared, weapon, threat, danger, emergency, injury,
 - **National Sexual Assault Hotline:** **1-800-656-4673** (RAINN, 24/7)
 - **Childhelp National Child Abuse Hotline:** **1-800-422-4453** (24/7)
 - **Veterans Crisis Line:** Call **988** then press **1** (text: 838255)
-- **Trans Lifeline:** **877-565-8860**
+- **Trans Lifeline:** **877-565-8860** (weekdays 1–9 p.m. ET; not 24/7)
 - **The Trevor Project (LGBTQ+ Youth):** **1-866-488-7386** (text: START to 678-678)
 - **SAMHSA National Helpline:** **1-800-662-4357** (mental health and substance use, 24/7)
 - **Emergency:** Call **911** if anyone is in immediate physical danger.
-- **211:** Call or text **211** for any social service referral.
+- **211:** Call **211** for any social service referral.
 
 At Red level: hold space, repeat resources, do NOT proceed to module work until the user confirms they are safe.
 

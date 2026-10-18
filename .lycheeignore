@@ -1,0 +1,15 @@
+# Exclusions for the Link check workflow (.github/workflows/link-check.yml).
+# One regular expression per line. Every entry says why it is skipped.
+
+# tel: and sms: links are phone numbers, not web pages, so there is nothing to fetch.
+^tel:
+^sms:
+
+# linkedin.com answers automated requests with HTTP 999 (bot wall), never with
+# the profile page. It is the author's profile, not a resource for users.
+^https?://([a-z]+\.)?linkedin\.com/
+
+# TEMPORARY: the Access To hub (dougdevitre.org) returned 404 to the link check
+# in sibling repos on 2026-10-18. It is the hub's own site, not a resource for
+# people seeking help. Remove this line once the hub serves again.
+^https?://(www\.)?dougdevitre\.org

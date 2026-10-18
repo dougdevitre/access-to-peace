@@ -55,7 +55,8 @@ with you or your children. In Missouri, there are two types:
 - **Ex Parte Order of Protection:** Temporary order issued by a judge without
   the other party present. Can be issued the same day you file.
 - **Full Order of Protection:** Issued after a court hearing where both parties
-  can appear. Can last up to 1 year (or longer if renewed).
+  can appear. Lasts 180 days to 1 year, or 2 to 10 years if the court finds a
+  serious danger; it can be renewed.
 
 *Educational only. Laws vary by state and circumstance.*
 
@@ -125,7 +126,7 @@ Common provisions may include:
 A protective order (sometimes called a restraining order or order of protection) is a civil court order that can restrict another person's contact with you or your children. In Missouri, there are two main types:
 
 - **Ex Parte Order of Protection:** A temporary order that a judge can issue without the other party being present. It can often be issued the same day you file.
-- **Full Order of Protection:** Issued after a court hearing where both parties have the opportunity to appear and present their case. A full order can last up to one year and may be renewed.
+- **Full Order of Protection:** Issued after a court hearing where both parties have the opportunity to appear and present their case. A full order lasts 180 days to one year (or 2 to 10 years if the court finds the respondent poses a serious danger) and may be renewed.
 
 *Note: Laws vary by state. This information uses Missouri as a reference point.*
 
@@ -158,7 +159,7 @@ Common provisions that a court may include in a protective order:
 4. **If the temporary order is granted, the respondent is served.** Law enforcement delivers the order to the other party, informing them of the restrictions.
 5. **A hearing is scheduled.** Typically within 15 days of the temporary order being issued.
 6. **Both parties appear at the hearing.** Each party can present evidence, testimony, and witnesses. You may bring documentation, photos, messages, or other relevant materials.
-7. **The judge decides whether to issue a full order of protection.** If granted, the full order replaces the temporary order and can last up to one year.
+7. **The judge decides whether to issue a full order of protection.** If granted, the full order replaces the temporary order and lasts 180 days to one year, or longer if the court finds a serious danger.
 
 ---
 

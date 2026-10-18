@@ -81,8 +81,8 @@ flowchart TD
 
 **Local resources:**
 - Community mediation: [from crisis-resources.md — local mediation centers]
-- 211 (social services navigator): call or text 211
-- Missouri Legal Aid (tenant issues): 800-990-0340
+- 211 (social services navigator): call 211
+- Missouri legal aid (tenant issues): find your program at lsmo.org
 
 **If you feel unsafe at any point:**
 Contact local non-emergency police line or call 911 if in immediate danger.
@@ -129,9 +129,9 @@ You've knocked on your neighbor's door twice to address the issue directly. No o
 | 4 | **Formal complaint** — if mediation fails or is declined | File a noise complaint with your local code enforcement office or building management. If there is a local noise ordinance, reference the specific hours being violated. Small claims court is an option for ongoing documented disturbances, but is typically a last resort. |
 
 **Local resources:**
-- Community mediation: Conflict Resolution Center (St. Louis) — 314-534-4200; Show Me Mediation (statewide) — showmemediation.com
-- 211 (social services navigator): Call or text 211
-- Missouri Legal Aid (tenant issues): 800-990-0340 / molegaid.org
+- Community mediation: Conflict Resolution Center (St. Louis) — 314-255-7449 · crcstl.org (includes tenant-landlord mediation)
+- 211 (social services navigator): Call 211
+- Missouri legal aid (tenant issues): find your program at lsmo.org
 
 **If you feel unsafe at any point:**
 Contact your local non-emergency police line or call 911 if in immediate danger.
