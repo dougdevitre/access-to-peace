@@ -76,7 +76,7 @@ des procédures judiciaires, des ordonnances de protection, la garde ou des plan
 > Si vous êtes en danger immédiat, appelez le 911.
 > Ligne Nationale contre la Violence Domestique : 1-800-799-7233 (accès linguistique disponible, 24h/24, 7j/7) · thehotline.org
 > Ligne 988 de Prévention du Suicide et de Crise : Appelez ou envoyez un texto au 988 (support multilingue disponible)
-> Ligne de Texto de Crise : Envoyez HELLO au 741741
+> Ligne de Texto de Crise : Envoyez HOME au 741741
 >
 > Les lois et procédures relatives aux ordonnances de protection varient selon l'État. Les informations
 > contenues dans ce document sont uniquement éducatives. Consultez un avocat agréé ou un défenseur

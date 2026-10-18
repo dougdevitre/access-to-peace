@@ -76,7 +76,7 @@ lập kế hoạch an toàn, đau buồn, điều chỉnh cảm xúc hoặc các
 > Nếu quý vị đang trong nguy hiểm tức thời, hãy gọi 911.
 > Đường Dây Quốc Gia về Bạo Lực Gia Đình: 1-800-799-7233 (hỗ trợ ngôn ngữ có sẵn, 24/7) · thehotline.org
 > Đường Dây 988 Phòng Chống Tự Tử và Khủng Hoảng: Gọi hoặc nhắn tin đến 988 (hỗ trợ đa ngôn ngữ có sẵn)
-> Đường Dây Nhắn Tin Khủng Hoảng: Nhắn HELLO đến 741741
+> Đường Dây Nhắn Tin Khủng Hoảng: Nhắn HOME đến 741741
 >
 > Luật và quy trình về lệnh bảo vệ khác nhau theo bang. Thông tin
 > trong tài liệu này chỉ mang tính giáo dục. Hãy tham vấn luật sư có giấy phép hoặc

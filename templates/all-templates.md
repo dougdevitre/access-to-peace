@@ -294,7 +294,7 @@ flowchart TD
 
 ## Start Here
 
-**211** — Call or text **211** for any need. Free, confidential, available statewide.
+**211** — Call **211** for any need. Free, confidential, available statewide.
 
 ---
 

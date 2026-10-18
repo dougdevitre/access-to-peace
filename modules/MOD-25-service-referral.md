@@ -78,7 +78,7 @@ flowchart TD
 | [org] | [category] | [phone / website] | [free / sliding / fee] | [eligibility / notes] |
 
 **Start here:**
-- For any need: Call or text **211** — free, confidential, statewide navigator
+- For any need: Call **211** — free, confidential, statewide navigator
 - For crisis: Call or text **988** (mental health) / **1-800-799-7233** (DV)
 
 **Transportation note:** *(if flagged)*
@@ -114,13 +114,13 @@ Many services offer phone or video appointments. Ask when you call.
 | Organization | Category | Contact | Cost | Notes |
 |-------------|---------|---------|------|-------|
 | Legal Services of Eastern Missouri | Legal aid | 314-534-4200 / lsem.org | Free | Serves low-income residents in eastern Missouri. Handles family law including custody matters. Income eligibility required. |
-| Missouri Legal Aid | Legal aid | 800-990-0340 / molegaid.org | Free | Statewide legal assistance for qualifying individuals. Can help with custody, visitation, and family law matters. |
-| Behavioral Health Response | Mental health | 314-469-6644 | Free / sliding scale | St. Louis-based. Provides crisis counseling and ongoing mental health support. Trauma-informed approach available. |
-| NAMI Missouri | Mental health | 800-374-2138 / namimissouri.org | Free | Offers support groups, education, and referrals for mental health services. Can connect you with trauma-informed providers. |
-| Places for People | Mental health | 314-335-2600 | Sliding scale | St. Louis community mental health center. Offers counseling, psychiatric services, and case management. Trauma-informed care model. |
+| Missouri Legal Services | Legal aid | lsmo.org | Free | Statewide portal to Missouri's four legal aid programs; finds the program for your county. Income eligibility applies (generally 125% of the federal poverty guidelines). |
+| Behavioral Health Response | Mental health | 988 · 314-819-8811 | Free | St. Louis-based 24/7 crisis line (answers 988 in the region). Crisis counseling and referrals to ongoing care. |
+| NAMI Missouri | Mental health | 573-634-7727 / namimissouri.org | Free | Offers support groups, education, and referrals for mental health services. Can connect you with trauma-informed providers. |
+| Places for People | Mental health | 314-535-5600 | Sliding scale | St. Louis community mental health center. Offers counseling, psychiatric services, and case management. Trauma-informed care model. |
 
 **Start here:**
-- For any need: Call or text **211** — free, confidential, statewide navigator. Tell them you need legal help with a custody matter and mental health counseling in St. Louis. They can confirm eligibility and current availability for the organizations listed above.
+- For any need: Call **211** — free, confidential, statewide navigator. Tell them you need legal help with a custody matter and mental health counseling in St. Louis. They can confirm eligibility and current availability for the organizations listed above.
 - For crisis: Call or text **988** (mental health) / **1-800-799-7233** (DV)
 
 ## Disclaimer

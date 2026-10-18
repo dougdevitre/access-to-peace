@@ -17,7 +17,7 @@ Elles sont également disponibles en tant qu'interruption à tout moment pendant
 | Ressource | Contact | Notes |
 |-----------|---------|-------|
 | **988 Ligne de Prévention du Suicide et de Crise** | Appelez ou envoyez un texto au **988** | 24h/24, 7j/7. Support multilingue disponible. |
-| **Ligne de Texto de Crise** | Envoyez **HELLO** au **741741** | 24h/24, 7j/7. Par texto. |
+| **Ligne de Texto de Crise** | Envoyez **HOME** au **741741** | 24h/24, 7j/7. Par texto. |
 | **Ligne Nationale contre la Violence Domestique** | **1-800-799-7233** | 24h/24, 7j/7. Accès linguistique disponible (plus de 200 langues). Chat : thehotline.org |
 | **Ligne Nationale contre les Agressions Sexuelles** | **1-800-656-4673** | 24h/24, 7j/7. RAINN. |
 | **Ligne d'Aide Childhelp contre la Maltraitance** | **1-800-422-4453** | 24h/24, 7j/7. |
@@ -44,22 +44,22 @@ Access To Peace ne peut pas remplacer les services d'urgence. En cas de doute, a
 |-------------|---------|
 | Ligne Nationale contre la VD | 1-800-799-7233 (accès linguistique disponible) |
 | ALIVE (St. Louis) | 314-993-2777 |
-| SafeHouse (Comté de St. Louis) | 314-531-2003 |
+| Safe Connections (Comté de St. Louis) | 314-531-2003 |
 | Rose Brooks Center (Kansas City) | 816-861-6100 |
 
 ### Assistance Juridique
 | Organisation | Contact |
 |-------------|---------|
 | Legal Services of Eastern Missouri | 314-534-4200 · lsem.org |
-| Missouri Legal Aid | 800-990-0340 · molegaid.org |
+| Missouri Legal Aid | lsmo.org |
 | Service de Référence des Avocats du Missouri | 573-635-4128 |
 
 ### Santé Mentale
 | Organisation | Contact |
 |-------------|---------|
 | Département de Santé Mentale du Missouri | dmh.mo.gov · 573-751-4122 |
-| NAMI Missouri | namimissouri.org · 800-374-2138 |
-| Behavioral Health Response (St. Louis) | 314-469-6644 |
+| NAMI Missouri | namimissouri.org · 573-634-7727 |
+| Behavioral Health Response (St. Louis) | 988 · 314-819-8811 |
 
 ### Services pour Enfants et Familles
 | Organisation | Contact |

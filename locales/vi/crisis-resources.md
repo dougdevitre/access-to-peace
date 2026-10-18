@@ -17,7 +17,7 @@ Chúng cũng có sẵn dưới dạng ngắt bất kỳ lúc nào trong bất k�
 | Tài Nguyên | Liên Hệ | Ghi Chú |
 |------------|---------|---------|
 | **988 Đường Dây Phòng Chống Tự Tử và Khủng Hoảng** | Gọi hoặc nhắn tin đến **988** | 24/7. Hỗ trợ đa ngôn ngữ có sẵn. |
-| **Đường Dây Nhắn Tin Khủng Hoảng** | Nhắn **HELLO** đến **741741** | 24/7. Qua tin nhắn. |
+| **Đường Dây Nhắn Tin Khủng Hoảng** | Nhắn **HOME** đến **741741** | 24/7. Qua tin nhắn. |
 | **Đường Dây Quốc Gia về Bạo Lực Gia Đình** | **1-800-799-7233** | 24/7. Hỗ trợ ngôn ngữ có sẵn (hơn 200 ngôn ngữ). Trò chuyện: thehotline.org |
 | **Đường Dây Quốc Gia về Tấn Công Tình Dục** | **1-800-656-4673** | 24/7. RAINN. |
 | **Đường Dây Childhelp về Ngược Đãi Trẻ Em** | **1-800-422-4453** | 24/7. |
@@ -44,22 +44,22 @@ Access To Peace không thể thay thế các dịch vụ cấp cứu. Khi nghi n
 |---------|---------|
 | Đường Dây Quốc Gia về BLGĐ (hỗ trợ ngôn ngữ có sẵn) | 1-800-799-7233 (hỗ trợ đa ngôn ngữ) |
 | ALIVE (St. Louis) | 314-993-2777 |
-| SafeHouse (Quận St. Louis) | 314-531-2003 |
+| Safe Connections (Quận St. Louis) | 314-531-2003 |
 | Rose Brooks Center (Kansas City) | 816-861-6100 |
 
 ### Hỗ Trợ Pháp Lý
 | Tổ Chức | Liên Hệ |
 |---------|---------|
 | Legal Services of Eastern Missouri | 314-534-4200 · lsem.org |
-| Missouri Legal Aid | 800-990-0340 · molegaid.org |
+| Missouri Legal Aid | lsmo.org |
 | Dịch Vụ Giới Thiệu Luật Sư Missouri | 573-635-4128 |
 
 ### Sức Khỏe Tâm Thần
 | Tổ Chức | Liên Hệ |
 |---------|---------|
 | Sở Sức Khỏe Tâm Thần Missouri | dmh.mo.gov · 573-751-4122 |
-| NAMI Missouri | namimissouri.org · 800-374-2138 |
-| Behavioral Health Response (St. Louis) | 314-469-6644 |
+| NAMI Missouri | namimissouri.org · 573-634-7727 |
+| Behavioral Health Response (St. Louis) | 988 · 314-819-8811 |
 
 ### Dịch Vụ Trẻ Em và Gia Đình
 | Tổ Chức | Liên Hệ |
