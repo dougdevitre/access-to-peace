@@ -26,7 +26,7 @@
 > بوضعك، استشر محامياً مرخصاً في نطاق اختصاصك.
 >
 > المساعدة القانونية في ميزوري: Legal Services of Eastern Missouri — 314-534-4200 · lsem.org
-> إحالة محامين في ميزوري: 573-635-4128 · mobar.org
+> The Missouri Bar (LawyerSearch): 573-635-4128 · mobar.org
 
 ---
 

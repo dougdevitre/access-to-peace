@@ -26,7 +26,7 @@ des procédures judiciaires, des ordonnances de protection, la garde ou des plan
 > situation, consultez un avocat agréé dans votre juridiction.
 >
 > Assistance juridique au Missouri : Legal Services of Eastern Missouri — 314-534-4200 · lsem.org
-> Référence d'avocats du Missouri : 573-635-4128 · mobar.org
+> The Missouri Bar (LawyerSearch) : 573-635-4128 · mobar.org
 
 ---
 

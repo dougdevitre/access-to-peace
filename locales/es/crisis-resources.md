@@ -23,7 +23,7 @@ También están disponibles como interrupción en cualquier momento durante cual
 | **Línea de Abuso Infantil Childhelp** | **1-800-422-4453** | 24/7. Servicios en español disponibles. |
 | **Línea de Fraude a Personas Mayores** | **1-833-FRAUD-11** | Departamento de Justicia. |
 | **Línea de Crisis para Veteranos** | Llame al **988**, luego presione **1** | Texto: 838255 |
-| **Trans Lifeline** | **877-565-8860** | Apoyo entre pares trans. Línea en español: disponible. |
+| **Trans Lifeline** | **877-565-8860** | Apoyo entre pares trans. No es 24/7: de lunes a viernes, 1–9 p.m. hora del Este. Línea en español: presione 2. |
 | **The Trevor Project (Jóvenes LGBTQ+)** | **1-866-488-7386** | Texto: START al 678-678 |
 | **Línea de Ayuda SAMHSA** | **1-800-662-4357** | Salud mental y uso de sustancias. Gratis, confidencial, 24/7. En español. |
 
@@ -51,8 +51,8 @@ Access To Peace no puede reemplazar los servicios de emergencia. En caso de duda
 | Organización | Contacto |
 |-------------|----------|
 | Legal Services of Eastern Missouri | 314-534-4200 · lsem.org |
-| Missouri Legal Aid | lsmo.org |
-| Servicio de Referencia de Abogados de Missouri | 573-635-4128 |
+| Missouri Legal Services | lsmo.org |
+| The Missouri Bar (LawyerSearch) | 573-635-4128 |
 
 ### Salud Mental
 | Organización | Contacto |
@@ -70,7 +70,7 @@ Access To Peace no puede reemplazar los servicios de emergencia. En caso de duda
 ### Servicios para Personas Mayores
 | Organización | Contacto |
 |-------------|----------|
-| Servicios de Protección de Adultos de Missouri | 800-392-0210 |
+| Línea de Abuso y Negligencia de Adultos de Missouri | 800-392-0210 (todos los días, 7 a.m.–8 p.m.; reportes en línea en cualquier momento: moapss.health.mo.gov) |
 
 ---
 
@@ -78,7 +78,7 @@ Access To Peace no puede reemplazar los servicios de emergencia. En caso de duda
 
 | Recurso | URL | Para |
 |---------|-----|------|
-| 211 | 211.org o llame/envíe texto al **211** | Cualquier referencia de servicios sociales |
+| 211 | 211.org o llame al **211** | Cualquier referencia de servicios sociales |
 | Localizador de Tratamiento SAMHSA | findtreatment.gov | Tratamiento de salud mental y uso de sustancias |
 | LawHelp | lawhelp.org | Asistencia legal por estado |
 | DomesticShelters.org | domesticshelters.org | Buscador de refugios de VD |

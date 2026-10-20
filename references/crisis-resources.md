@@ -51,7 +51,7 @@ They are also available as an interrupt at any point in any session.
 | **National DV Hotline** | **1-800-799-7233** | 24/7. Chat: thehotline.org |
 | **National Sexual Assault Hotline** | **1-800-656-4673** | 24/7. RAINN. |
 | **Childhelp National Child Abuse Hotline** | **1-800-422-4453** | 24/7. |
-| **National Elder Fraud Hotline** | **1-833-FRAUD-11** (1-833-372-8311) | DOJ. 7 days, 6 a.m.–11 p.m. ET. |
+| **National Elder Fraud Hotline** | **1-833-FRAUD-11** (1-833-372-8311) | DOJ. Monday–Friday, 10 a.m.–6 p.m. ET. |
 | **Veterans Crisis Line** | Call **988**, then press **1** | Text: 838255. Chat: veteranscrisisline.net |
 | **Trans Lifeline** | **877-565-8860** | Trans peer support. Not 24/7: weekdays 1–9 p.m. ET. Press 2 for Spanish. |
 | **The Trevor Project (LGBTQ+ Youth)** | **1-866-488-7386** | Text: START to 678-678 |
