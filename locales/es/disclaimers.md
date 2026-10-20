@@ -26,7 +26,7 @@ procesos judiciales, órdenes de protección, custodia o planes de crianza.*
 > situación, consulte con un abogado licenciado en su jurisdicción.
 >
 > Asistencia legal en Missouri: Legal Services of Eastern Missouri — 314-534-4200 · lsem.org
-> Referencia de abogados de Missouri: 573-635-4128 · mobar.org
+> The Missouri Bar (LawyerSearch): 573-635-4128 · mobar.org
 
 ---
 

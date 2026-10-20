@@ -26,7 +26,7 @@ thủ tục tòa án, lệnh bảo vệ, quyền nuôi con hoặc kế hoạch n
 > của quý vị, hãy tham vấn luật sư có giấy phép tại khu vực pháp lý của quý vị.
 >
 > Hỗ trợ pháp lý tại Missouri: Legal Services of Eastern Missouri — 314-534-4200 · lsem.org
-> Giới thiệu luật sư Missouri: 573-635-4128 · mobar.org
+> The Missouri Bar (LawyerSearch): 573-635-4128 · mobar.org
 
 ---
 

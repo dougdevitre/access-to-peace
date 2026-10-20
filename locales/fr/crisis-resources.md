@@ -23,7 +23,7 @@ Elles sont également disponibles en tant qu'interruption à tout moment pendant
 | **Ligne d'Aide Childhelp contre la Maltraitance** | **1-800-422-4453** | 24h/24, 7j/7. |
 | **Ligne contre la Fraude aux Personnes Âgées** | **1-833-FRAUD-11** | Département de la Justice. |
 | **Ligne de Crise pour les Vétérans** | Appelez le **988**, puis appuyez sur **1** | Texto : 838255 |
-| **Trans Lifeline** | **877-565-8860** | Soutien entre pairs transgenres. |
+| **Trans Lifeline** | **877-565-8860** | Soutien entre pairs transgenres. Pas 24h/24 : du lundi au vendredi, 13 h–21 h (heure de l'Est). |
 | **The Trevor Project (Jeunes LGBTQ+)** | **1-866-488-7386** | Texto : START au 678-678 |
 | **Ligne d'Aide SAMHSA** | **1-800-662-4357** | Santé mentale et usage de substances. Gratuit, confidentiel, 24h/24, 7j/7. |
 
@@ -51,8 +51,8 @@ Access To Peace ne peut pas remplacer les services d'urgence. En cas de doute, a
 | Organisation | Contact |
 |-------------|---------|
 | Legal Services of Eastern Missouri | 314-534-4200 · lsem.org |
-| Missouri Legal Aid | lsmo.org |
-| Service de Référence des Avocats du Missouri | 573-635-4128 |
+| Missouri Legal Services | lsmo.org |
+| The Missouri Bar (LawyerSearch) | 573-635-4128 |
 
 ### Santé Mentale
 | Organisation | Contact |
@@ -70,7 +70,7 @@ Access To Peace ne peut pas remplacer les services d'urgence. En cas de doute, a
 ### Services pour Personnes Âgées
 | Organisation | Contact |
 |-------------|---------|
-| Services de Protection des Adultes du Missouri | 800-392-0210 |
+| Ligne de signalement des abus et négligences envers les adultes du Missouri | 800-392-0210 (tous les jours, 7 h–20 h ; signalement en ligne à tout moment : moapss.health.mo.gov) |
 
 ---
 
@@ -78,7 +78,7 @@ Access To Peace ne peut pas remplacer les services d'urgence. En cas de doute, a
 
 | Ressource | URL | Pour |
 |-----------|-----|------|
-| 211 | 211.org ou appelez/envoyez un texto au **211** | Toute référence de services sociaux |
+| 211 | 211.org ou appelez le **211** | Toute référence de services sociaux |
 | Localisateur de Traitement SAMHSA | findtreatment.gov | Traitement de santé mentale et usage de substances |
 | LawHelp | lawhelp.org | Assistance juridique par État |
 | DomesticShelters.org | domesticshelters.org | Recherche de refuges contre la VD |

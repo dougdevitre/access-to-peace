@@ -23,7 +23,7 @@ Chúng cũng có sẵn dưới dạng ngắt bất kỳ lúc nào trong bất k�
 | **Đường Dây Childhelp về Ngược Đãi Trẻ Em** | **1-800-422-4453** | 24/7. |
 | **Đường Dây Lừa Đảo Người Cao Tuổi** | **1-833-FRAUD-11** | Bộ Tư Pháp. |
 | **Đường Dây Khủng Hoảng Cựu Chiến Binh** | Gọi **988**, sau đó nhấn **1** | Nhắn tin: 838255 |
-| **Trans Lifeline (Đường Dây Hỗ Trợ Người Chuyển Giới)** | **877-565-8860** | Hỗ trợ đồng đẳng cho người chuyển giới. |
+| **Trans Lifeline (Đường Dây Hỗ Trợ Người Chuyển Giới)** | **877-565-8860** | Hỗ trợ đồng đẳng cho người chuyển giới. Không hoạt động 24/7: thứ Hai đến thứ Sáu, 1–9 giờ tối giờ miền Đông (ET). |
 | **The Trevor Project (Thanh Thiếu Niên LGBTQ+)** | **1-866-488-7386** | Nhắn tin: START đến 678-678 |
 | **Đường Dây Trợ Giúp SAMHSA** | **1-800-662-4357** | Sức khỏe tâm thần và sử dụng chất gây nghiện. Miễn phí, bảo mật, 24/7. |
 
@@ -51,8 +51,8 @@ Access To Peace không thể thay thế các dịch vụ cấp cứu. Khi nghi n
 | Tổ Chức | Liên Hệ |
 |---------|---------|
 | Legal Services of Eastern Missouri | 314-534-4200 · lsem.org |
-| Missouri Legal Aid | lsmo.org |
-| Dịch Vụ Giới Thiệu Luật Sư Missouri | 573-635-4128 |
+| Missouri Legal Services | lsmo.org |
+| The Missouri Bar (LawyerSearch) | 573-635-4128 |
 
 ### Sức Khỏe Tâm Thần
 | Tổ Chức | Liên Hệ |
@@ -70,7 +70,7 @@ Access To Peace không thể thay thế các dịch vụ cấp cứu. Khi nghi n
 ### Dịch Vụ Người Cao Tuổi
 | Tổ Chức | Liên Hệ |
 |---------|---------|
-| Dịch Vụ Bảo Vệ Người Lớn Missouri | 800-392-0210 |
+| Đường Dây Báo Cáo Ngược Đãi và Bỏ Bê Người Lớn Missouri | 800-392-0210 (hằng ngày 7 giờ sáng–8 giờ tối; báo cáo trực tuyến bất kỳ lúc nào: moapss.health.mo.gov) |
 
 ---
 
@@ -78,7 +78,7 @@ Access To Peace không thể thay thế các dịch vụ cấp cứu. Khi nghi n
 
 | Tài Nguyên | Địa Chỉ | Dành Cho |
 |------------|---------|----------|
-| 211 | 211.org hoặc gọi/nhắn tin đến **211** | Bất kỳ giới thiệu dịch vụ xã hội nào |
+| 211 | 211.org hoặc gọi **211** | Bất kỳ giới thiệu dịch vụ xã hội nào |
 | Công Cụ Tìm Kiếm Điều Trị SAMHSA | findtreatment.gov | Điều trị sức khỏe tâm thần và sử dụng chất gây nghiện |
 | LawHelp | lawhelp.org | Hỗ trợ pháp lý theo bang |
 | DomesticShelters.org | domesticshelters.org | Tìm kiếm nơi trú ẩn BLGĐ |

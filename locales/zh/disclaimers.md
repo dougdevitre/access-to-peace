@@ -26,7 +26,7 @@
 > 请咨询您所在管辖区的持证律师。
 >
 > 密苏里法律援助：Legal Services of Eastern Missouri — 314-534-4200 · lsem.org
-> 密苏里律师转介：573-635-4128 · mobar.org
+> The Missouri Bar (LawyerSearch)：573-635-4128 · mobar.org
 
 ---
 
