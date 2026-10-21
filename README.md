@@ -264,9 +264,20 @@ access-to-peace/
 ## Quick Start
 
 ### As a Claude Skill
-1. Copy `SKILL.md`, `references/`, and `modules/` to your Claude skill directory.
-2. Add the skill description to your Claude Code `CLAUDE.md` or skill registry.
-3. Trigger with any conflict, mediation, peace, or de-escalation request.
+Add Access To Peace to Claude at [claude.ai](https://claude.ai) in a few clicks. It works on the Free, Pro, Max, Team and Enterprise plans.
+
+1. **Download the install file:** [access-to-peace.zip](https://github.com/dougdevitre/access-to-peace/releases/download/skill-latest/access-to-peace.zip)
+2. **Don't unzip it.** Claude needs the `.zip` file just as it downloaded.
+3. **Turn on code execution.** Skills need it.
+   - **Free, Pro or Max:** open **Settings > Capabilities** and turn on **Code execution and file creation**.
+   - **Team or Enterprise:** an organization owner opens **Organization settings > Plugins & skills**, clicks the **Policy** tab, and turns on both **Code execution and file creation** and **Skills**.
+4. **Upload it:** open **Customize > Skills**, click **+**, then **+ Create skill**, then **Upload a skill**, and choose `access-to-peace.zip`.
+5. **Turn it on:** in **Customize > Skills**, switch on **access-to-peace**. Then start with any conflict, mediation, peace or de-escalation request.
+
+These steps come from Claude's help center: [Use Skills in Claude](https://support.claude.com/en/articles/12512180-use-skills-in-claude).
+If the link 404s, the first release hasn't been published yet.
+
+Maintainers and forks: `scripts/build-skill-zip.sh` builds the same file into `dist/`, with `SKILL.md`, `references/`, `modules/`, `templates/`, `schemas/`, `DISCLAIMER.md` and `LICENSE`. The Skill package workflow republishes it on every change to `main`.
 
 ### As a Standalone Tool
 1. Clone this repo.
