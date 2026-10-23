@@ -37,7 +37,7 @@ flowchart TD
     S3 --> ASSESS["Safety Assessment\nRisk + Protective factors"]
     ASSESS --> LEVEL{"Concern Level?"}
 
-    LEVEL -- "Low" --> LOW["Low Concern\nSafe to proceed"]:::green
+    LEVEL -- "Low" --> LOW["Low Concern\nProceed with care"]:::green
     LEVEL -- "Moderate" --> MOD_RISK["Moderate Concern\nSafety plan recommended"]:::orange
     LEVEL -- "High / Critical" --> HIGH["High/Critical Concern\nImmediate safety steps +\nCrisis resources"]:::red
 
@@ -118,12 +118,14 @@ flowchart TD
 | 988 Lifeline | Call/text 988 | Crisis, mental health |
 | Crisis Text Line | Text HOME to 741741 | Text-based crisis support |
 | Local legal aid | [from crisis-resources.md] | Protective orders, custody |
-| Child welfare (MO) | 1-800-392-3738 | If child is at risk |
+| Child welfare | Missouri 1-800-392-3738; other states: Childhelp 1-800-422-4453 | If child is at risk |
 
 **Next recommended module:**
 - MOD-14 Safety Plan Builder (if Moderate, High, or Critical)
 - MOD-19 Protective Order Navigation (educational — if applicable)
 - MOD-05 Conflict Intake (if Low concern, ready to document)
+
+**Even at Low concern:** if the person said yes or prefer not to say to Q3, Q4 or Q6 (violence, threats, weapons, or control), do not route to mediation or agreements (MOD-08, MOD-09, MOD-10). Use the safety exit path in those modules.
 
 ---
 
@@ -184,7 +186,7 @@ flowchart TD
 | 988 Suicide & Crisis Lifeline | Call or text 988 | Crisis support, mental health |
 | Crisis Text Line | Text HOME to 741741 | Text-based crisis support |
 | Local legal aid | See crisis-resources.md | Protective orders, custody safety |
-| Child welfare (MO) | 1-800-392-3738 | If a child is at risk |
+| Child welfare | Missouri 1-800-392-3738; other states: Childhelp 1-800-422-4453 | If a child is at risk |
 
 **Next recommended module:**
 - **MOD-14** Safety Plan Builder — build a personal safety plan based on this assessment

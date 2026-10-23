@@ -127,7 +127,7 @@ Each trigger includes: safety level, primary module, and artifact output.
 | T-52 | "Student fight" | Yellow | MOD-21 + MOD-22 | Peer conflict plan + restorative template |
 | T-53 | "School conflict" | Green | MOD-21 | Peer conflict plan |
 | T-54 | "Youth check-in" | Green/Yellow | MOD-23 | Emotional check-in summary |
-| T-55 | "How are you feeling?" (youth) | Green/Yellow | MOD-23 | Check-in + optional guardian copy |
+| T-55 | "How are you feeling?" (youth) | Green/Yellow | MOD-23 | Check-in + guardian copy only if the youth asks |
 | T-56 | "Restorative practice at school" | Green | MOD-22 | Restorative practice template |
 | T-57 | "Teen conflict" | Yellow | MOD-21 + MOD-23 | Peer conflict plan + check-in |
 | T-58 | "Parent-school conflict" | Green | MOD-05 + MOD-04 | Conflict intake + rewritten communication |

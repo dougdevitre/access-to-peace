@@ -13,3 +13,10 @@
 # in sibling repos on 2026-10-18. It is the hub's own site, not a resource for
 # people seeking help. Remove this line once the hub serves again.
 ^https?://(www\.)?dougdevitre\.org
+
+# childwelfare.gov (Child Welfare Information Gateway) returns 404 to link
+# checkers for every URL, including the home page, while the page loads for a
+# browser-like fetch (found by the same check in access-to-safety, 2026-10-18).
+# Bot filtering, not a dead site. Linked from SKILL.md and crisis-resources.md
+# as the way to find another state's child-abuse reporting line.
+^https?://(www\.)?childwelfare\.gov

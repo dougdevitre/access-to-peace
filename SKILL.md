@@ -91,6 +91,8 @@ flowchart TD
 **Step 1 — Identify role.** Ask once. Default to `Individual` if user declines.
 **Step 2 — Identify trigger.** Accept free text or pick from list in `references/triggers.md`.
 **Step 3 — Run safety gate.** See Safety Gate below. If Crisis → safety-first before anything else.
+**Step 3b — Ask location, once.** Right after the danger check, ask gently: *"So I can give you numbers that work where you are, what state are you in? You don't have to say."* In Missouri, use the Missouri resources. Outside Missouri, or if they'd rather not say, give the national lines (911, 988, 1-800-799-7233, Childhelp 1-800-422-4453) plus childwelfare.gov/organizations and WomensLaw.org, and label any Missouri number **"Missouri only"**. Never hold back emergency numbers while waiting for an answer.
+**Step 3c — Match the user's language.** Reply in the language the person writes in. For Spanish, see **Recursos en español** below.
 **Step 4 — Load module + question set.** See `references/routing.md`.
 **Step 5 — Generate artifact.** See `references/artifacts.md`. Apply quality gates before output.
 **Step 6 — Recommend next module.** Every module has a "Recommended Next Modules" section. Surface these options so the user can continue their journey.
@@ -152,11 +154,19 @@ flowchart TD
 |----------|-------------------------------------------------------|-------------------------------------------------------------|
 | **Green**  | No harm indicators. Productive conflict.            | Standard flow.                                              |
 | **Yellow** | Escalating tension, threats implied, fear expressed | Surface: "Is anyone in immediate danger?" before continuing. |
-| **Orange** | Active threat language, DV indicators, self-harm    | Surface safety escalation. Offer crisis resources first.    |
+| **Orange** | Active threat language, DV indicators, self-harm    | Surface safety escalation. Offer crisis resources first. If the concern is abuse, threats, stalking or control by the other party, do not continue into mediation or agreement work (MOD-08, MOD-09, MOD-10); offer MOD-07, MOD-14 and MOD-19. |
 | **Red**    | Emergency, imminent harm, active crisis             | Block all artifact work. Crisis resources mandatory.        |
 
 **Harm indicator keywords:** hurt, harm, kill, hit, abuse, scared, weapon, threat,
 danger, emergency, injury, unsafe, suicide, self-harm, can't go on, no way out
+
+**Raise to at least Yellow:** exchange (a child exchange or handoff), yelling, won't leave.
+
+**If a child exchange is tense or happening now:**
+- If anyone is in danger, call 911.
+- If it isn't safe to go on, move to a safe place first (a public building, or a locked car). A missed or late exchange can be dealt with later through an attorney or the court.
+- For future exchanges: meet in a public, well-lit place with cameras, bring another adult if you can, keep talk to logistics only, and ask an advocate or attorney about supervised exchange options. Use MOD-04 for messages and MOD-17 to log what happened.
+- If someone won't leave your home and you feel unsafe, call 911.
 
 **Safety escalation prompt:**
 > Before we continue — is anyone in immediate physical danger right now?
@@ -171,6 +181,13 @@ danger, emergency, injury, unsafe, suicide, self-harm, can't go on, no way out
 - 988 Suicide & Crisis Lifeline: call or text 988
 - National DV Hotline: 1-800-799-7233 | thehotline.org
 - Crisis Text Line: Text HOME to 741741
+
+**Recursos en español (reply in Spanish when the user writes in Spanish):**
+- Emergencia: 911
+- 988 Línea de Prevención del Suicidio y Crisis: llame al 988 y oprima 2, o envíe AYUDA al 988
+- Crisis Text Line: envíe **HOLA** al 741741
+- Línea Nacional de Violencia Doméstica: 1-800-799-7233
+- RAINN (agresión sexual): 1-800-656-4673
 
 ---
 
@@ -203,6 +220,7 @@ Use these common pathways to guide users who aren't sure where to start:
 → Then: depends on intake — follow the recommended next modules
 
 ### "I have a mediation coming up"
+→ Every step below starts with the required safety screen (see `references/routing.md`). If there has been abuse, threats, stalking or control, go to MOD-07, MOD-14 and MOD-19 instead.
 → **MOD-08** Interests vs. Positions Mapper (prep your thinking)
 → Then: **MOD-09** Mediation Session Prep (build your prep sheet)
 → Then: **MOD-13** Emotional Regulation Plan (prepare for the day)
@@ -290,7 +308,7 @@ Use these common pathways to guide users who aren't sure where to start:
 | ATT, GAL, JDG, ARB, MED | Legal/professional | Full — all fields, neutral sourcing required |
 | THR, PSY, SWK, PSS, CCH, RPF | Clinical/support professional | Standard — required fields enforced |
 | IND, PAR, ELD, SCL, TCH, ORG, NCM, VAD | Plain language, help text shown | Guided — optional fields hidden |
-| YTH | Age-appropriate, emoji-friendly, simplified | Abbreviated — guardian copy auto-generated |
+| YTH | Age-appropriate, emoji-friendly, simplified | Abbreviated — guardian copy only if the youth asks, never when the youth reports harm at home |
 
 ---
 

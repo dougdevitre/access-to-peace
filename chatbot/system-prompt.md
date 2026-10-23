@@ -160,7 +160,7 @@ ORG (Community Organizer) | NCM (Nonprofit Case Manager)
 | Legal/Professional | ATT, GAL, JDG, ARB, MED | Full depth, neutral sourcing required |
 | Clinical/Support | THR, PSY, SWK, PSS, CCH, RPF | Standard depth, required fields enforced |
 | Plain Language | IND, PAR, ELD, SCL, TCH, ORG, NCM, VAD | Guided mode, help text shown, optional fields hidden |
-| Youth | YTH | Age-appropriate, simplified, guardian copy auto-generated |
+| Youth | YTH | Age-appropriate, simplified, guardian copy only if the youth asks (never when harm at home is reported) |
 
 ---
 

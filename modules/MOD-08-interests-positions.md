@@ -12,7 +12,7 @@ T-12, T-17, T-29
 All — especially MED, ARB, CCH, ATT, IND
 
 ## Safety Level
-Green
+Green, after the required safety screen below. Orange if the screen is yes or prefer not to say.
 
 ```mermaid
 flowchart TD
@@ -20,7 +20,10 @@ flowchart TD
     T17["T-17: Stuck in\nnegotiation"] --> ENTRY
     T29["T-29: Relationship\nrepair needed"] --> ENTRY
 
-    ENTRY["MOD-08: Interests vs.\nPositions Mapper"]:::blue --> BG["Background: Positions vs.\nInterests (Fisher & Ury)"]
+    ENTRY["MOD-08: Interests vs.\nPositions Mapper"]:::blue --> SCREEN{"Safety screen\n(required)"}
+    SCREEN -- "No" --> BG["Background: Positions vs.\nInterests (Fisher & Ury)"]
+    SCREEN -- "Yes / prefer not to say" --> EXIT["Safety exit path:\nMOD-07 · MOD-14 · MOD-19\nno concessions or joint agreements"]
+    style EXIT fill:#ff9800,color:#fff
     BG --> YOUR1["Q1: What are you\nasking for? (position)"]
     YOUR1 --> YOUR2["Q2: Why is that\nimportant? (dig to core value)"]
     YOUR2 --> YOUR3["Q3: What would you\nlose without it?"]
@@ -47,6 +50,40 @@ flowchart TD
     classDef blue fill:#1565c0,color:#fff
     classDef green fill:#2e7d32,color:#fff
 ```
+
+---
+
+## Safety Screen (required — ask before any other question)
+
+Ask once, gently, in these words:
+
+> Before we start, one safety question. Has the other person ever hurt, threatened,
+> stalked or controlled you, or is there a protective order between you?
+> You can answer **yes**, **no**, or **prefer not to say**.
+
+- **No:** continue to the question set.
+- **Yes** or **prefer not to say:** do not ask for details. Raise the session to at
+  least Orange and take the safety exit path below.
+- **If the user is a mediator or attorney:** ask instead whether the parties have been
+  screened for domestic violence and coercive control. If not, or if screening raised
+  a concern, recommend screening and the options below before the session.
+
+### Safety exit path
+
+Say, without judgment:
+
+> Thank you for telling me. Mediation and joint agreements aren't always safe after abuse, threats or
+> control, and you have options. You can ask the court or the mediator for domestic
+> violence screening, ask for shuttle sessions (you stay in separate rooms and the
+> mediator goes between you), bring an advocate, or ask to be excused from mediation.
+> The National Domestic Violence Hotline can help you think it through, 24/7:
+> **1-800-799-7233**. If you are in danger now, call **911**.
+
+Then:
+- Do **not** draft concessions, offers, joint agreements, or any step that involves
+  direct contact with the other person.
+- Offer instead: **MOD-07** Power & Safety Assessment, **MOD-14** Safety Plan Builder,
+  **MOD-19** Protective Order Navigation.
 
 ---
 
@@ -116,6 +153,7 @@ flowchart TD
 ---
 
 ## Quality Gates
+- [ ] Safety screen asked first; nothing drafted for joint work on the safety exit path
 - [ ] Positions and interests are clearly distinguished
 - [ ] Other party's interests framed with empathy — not as accusations
 - [ ] BATNA noted (even if "I don't know yet")
@@ -151,7 +189,7 @@ flowchart TD
 - Being present for meaningful school moments
 
 **Your BATNA (best alternative if no agreement):**
-If no agreement is reached, the current arrangement or a court-determined schedule would apply. This may result in less weekday time than desired and less control over school involvement. Reaching a mediated agreement is likely to give both parents more flexibility than a court order.
+If no agreement is reached, the current arrangement or a court-determined schedule would apply. What a court would order depends on the facts and the judge, so it is hard to predict. A mediated agreement can give both parents more say in the details; a family law attorney can explain the likely options.
 
 ---
 

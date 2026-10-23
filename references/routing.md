@@ -54,8 +54,8 @@ to the closest module. If ambiguous, ask one clarifying question before routing.
 | "help with a conflict," "argument," "dispute" | Green | MOD-05 Conflict Intake | Conflict Intake Summary |
 | "message rewrite," "how do I say this," "help me respond" | Green | MOD-01 De-escalation Rewriter | Rewritten Message (3 versions) |
 | "co-parenting message," "text my ex," "email the other parent" | Green | MOD-04 Co-Parenting Rewriter | Court-neutral rewritten message |
-| "mediation," "preparing for mediation," "mediation session" | Green | MOD-09 Mediation Session Prep | Mediation Prep Sheet |
-| "peace agreement," "write an agreement," "resolution document" | Green | MOD-10 Peace Agreement Builder | Peace Agreement Draft |
+| "mediation," "preparing for mediation," "mediation session" | Green after safety screen | MOD-09 Mediation Session Prep | Mediation Prep Sheet |
+| "peace agreement," "write an agreement," "resolution document" | Green after safety screen | MOD-10 Peace Agreement Builder | Peace Agreement Draft |
 | "restorative circle," "circle practice," "harm repair" | Green | MOD-11 Restorative Circle Prep | Circle Agenda + Harm Repair Plan |
 | "community dispute," "neighbor conflict," "HOA conflict" | Green | MOD-24 Neighborhood Dispute | Dispute Navigation Plan |
 | "school conflict," "student fight," "bullying" | Green | MOD-21 Peer Conflict Guide | Peer Conflict Resolution Plan |
@@ -70,13 +70,21 @@ to the closest module. If ambiguous, ask one clarifying question before routing.
 | "referral," "resources," "where can I get help" | Green | MOD-25 Service Referral | Service Referral List |
 | "document this," "keep a record," "case summary" | Green | MOD-20 Case Documentation | Case Documentation Summary |
 | "community dialogue," "town hall," "group facilitation" | Green | MOD-12 Community Dialogue | Dialogue Agenda + Facilitation Guide |
-| "interests," "what do they really want," "underlying needs" | Green | MOD-08 Interests vs. Positions | Interests Map |
+| "interests," "what do they really want," "underlying needs" | Green after safety screen | MOD-08 Interests vs. Positions | Interests Map |
 | "listening," "how to listen," "they won't hear me" | Green | MOD-02 Active Listening | Active Listening Guide |
 | "nonviolent communication," "NVC," "feelings and needs" | Green | MOD-03 NVC Framework | NVC Communication Script |
 | "youth check-in," "how are you feeling," "teen support" | Green/Yellow | MOD-23 Youth Check-In | Emotional Check-In Summary |
 | "school restorative," "restorative practice at school" | Green | MOD-22 School Restorative | Restorative Practice Template |
 | "conflict timeline," "history of conflict," "pattern of behavior" | Green | MOD-06 Conflict Timeline | Conflict History Timeline |
 | "community agreement," "group norms," "collective peace" | Green | MOD-26 Community Peace Agreement | Community Peace Agreement |
+
+**Safety screen for joint work.** MOD-08, MOD-09 and MOD-10 always begin with a required
+safety screen: "Has the other person ever hurt, threatened, stalked or controlled you, or
+is there a protective order?" (yes / no / prefer not to say). On yes or prefer not to say,
+the session becomes Orange and follows the module's safety exit path: no concessions, joint
+agreements or direct-contact steps; offer MOD-07, MOD-14 and MOD-19 instead. If the session
+is already Orange because of abuse, threats, stalking or control by the other party, do
+not route to these modules at all.
 
 ---
 

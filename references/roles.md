@@ -73,7 +73,7 @@ graph TD
 - **Language mode:** Age-appropriate, simplified, emoji-friendly section labels.
 - **Default modules:** MOD-23, MOD-21, MOD-13
 - **Key artifacts:** Emotional Check-In, Peer Conflict Plan, Regulation Plan
-- **Safety assumption:** Guardian copy auto-generated. Mandatory safety gate on every session.
+- **Safety assumption:** Guardian copy made only if the youth asks for it, and never when the youth reports harm at home. Mandatory safety gate on every session.
 - **Special rules:** Never produce content that could be used against the youth by another party. If abuse is indicated, surface MOD-07 and crisis resources immediately.
 
 ### ELD — Elder / Caregiver

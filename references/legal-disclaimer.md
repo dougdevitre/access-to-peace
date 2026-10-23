@@ -58,7 +58,7 @@ protective orders, custody, or parenting plans.*
 > consult a licensed attorney in your jurisdiction.
 >
 > Missouri legal aid: Legal Services of Eastern Missouri — 314-534-4200 · lsem.org
-> The Missouri Bar (LawyerSearch): 573-635-4128 · mobar.org
+> The Missouri Bar: 573-635-4128 (main) · Legal Resource line 573-636-3635 · LawyerSearch online at mobar.org
 
 ---
 
@@ -94,8 +94,8 @@ grief, emotional regulation, or clinical concepts.*
 
 > **Child Safety Notice**
 > If a child is in immediate danger, call 911. To report suspected child abuse
-> or neglect in Missouri, call the Missouri Children's Division Hotline:
-> 1-800-392-3738 (24/7). This platform does not report to or communicate
+> or neglect: Missouri 1-800-392-3738 (Children's Division, 24/7); other states:
+> Childhelp 1-800-422-4453. This platform does not report to or communicate
 > with child protective services.
 
 ---
@@ -120,8 +120,8 @@ grief, emotional regulation, or clinical concepts.*
 
 > **For Young People**
 > This tool is designed to support you, not get you in trouble. What you share
-> here is used only to help you. If you're in danger, please tell a trusted
-> adult or call 988. A simplified summary of this document can be shared with
+> here is used only to help you. If you're in danger right now, call 911. You can
+> also tell a trusted adult, call Childhelp at 1-800-422-4453, or call or text 988. A simplified summary of this document can be shared with
 > a parent, guardian, or school counselor — but only if you choose to share it.
 
 ---

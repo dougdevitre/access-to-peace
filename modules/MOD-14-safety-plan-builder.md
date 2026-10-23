@@ -83,7 +83,7 @@ flowchart TD
 4. Where could you go if you needed to get out of the situation?
 
 **Section 4 — Crisis Support**
-5. Who can you call or text when things get hard? (up to 3 people — name/nickname + contact)
+5. Who can you call or text when things get hard? (up to 3 people — a nickname is fine, and safer if someone might see this plan)
 6. What professionals or organizations have you worked with or could reach out to?
 
 **Section 5 — Environment Safety** *(optional — skip if not applicable)*
@@ -101,6 +101,8 @@ flowchart TD
 
 **Created:** [date]
 **For:** [first name or preferred name, or "Me"]
+
+> 🔒 Keep this plan where the person you're worried about can't find it. Use nicknames for the people listed.
 
 **⚠️ My warning signs:**
 [User's responses formatted as a bullet list]

@@ -93,8 +93,8 @@ _______________________________________________________________________________
 
 > **For Young People**
 > This tool is designed to support you, not get you in trouble. What you share
-> here is used only to help you. If you're in danger, please tell a trusted
-> adult or call 988. A simplified summary of this document can be shared with
+> here is used only to help you. If you're in danger right now, call 911. You can
+> also tell a trusted adult, call Childhelp at 1-800-422-4453, or call or text 988. A simplified summary of this document can be shared with
 > a parent, guardian, or school counselor — but only if you choose to share it.
 
 *Access To Peace · github.com/dougdevitre/access-to-peace · Educational purposes only.*

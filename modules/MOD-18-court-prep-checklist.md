@@ -100,6 +100,7 @@ flowchart TD
 - [ ] Eat and sleep the night before
 - [ ] Bring water and something to hold (notebook, pen) if it helps
 - [ ] Have a support person for the waiting room if allowed
+- [ ] If you're worried about waiting near the other party, ask court staff or an advocate about a separate waiting area
 
 #### Your goal for this proceeding:
 [User's stated goal — reframed as what you can control, not what you can't]

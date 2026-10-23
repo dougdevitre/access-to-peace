@@ -29,10 +29,10 @@ flowchart TD
     Q2 --> Q3["Q3: How long has\nthis been going on?"]
     Q3 --> Q4["Q4: Most recent event"]
     Q4 --> Q5["Q5: What do you need?\ndocumentation / next steps /\ncommunication / mediation /\nsafety / resources"]
-    Q5 --> Q9{"Q9: Do you feel unsafe?"}
+    Q5 --> Q6{"Q6 (required): Anything\nthat makes you feel unsafe?"}
 
-    Q9 -- "Yes" --> MOD07["MOD-07: Power &\nSafety Assessment"]:::orange
-    Q9 -- "No" --> OUTPUT["Conflict Intake Summary\nType / Parties / Timeline /\nImpact / Safety / Needs"]:::green
+    Q6 -- "Yes" --> MOD07["MOD-07: Power &\nSafety Assessment"]:::orange
+    Q6 -- "No" --> OUTPUT["Conflict Intake Summary\nType / Parties / Timeline /\nImpact / Safety / Needs"]:::green
 
     OUTPUT --> ROUTE{"Dynamic Routing\nBased on Intake"}
 
@@ -61,12 +61,12 @@ flowchart TD
 3. How long has this been going on?
 4. What happened most recently?
 5. What do you need most right now? (options: documentation, advice on next steps, help communicating, help preparing for mediation, safety support, resources)
+6. Is there anything that makes you feel unsafe, or has the other person ever hurt, threatened, stalked or controlled you? (yes / no / prefer not to say — if yes or prefer not to say, route to MOD-07, and do not route to mediation or agreements)
 
 **Optional:**
-6. Is a child involved? (yes / no)
-7. Is there an active legal case related to this? (yes / no / unsure)
-8. Have you tried to resolve this before? What happened?
-9. Is there anything that makes you feel unsafe? (yes / no — if yes, route to MOD-07)
+7. Is a child involved? (yes / no)
+8. Is there an active legal case related to this? (yes / no / unsure)
+9. Have you tried to resolve this before? What happened?
 
 ---
 

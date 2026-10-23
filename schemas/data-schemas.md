@@ -232,7 +232,7 @@ erDiagram
 
 ```csv
 organization_name,category,phone,website,eligibility,cost,notes,state,county,last_verified
-"Legal Services of Eastern Missouri","Legal Aid","314-534-4200","lsem.org","Income-based","Free","Covers St. Louis metro","MO","St. Louis City","2024-01"
+"Legal Services of Eastern Missouri","Legal Aid","314-534-4200","lsem.org","Income-based","Free","Covers St. Louis metro","MO","St. Louis City","2026-10"
 ```
 
 **Fields:**
