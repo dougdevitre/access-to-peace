@@ -259,7 +259,7 @@ financial assistance, youth services, elder services, community conflict resolut
 - Who can help me
 - My next step
 
-**Guardian copy:** Auto-generated at reduced detail. Youth approves before sharing.
+**Guardian copy:** Made only if the youth asks for it, at reduced detail, and never when the youth reports harm at home. Youth approves before sharing.
 
 ---
 

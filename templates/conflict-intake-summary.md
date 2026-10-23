@@ -109,8 +109,8 @@ _______________________________________________________________________________
 
 > **Child Safety Notice**
 > If a child is in immediate danger, call 911. To report suspected child abuse
-> or neglect in Missouri, call the Missouri Children's Division Hotline:
-> 1-800-392-3738 (24/7). This platform does not report to or communicate
+> or neglect: Missouri 1-800-392-3738 (Children's Division, 24/7); other states:
+> Childhelp 1-800-422-4453. This platform does not report to or communicate
 > with child protective services.
 
 *Access To Peace · github.com/dougdevitre/access-to-peace · Educational purposes only.*

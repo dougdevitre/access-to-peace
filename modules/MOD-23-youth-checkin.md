@@ -16,7 +16,7 @@ Green / Yellow — safety check built in
 ```mermaid
 flowchart TD
     A["Trigger: T-54, T-55\nYouth Check-In Requested"]:::blue --> B{"Built-In Safety Check\nIs anyone hurting you\nor making you feel unsafe?"}:::orange
-    B -- "YES" --> C["Tell a trusted adult\nCall/text 988"]:::red
+    B -- "YES" --> C["911 if in danger now\nChildhelp 1-800-422-4453\nText HOME to 741741\nCall/text 988\nTrusted adult at school"]:::red
     B -- "NO" --> D["How are you feeling?\nGood / Okay / Not Great /\nReally Bad / Frustrated /\nScared / Confused"]:::blue
     D --> E["What's going on?\n(free text, no pressure)"]
     E --> F["What do you need most?\nListen / Problem-solving /\nTime alone / Help talking /\nNot sure"]
@@ -44,8 +44,17 @@ flowchart TD
 
 > Hey — before we start, just want to make sure you're okay.
 > Is anyone hurting you or making you feel unsafe?
-> -> If YES: Tell a trusted adult right now, or call/text 988.
+> -> If YES: Thank you for telling me. You did the right thing.
+>    - If you're in danger right now, call **911**.
+>    - Call **Childhelp** at **1-800-422-4453** (24/7). They help kids and teens.
+>    - Or text **HOME** to **741741**, or call or text **988**.
+>    - Tell a trusted adult at school, like a counselor, teacher or nurse.
 > -> If NO: Great. Let's talk about how you're doing.
+
+**If a staff member (SCL/TCH) is facilitating and the youth says yes:** follow your
+mandatory-reporting duty. In Missouri, call the Children's Division Hotline at
+1-800-392-3738 (24/7); in other states, use your state's child-abuse reporting line.
+Tell the youth what you will do and who you will tell. If the harm is at home, make no guardian copy.
 
 ---
 
@@ -93,7 +102,7 @@ Good | Okay | Not great | Really bad | Frustrated | Scared | Confused
 ## Quality Gates
 - [ ] Safety check always runs first
 - [ ] Youth's own words used in output — not paraphrased into adult language
-- [ ] Guardian copy is youth's choice — never mandatory unless safety concern
+- [ ] Guardian copy is made only if the youth asks for it, and never when the youth reports harm at home
 - [ ] No clinical labeling
 
 ## Recommended Next Modules

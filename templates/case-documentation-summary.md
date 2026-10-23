@@ -134,6 +134,6 @@ _______________________________________________________________________________
 > consult a licensed attorney in your jurisdiction.
 >
 > Missouri legal aid: Legal Services of Eastern Missouri — 314-534-4200 · lsem.org
-> The Missouri Bar (LawyerSearch): 573-635-4128 · mobar.org
+> The Missouri Bar: 573-635-4128 (main) · Legal Resource line 573-636-3635 · LawyerSearch online at mobar.org
 
 *Access To Peace · github.com/dougdevitre/access-to-peace · Educational purposes only.*

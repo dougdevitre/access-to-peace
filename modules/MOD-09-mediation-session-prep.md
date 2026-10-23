@@ -12,7 +12,7 @@ T-21, T-22, T-27, T-29
 MED, ARB, ATT, IND, PAR
 
 ## Safety Level
-Green
+Green, after the required safety screen below. Orange if the screen is yes or prefer not to say.
 
 ```mermaid
 flowchart TD
@@ -21,7 +21,10 @@ flowchart TD
     T27["T-27: Needs negotiation\nstrategy"] --> ENTRY
     T29["T-29: Relationship\nrepair needed"] --> ENTRY
 
-    ENTRY["MOD-09: Mediation\nSession Prep"]:::blue --> Q1["Q1: Your role?\nparticipant / mediator / attorney"]
+    ENTRY["MOD-09: Mediation\nSession Prep"]:::blue --> SCREEN{"Safety screen\n(required)"}
+    SCREEN -- "No" --> Q1["Q1: Your role?\nparticipant / mediator / attorney"]
+    SCREEN -- "Yes / prefer not to say" --> EXIT["Safety exit path:\nMOD-07 · MOD-14 · MOD-19\nno concessions or joint agreements"]
+    style EXIT fill:#ff9800,color:#fff
     Q1 --> Q2["Q2: What is the\nconflict about?"]
     Q2 --> Q3["Q3: Primary goal\nfor this session"]
     Q3 --> Q4["Q4: Core interests\nwhat you really need"]
@@ -46,6 +49,40 @@ flowchart TD
     classDef blue fill:#1565c0,color:#fff
     classDef green fill:#2e7d32,color:#fff
 ```
+
+---
+
+## Safety Screen (required — ask before any other question)
+
+Ask once, gently, in these words:
+
+> Before we start, one safety question. Has the other person ever hurt, threatened,
+> stalked or controlled you, or is there a protective order between you?
+> You can answer **yes**, **no**, or **prefer not to say**.
+
+- **No:** continue to the question set.
+- **Yes** or **prefer not to say:** do not ask for details. Raise the session to at
+  least Orange and take the safety exit path below.
+- **If the user is a mediator or attorney:** ask instead whether the parties have been
+  screened for domestic violence and coercive control. If not, or if screening raised
+  a concern, recommend screening and the options below before the session.
+
+### Safety exit path
+
+Say, without judgment:
+
+> Thank you for telling me. Mediation and joint agreements aren't always safe after abuse, threats or
+> control, and you have options. You can ask the court or the mediator for domestic
+> violence screening, ask for shuttle sessions (you stay in separate rooms and the
+> mediator goes between you), bring an advocate, or ask to be excused from mediation.
+> The National Domestic Violence Hotline can help you think it through, 24/7:
+> **1-800-799-7233**. If you are in danger now, call **911**.
+
+Then:
+- Do **not** draft concessions, offers, joint agreements, or any step that involves
+  direct contact with the other person.
+- Offer instead: **MOD-07** Power & Safety Assessment, **MOD-14** Safety Plan Builder,
+  **MOD-19** Protective Order Navigation.
 
 ---
 
@@ -109,6 +146,7 @@ flowchart TD
 ---
 
 ## Quality Gates
+- [ ] Safety screen asked first; nothing drafted for joint work on the safety exit path
 - [ ] Goals, interests, and BATNA all present
 - [ ] Opening statement (if produced) uses NVC interest framing — no positions
 - [ ] Other party's interests framed without hostility

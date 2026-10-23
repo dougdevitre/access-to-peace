@@ -22,8 +22,8 @@ flowchart TD
     SUICIDE --> S988["Call or text 988\nSuicide & Crisis Lifeline"]
     DV --> DV_LINE["1-800-799-7233\nNational DV Hotline"]
     SA --> SA_LINE["1-800-656-4673\nRAINN"]
-    CHILD --> CHILD_LINE["1-800-422-4453\nChildhelp · MO CPS: 800-392-3738"]
-    ELDER --> ELDER_LINE["1-833-FRAUD-11\nMO APS: 800-392-0210 (7am-8pm)"]
+    CHILD --> CHILD_LINE["1-800-422-4453\nChildhelp · Missouri only: CPS 800-392-3738"]
+    ELDER --> ELDER_LINE["911 if in danger\nMissouri only: Adult Abuse 800-392-0210\n(daily 7am-8pm; online any time)\nFraud/scams: 1-833-FRAUD-11 (weekdays)"]
     YOUTH_Q --> TREVOR["1-866-488-7386\nTrevor Project"]
     VET --> VET_LINE["988 then press 1\nVeterans Crisis Line"]
     GENERAL --> SAMHSA["1-800-662-4357\nSAMHSA Helpline"]
@@ -69,6 +69,8 @@ Access To Peace cannot replace emergency services. When in doubt, call 911.
 
 ## Missouri-Specific Resources (Reference Implementation)
 
+*Missouri only. Outside Missouri, use the national lines above, childwelfare.gov/organizations (each state's child-abuse reporting line) and WomensLaw.org (state protective-order law and local DV programs).*
+
 ### Domestic Violence
 | Organization | Contact |
 |-------------|---------|
@@ -82,7 +84,7 @@ Access To Peace cannot replace emergency services. When in doubt, call 911.
 |-------------|---------|
 | Legal Services of Eastern Missouri | 314-534-4200 · lsem.org |
 | Missouri Legal Services (statewide legal aid portal) | lsmo.org |
-| The Missouri Bar (LawyerSearch) | 573-635-4128 · mobar.org |
+| The Missouri Bar | 573-635-4128 (main) · Legal Resource line 573-636-3635 · LawyerSearch online at mobar.org |
 
 ### Mediation & Conflict Resolution
 | Organization | Contact |
@@ -115,7 +117,10 @@ Access To Peace cannot replace emergency services. When in doubt, call 911.
 ### Elder Services
 | Organization | Contact |
 |-------------|---------|
-| Missouri Adult Abuse & Neglect Hotline | 800-392-0210 (daily 7 a.m.–8 p.m.; online any time at moapss.health.mo.gov) |
+| Missouri Adult Abuse & Neglect Hotline | 800-392-0210 (daily 7 a.m.–8 p.m.; online any time at moapss.health.mo.gov). In danger now: call 911 first. |
+| Missouri Attorney General Consumer Protection Hotline (scams, fraud) | 1-800-392-8222 |
+| If money was taken | Call the bank or card company right away; report at reportfraud.ftc.gov (FTC) and, for internet or phone scams, ic3.gov (FBI) |
+| National Elder Fraud Hotline | 1-833-FRAUD-11 (1-833-372-8311), weekdays |
 | St. Louis Area Agency on Aging | 314-612-5918 |
 | Legal Services for the Elderly (Missouri) | lsem.org |
 

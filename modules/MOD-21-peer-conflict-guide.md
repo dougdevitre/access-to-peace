@@ -42,6 +42,10 @@ flowchart TD
 
 ## Question Set
 
+**Safety check first (all roles):** run the MOD-23 built-in safety check — "Is anyone
+hurting you or making you feel unsafe, at school or at home?" If yes, follow MOD-23's
+yes path before anything else.
+
 **For Youth (YTH role — simplified):**
 1. What happened? (tell me in your own words)
 2. How did it make you feel?
@@ -54,6 +58,7 @@ flowchart TD
 3. What has already been tried?
 4. Is this an ongoing pattern or a new incident?
 5. What does each student need from a resolution?
+6. Is there any sign a student may be unsafe at home, or that telling a parent could out a student (for example, about sexual orientation or gender identity)? (yes / no / unsure)
 
 ---
 
@@ -76,7 +81,7 @@ flowchart TD
 **Who can help me:**
 - My school counselor
 - A trusted teacher or adult
-- A parent or guardian
+- A parent or guardian (if that feels safe)
 - [Other named by youth]
 
 ---
@@ -94,7 +99,7 @@ flowchart TD
 |------|--------|-----|------|
 | 1 | Separate parties, ensure immediate safety | Staff | Immediately |
 | 2 | Individual check-ins with each student | Counselor | Same day |
-| 3 | Notify parents/guardians | Admin | Within 24 hours |
+| 3 | Notify parents/guardians — but hold off if a student may be unsafe at home or could be outed; talk with the counselor first, and follow mandatory-reporting duties if abuse is suspected | Admin | Within 24 hours, unless held |
 | 4 | [Restorative circle / mediated conversation / other] | [Facilitator] | [Timeline] |
 | 5 | Follow-up check-in | Counselor | 1 week |
 
@@ -107,7 +112,7 @@ flowchart TD
 ## Quality Gates
 - [ ] Youth voice respected and centered
 - [ ] Physical safety confirmed before resolution process
-- [ ] Parent/guardian notification noted if applicable
+- [ ] Parent/guardian notification noted if applicable, and held when home may be unsafe or a student could be outed
 - [ ] Non-punitive framing unless safety requires discipline
 
 ## Recommended Next Modules

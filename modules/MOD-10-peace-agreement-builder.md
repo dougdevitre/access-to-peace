@@ -11,11 +11,14 @@ T-22, T-23, T-28
 MED, ARB, IND, PAR, ORG, NCM
 
 ## Safety Level
-Green
+Green, after the required safety screen below. Orange if the screen is yes or prefer not to say.
 
 ```mermaid
 flowchart TD
-    A["Trigger: T-22 / T-23 / T-28"] -->|"MED, ARB, IND, PAR, ORG, NCM"| B["Identify Parties\n& Conflict"]
+    A["Trigger: T-22 / T-23 / T-28"] -->|"MED, ARB, IND, PAR, ORG, NCM"| SCREEN{"Safety screen\n(required)"}
+    SCREEN -- "No" --> B["Identify Parties\n& Conflict"]
+    SCREEN -- "Yes / prefer not to say" --> EXIT["Safety exit path:\nMOD-07 · MOD-14 · MOD-19\nno concessions or joint agreements"]
+    style EXIT fill:#ff9800,color:#fff
     B --> C["Gather Commitments\nfrom Each Party"]
     C --> D["Set Start Date\n& Review Date"]
     D --> E{"Optional:\nAccountability Person?"}
@@ -29,7 +32,7 @@ flowchart TD
     I -->|"Passes check"| K["Build Peace Agreement"]
     K --> L["Background Section\n(neutral, no blame)"]
     L --> M["Numbered Terms\n(time-bound)"]
-    M --> N["Breach Protocol\n1. Direct Talk\n2. Mediator\n3. Escalation"]
+    M --> N["Breach Protocol\n1. Direct talk, only if safe\nand allowed by any court order\n2. Mediator\n3. Escalation"]
     N --> O["Signature Block\n& Legal Disclaimer"]
     O --> P["Peace Agreement\nArtifact"]
 
@@ -45,6 +48,40 @@ flowchart TD
     style R fill:#1565c0,color:#fff
     style S fill:#1565c0,color:#fff
 ```
+
+---
+
+## Safety Screen (required — ask before any other question)
+
+Ask once, gently, in these words:
+
+> Before we start, one safety question. Has the other person ever hurt, threatened,
+> stalked or controlled you, or is there a protective order between you?
+> You can answer **yes**, **no**, or **prefer not to say**.
+
+- **No:** continue to the question set.
+- **Yes** or **prefer not to say:** do not ask for details. Raise the session to at
+  least Orange and take the safety exit path below.
+- **If the user is a mediator or attorney:** ask instead whether the parties have been
+  screened for domestic violence and coercive control. If not, or if screening raised
+  a concern, recommend screening and the options below before the session.
+
+### Safety exit path
+
+Say, without judgment:
+
+> Thank you for telling me. Mediation and joint agreements aren't always safe after abuse, threats or
+> control, and you have options. You can ask the court or the mediator for domestic
+> violence screening, ask for shuttle sessions (you stay in separate rooms and the
+> mediator goes between you), bring an advocate, or ask to be excused from mediation.
+> The National Domestic Violence Hotline can help you think it through, 24/7:
+> **1-800-799-7233**. If you are in danger now, call **911**.
+
+Then:
+- Do **not** draft concessions, offers, joint agreements, or any step that involves
+  direct contact with the other person.
+- Offer instead: **MOD-07** Power & Safety Assessment, **MOD-14** Safety Plan Builder,
+  **MOD-19** Protective Order Navigation.
 
 ---
 
@@ -73,7 +110,7 @@ Key sections:
 - Background (2–3 neutral sentences)
 - Numbered terms (specific, actionable, time-bound where possible)
 - Duration and review date
-- Breach protocol (step 1: direct conversation / step 2: mediator / step 3: escalation)
+- Breach protocol (step 1: direct conversation, only if safe and allowed by any court order / step 2: mediator / step 3: escalation)
 - Signature block
 
 **Term quality check (applied to each term):**
@@ -87,6 +124,7 @@ Key sections:
 ---
 
 ## Quality Gates
+- [ ] Safety screen asked first; nothing drafted for joint work on the safety exit path
 - [ ] Each term passes specificity/actionability check
 - [ ] Background section is neutral — no blame
 - [ ] Legal disclaimer included
@@ -127,7 +165,7 @@ Key sections:
 **Review date:** May 14, 2025 — both parties will check in to discuss whether the agreement is working.
 
 **If the agreement breaks down:**
-Step 1: Direct conversation between the parties.
+Step 1: Direct conversation between the parties, only if safe and allowed by any court order.
 Step 2: Written request referencing this agreement.
 Step 3: Community mediation center referral (see MOD-25 for local options).
 
