@@ -8,7 +8,7 @@
 > A trauma-informed, open-source platform for conflict resolution, mediation, mental wellness,
 > co-parenting de-escalation, restorative practices, and community peace-building.
 
-> Part of **[Access To](https://dougdevitre.org)** — open-source tools for the access gaps that matter most. [See all projects →](https://dougdevitre.org/#pillars)
+> Part of **[Access To](https://dougdevitre.org)** — open-source tools for the access gaps that matter most. [See all projects →](https://dougdevitre.org/about.html#pillars)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Access To Initiative](https://img.shields.io/badge/Access%20To-Initiative-green)](https://dougdevitre.org)
