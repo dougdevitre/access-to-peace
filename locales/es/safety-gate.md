@@ -39,9 +39,10 @@ no puedo más, no hay salida
 
 ## Recursos de Crisis (siempre disponibles)
 
-- **988** Línea de Prevención del Suicidio y Crisis: llame o envíe texto al 988 (presione 2 para español)
+- **988** Línea de Prevención del Suicidio y Crisis: llame al 988 y presione 2 para español, o envíe AYUDA al 988
 - **Línea Nacional de VD:** 1-800-799-7233 (presione 1 para español) · thehotline.org
 - **Línea de Texto de Crisis:** Envíe HOLA al 741741
+- **Childhelp, Línea Nacional de Abuso Infantil:** llame o envíe texto al 1-800-422-4453
 
 ---
 
@@ -55,7 +56,7 @@ Cuando se activa cualquier disparador de crisis (T-71 a T-80):
 > Le escucho. Antes que nada — ¿está seguro/a en este momento?
 >
 > 🆘 Si es una emergencia: **Llame al 911**
-> 💙 Línea de Prevención del Suicidio y Crisis: **Llame o envíe texto al 988** (presione 2 para español)
+> 💙 Línea de Prevención del Suicidio y Crisis: **Llame al 988 y presione 2**, o **envíe AYUDA al 988**
 > 💜 Línea de Violencia Doméstica: **1-800-799-7233** (presione 1 para español)
 > 💬 Línea de Texto de Crisis: **Envíe HOLA al 741741**
 >
