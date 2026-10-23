@@ -9,11 +9,6 @@
 # the profile page. It is the author's profile, not a resource for users.
 ^https?://([a-z]+\.)?linkedin\.com/
 
-# TEMPORARY: the Access To hub (dougdevitre.org) returned 404 to the link check
-# in sibling repos on 2026-10-18. It is the hub's own site, not a resource for
-# people seeking help. Remove this line once the hub serves again.
-^https?://(www\.)?dougdevitre\.org
-
 # childwelfare.gov (Child Welfare Information Gateway) returns 404 to link
 # checkers for every URL, including the home page, while the page loads for a
 # browser-like fetch (found by the same check in access-to-safety, 2026-10-18).
