@@ -3,7 +3,7 @@ name: Skill package
 # Builds the install file people upload to claude.ai: dist/access-to-peace.zip,
 # made by scripts/build-skill-zip.sh: one top-level folder named after the skill,
 # runtime files only (SKILL.md, references/, modules/, templates/, schemas/,
-# DISCLAIMER.md, LICENSE), frontmatter validated, every file SKILL.md names present.
+# locales/es/, DISCLAIMER.md, LICENSE), frontmatter validated, every file SKILL.md names present.
 #   - pull requests: build and validate it, and attach it to the run as an artifact
 #   - push to main (or a manual run on main): rebuild it and publish it on the one
 #     release tagged skill-latest, so the README's download link always gets the
@@ -17,6 +17,7 @@ on:
       - "modules/**"
       - "templates/**"
       - "schemas/**"
+      - "locales/es/**"
       - "DISCLAIMER.md"
       - "LICENSE"
       - "scripts/build-skill-zip.sh"
@@ -30,6 +31,7 @@ on:
       - "modules/**"
       - "templates/**"
       - "schemas/**"
+      - "locales/es/**"
       - "DISCLAIMER.md"
       - "LICENSE"
       - "scripts/build-skill-zip.sh"

@@ -92,7 +92,7 @@ flowchart TD
 **Step 2 — Identify trigger.** Accept free text or pick from list in `references/triggers.md`.
 **Step 3 — Run safety gate.** See Safety Gate below. If Crisis → safety-first before anything else.
 **Step 3b — Ask location, once.** Right after the danger check, ask gently: *"So I can give you numbers that work where you are, what state are you in? You don't have to say."* In Missouri, use the Missouri resources. Outside Missouri, or if they'd rather not say, give the national lines (911, 988, 1-800-799-7233, Childhelp 1-800-422-4453) plus childwelfare.gov/organizations and WomensLaw.org, and label any Missouri number **"Missouri only"**. Never hold back emergency numbers while waiting for an answer.
-**Step 3c — Match the user's language.** Reply in the language the person writes in. For Spanish, see **Recursos en español** below.
+**Step 3c — Match the user's language.** Reply in the language the person writes in. If they write in Spanish: give the **Recursos en español** block below first, before anything else, then use the Spanish locale for the rest of the session — `locales/es/safety-gate.md` (safety gate and crisis-interrupt wording), `locales/es/crisis-resources.md` (full resource list), `locales/es/disclaimers.md` (disclaimer blocks) and `locales/es/nvc-templates.md` (NVC templates). The locale files are translations still awaiting native-speaker review; where a number or instruction there differs from the **Recursos en español** block, use the block.
 **Step 4 — Load module + question set.** See `references/routing.md`.
 **Step 5 — Generate artifact.** See `references/artifacts.md`. Apply quality gates before output.
 **Step 6 — Recommend next module.** Every module has a "Recommended Next Modules" section. Surface these options so the user can continue their journey.
@@ -119,6 +119,7 @@ When the user indicates they're done, provide a brief summary:
 > - Artifacts produced: [list]
 > - Recommended next steps: [1-2 suggestions]
 > - Crisis resources (always): 988 | 1-800-799-7233 | Text HOME to 741741
+> - En español: 988 y oprima 2, o AYUDA al 988 | 1-800-799-7233 | HOLA al 741741 | Childhelp 1-800-422-4453
 
 ---
 
@@ -182,11 +183,12 @@ danger, emergency, injury, unsafe, suicide, self-harm, can't go on, no way out
 - National DV Hotline: 1-800-799-7233 | thehotline.org
 - Crisis Text Line: Text HOME to 741741
 
-**Recursos en español (reply in Spanish when the user writes in Spanish):**
+**Recursos en español (reply in Spanish when the user writes in Spanish, and give these first):**
 - Emergencia: 911
 - 988 Línea de Prevención del Suicidio y Crisis: llame al 988 y oprima 2, o envíe AYUDA al 988
 - Crisis Text Line: envíe **HOLA** al 741741
 - Línea Nacional de Violencia Doméstica: 1-800-799-7233
+- Childhelp, Línea Nacional de Abuso Infantil: llame o envíe un mensaje de texto al 1-800-422-4453 (con intérpretes en más de 170 idiomas)
 - RAINN (agresión sexual): 1-800-656-4673
 
 ---
@@ -431,3 +433,4 @@ Load only what is needed for the current task:
 | `references/trauma-informed.md` | Trauma-informed language, de-escalation principles |
 | `references/legal-disclaimer.md` | Standard legal/clinical disclaimer blocks by context |
 | `references/crisis-resources.md` | Crisis lines, hotlines, and local service finders by state |
+| `locales/es/` | The user writes in Spanish (see Step 3c): safety gate, crisis resources, disclaimers, NVC templates |

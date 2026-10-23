@@ -5,6 +5,18 @@
 
 ---
 
+## Dé estos primero
+
+| Recurso | Contacto |
+|---------|----------|
+| Emergencia | **911** |
+| 988 Línea de Prevención del Suicidio y Crisis | Llame al **988** y oprima **2**, o envíe **AYUDA** al **988** |
+| Crisis Text Line | Envíe **HOLA** al **741741** |
+| Línea Nacional de Violencia Doméstica | **1-800-799-7233** |
+| Childhelp, Línea Nacional de Abuso Infantil | Llame o envíe un mensaje de texto al **1-800-422-4453** |
+
+---
+
 ## Recursos Siempre Disponibles
 
 Estos recursos están integrados en todas las respuestas de nivel de seguridad Naranja y Rojo.
@@ -16,11 +28,11 @@ También están disponibles como interrupción en cualquier momento durante cual
 
 | Recurso | Contacto | Notas |
 |---------|----------|-------|
-| **988 Línea de Prevención del Suicidio y Crisis** | Llame o envíe un mensaje de texto al **988** | 24/7. Disponible en español. Presione 2 para español. |
+| **988 Línea de Prevención del Suicidio y Crisis** | Llame o envíe un mensaje de texto al **988** | 24/7. Disponible en español. Presione 2 para español, o envíe AYUDA al 988. |
 | **Línea de Texto de Crisis** | Envíe **HOLA** al **741741** | 24/7. Basado en texto. Disponible en español. |
 | **Línea Nacional de Violencia Doméstica** | **1-800-799-7233** | 24/7. Presione 1 para español. Chat: thehotline.org |
 | **Línea Nacional de Agresión Sexual** | **1-800-656-4673** | 24/7. RAINN. Servicios en español disponibles. |
-| **Línea de Abuso Infantil Childhelp** | **1-800-422-4453** | 24/7. Servicios en español disponibles. |
+| **Línea de Abuso Infantil Childhelp** | **1-800-422-4453** (llamada o texto) | 24/7. Servicios en español disponibles. Intérpretes en más de 170 idiomas. |
 | **Línea de Fraude a Personas Mayores** | **1-833-FRAUD-11** | Departamento de Justicia. |
 | **Línea de Crisis para Veteranos** | Llame al **988**, luego presione **1** | Texto: 838255 |
 | **Trans Lifeline** | **877-565-8860** | Apoyo entre pares trans. No es 24/7: de lunes a viernes, 1–9 p.m. hora del Este. Línea en español: presione 2. |

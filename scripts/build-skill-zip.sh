@@ -12,18 +12,20 @@
 #
 # Usage: scripts/build-skill-zip.sh
 # Exits 1 if the frontmatter fails validation, a required file is missing,
-# or a references/ / modules/ / templates/ / schemas/ path named in SKILL.md
+# or a references/ / modules/ / templates/ / schemas/ / locales/ path named in SKILL.md
 # is not in the zip.
 set -euo pipefail
 
 # What goes into the zip (taken from the repo root when present). SKILL.md
-# loads its modules from modules/, so it ships too; locales/, workflows/,
-# checklists/, routines/, artifacts/, chatbot/ and site/ are not read by the skill.
-INCLUDE=(SKILL.md references modules templates schemas DISCLAIMER.md LICENSE)
+# loads its modules from modules/, so it ships too, and it routes Spanish
+# speakers to locales/es/ (Step 3c), so that ships as well. The other locales,
+# workflows/, checklists/, routines/, artifacts/, chatbot/ and site/ are not read
+# by the skill.
+INCLUDE=(SKILL.md references modules templates schemas locales/es DISCLAIMER.md LICENSE)
 # Files that must be present.
 REQUIRED=(SKILL.md DISCLAIMER.md LICENSE)
 # Folders whose paths, when SKILL.md names them, must be in the zip.
-LINKED_DIRS=(references modules templates schemas)
+LINKED_DIRS=(references modules templates schemas locales)
 # Fixed timestamp for every entry, so rebuilds are reproducible.
 FIXED_TIME="2026-01-01 00:00:00"
 
