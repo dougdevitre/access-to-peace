@@ -122,7 +122,7 @@ Access To Peace cannot replace emergency services. When in doubt, call 911.
 | If money was taken | Call the bank or card company right away; report at reportfraud.ftc.gov (FTC) and, for internet or phone scams, ic3.gov (FBI) |
 | National Elder Fraud Hotline | 1-833-FRAUD-11 (1-833-372-8311), weekdays |
 | St. Louis Area Agency on Aging | 314-612-5918 |
-| Legal Services for the Elderly (Missouri) | lsem.org |
+| Legal Services of Eastern Missouri — elder law | lsem.org |
 
 ---
 

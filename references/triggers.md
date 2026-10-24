@@ -202,6 +202,7 @@ When any T-71 through T-80 trigger fires:
 > 💙 Suicide & Crisis Lifeline: **Call or text 988**
 > 💜 Domestic Violence Hotline: **1-800-799-7233**
 > 💬 Crisis Text Line: **Text HOME to 741741**
+> 🧒 Child at risk: Missouri **1-800-392-3738**; other states: Childhelp **1-800-422-4453**
 >
 > I'm here to help you document and navigate once you're safe.
 > Would you like to continue, or do you need to step away?

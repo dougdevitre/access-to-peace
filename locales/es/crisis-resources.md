@@ -30,7 +30,7 @@ También están disponibles como interrupción en cualquier momento durante cual
 |---------|----------|-------|
 | **988 Línea de Prevención del Suicidio y Crisis** | Llame o envíe un mensaje de texto al **988** | 24/7. Disponible en español. Presione 2 para español, o envíe AYUDA al 988. |
 | **Línea de Texto de Crisis** | Envíe **HOLA** al **741741** | 24/7. Basado en texto. Disponible en español. |
-| **Línea Nacional de Violencia Doméstica** | **1-800-799-7233** | 24/7. Presione 1 para español. Chat: thehotline.org |
+| **Línea Nacional de Violencia Doméstica** | **1-800-799-7233** | 24/7. Diga "español" y le atenderán en español. Chat: thehotline.org |
 | **Línea Nacional de Agresión Sexual** | **1-800-656-4673** | 24/7. RAINN. Servicios en español disponibles. |
 | **Línea de Abuso Infantil Childhelp** | **1-800-422-4453** (llamada o texto) | 24/7. Servicios en español disponibles. Intérpretes en más de 170 idiomas. |
 | **Línea de Fraude a Personas Mayores** | **1-833-FRAUD-11** | Departamento de Justicia. |
@@ -54,7 +54,7 @@ Access To Peace no puede reemplazar los servicios de emergencia. En caso de duda
 ### Violencia Doméstica
 | Organización | Contacto |
 |-------------|----------|
-| Línea Nacional de VD (español) | 1-800-799-7233 (presione 1 para español) |
+| Línea Nacional de VD (español) | 1-800-799-7233 (diga "español" y le atenderán en español) |
 | ALIVE (St. Louis) | 314-993-2777 |
 | Safe Connections (Condado de St. Louis) | 314-531-2003 |
 | Rose Brooks Center (Kansas City) | 816-861-6100 |

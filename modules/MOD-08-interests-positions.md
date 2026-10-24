@@ -12,7 +12,7 @@ T-12, T-17, T-29
 All — especially MED, ARB, CCH, ATT, IND
 
 ## Safety Level
-Green, after the required safety screen below. Orange if the screen is yes or prefer not to say.
+Green, after the required court-order question and safety screen below. Orange if the screen is yes or prefer not to say.
 
 ```mermaid
 flowchart TD
@@ -20,7 +20,12 @@ flowchart TD
     T17["T-17: Stuck in\nnegotiation"] --> ENTRY
     T29["T-29: Relationship\nrepair needed"] --> ENTRY
 
-    ENTRY["MOD-08: Interests vs.\nPositions Mapper"]:::blue --> SCREEN{"Safety screen\n(required)"}
+    ENTRY["MOD-08: Interests vs.\nPositions Mapper"]:::blue --> ORDER{"Court-order question\n(required, first)"}
+    ORDER -- "Protective / no-contact / unsure" --> CHANNEL["No map. Explain the\nchannel the order allows.\nOffer MOD-18 · MOD-19"]
+    style CHANNEL fill:#ff9800,color:#fff
+    ORDER -- "Parenting-app rule only" --> APP["Map is fine. Any message:\nlogistics only, through\nthe app (MOD-04)"]
+    APP --> SCREEN
+    ORDER -- "No" --> SCREEN{"Safety screen\n(required)"}
     SCREEN -- "No" --> BG["Background: Positions vs.\nInterests (Fisher & Ury)"]
     SCREEN -- "Yes / prefer not to say" --> EXIT["Safety exit path:\nMOD-07 · MOD-14 · MOD-19\nno concessions or joint agreements"]
     style EXIT fill:#ff9800,color:#fff
@@ -53,12 +58,45 @@ flowchart TD
 
 ---
 
-## Safety Screen (required — ask before any other question)
+## Court-Order Question (required — ask first, before anything else)
+
+Ask once, gently:
+
+> Is there a protective order, no-contact order, or a court rule limiting how you
+> contact them? You can answer **a protective or no-contact order**, **only a rule to
+> message through a parenting app or similar channel**, **no**, or **unsure**.
+
+- **No:** go on to the safety screen below.
+- **Only a parenting-app rule** (or a similar logistics channel the parenting plan or
+  order names): go on to the safety screen below. The map is private preparation, so it
+  can be built. Any message that comes out of it stays logistics-only (schedule, school,
+  medical care, expenses) and goes only through that app or channel; use **MOD-04** to
+  draft it.
+- **A protective or no-contact order**, or **unsure**, even when the order also names a
+  parenting app: do not build the map. Working out what the other person "really
+  wants" is a step toward contacting or negotiating with them, and the order decides how
+  that can happen. Say, calmly:
+
+> Thank you for telling me. When there's an order like that, any contact or negotiation
+> has to go only through the channel the order allows, such as your attorney, a mediator
+> the court has approved, or the court itself. If you're not sure what your order allows,
+> your attorney, the court clerk or a victim advocate can tell you. I can help you get
+> ready to ask them (MOD-18 Court Preparation Checklist), or explain how protective
+> orders work (MOD-19, educational only).
+
+  Then offer **MOD-18** or **MOD-19**. If the person says they are afraid of the other
+  person, also give the safety exit path below.
+- **If the user is a mediator or attorney:** ask whether any order limits contact between
+  the parties. If there is a protective or no-contact order, or if unsure, confirm what
+  the order allows before any joint work. If the only rule is a parenting app, keep
+  communication between the parties in that app.
+
+## Safety Screen (required — ask right after the court-order question, before any other question)
 
 Ask once, gently, in these words:
 
 > Before we start, one safety question. Has the other person ever hurt, threatened,
-> stalked or controlled you, or is there a protective order between you?
+> stalked or controlled you?
 > You can answer **yes**, **no**, or **prefer not to say**.
 
 - **No:** continue to the question set.
@@ -153,7 +191,8 @@ Then:
 ---
 
 ## Quality Gates
-- [ ] Safety screen asked first; nothing drafted for joint work on the safety exit path
+- [ ] Court-order question asked first; on a protective or no-contact order, or "unsure", no map was built; on a parenting-app rule only, any message is logistics-only and sent through that app
+- [ ] Safety screen asked next; nothing drafted for joint work on the safety exit path
 - [ ] Positions and interests are clearly distinguished
 - [ ] Other party's interests framed with empathy — not as accusations
 - [ ] BATNA noted (even if "I don't know yet")
@@ -171,7 +210,7 @@ Then:
 ## Worked Example
 
 **User input:**
-> Role: Parent (PAR). Q1: I want the children on weekdays. Q2: I want to be involved in their school routine and help with homework. Q3: I would lose daily involvement in their education and feel disconnected from their school life. Q4: Good enough would be having them on most school nights and being the contact for school communications. Q5: Non-negotiable: being able to attend all school events — conferences, performances, games. Q6: I think they want equal time — a 50/50 schedule. Q7: They want to feel like an equal parent and not be sidelined. Q8: They might be afraid of losing time with the children and being seen as a less involved parent. Q9: We both want the children to succeed in school and feel supported by both parents.
+> Role: Parent (PAR). Court-order question: No. Safety screen: No. Q1: I want the children on weekdays. Q2: I want to be involved in their school routine and help with homework. Q3: I would lose daily involvement in their education and feel disconnected from their school life. Q4: Good enough would be having them on most school nights and being the contact for school communications. Q5: Non-negotiable: being able to attend all school events — conferences, performances, games. Q6: I think they want equal time — a 50/50 schedule. Q7: They want to feel like an equal parent and not be sidelined. Q8: They might be afraid of losing time with the children and being seen as a less involved parent. Q9: We both want the children to succeed in school and feel supported by both parents.
 
 ### Interests Map
 

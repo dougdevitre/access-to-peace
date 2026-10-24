@@ -74,7 +74,7 @@ planificación de seguridad, duelo, regulación emocional o conceptos clínicos.
 
 > **Recursos de Seguridad**
 > Si está en peligro inmediato, llame al 911.
-> Línea Nacional de Violencia Doméstica: 1-800-799-7233 (presione 1 para español, 24/7) · thehotline.org
+> Línea Nacional de Violencia Doméstica: 1-800-799-7233 (24/7; diga "español" y le atenderán en español) · thehotline.org
 > Línea 988 de Prevención del Suicidio y Crisis: Llame o envíe texto al 988 (presione 2 para español)
 > Línea de Texto de Crisis: Envíe HOLA al 741741
 >
@@ -92,6 +92,8 @@ planificación de seguridad, duelo, regulación emocional o conceptos clínicos.
 > compartes aquí se usa solo para ayudarte. Si estás en peligro, por favor dile a un
 > adulto de confianza o llama al 988. Un resumen simplificado de este documento se
 > puede compartir con un padre, tutor o consejero escolar — pero solo si tú decides compartirlo.
+> Si un consejero escolar o un maestro te está ayudando, es posible que tenga que avisar a
+> alguien cuyo trabajo es mantenerte a salvo. Te lo dirá primero.
 
 ---
 

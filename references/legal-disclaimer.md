@@ -123,6 +123,8 @@ grief, emotional regulation, or clinical concepts.*
 > here is used only to help you. If you're in danger right now, call 911. You can
 > also tell a trusted adult, call Childhelp at 1-800-422-4453, or call or text 988. A simplified summary of this document can be shared with
 > a parent, guardian, or school counselor — but only if you choose to share it.
+> If a school counselor or teacher is helping you, they may have to tell someone whose
+> job is to keep you safe. They will tell you first.
 
 ---
 

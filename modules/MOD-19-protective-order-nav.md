@@ -93,6 +93,7 @@ Common provisions may include:
 - Contact a victim advocate or legal aid attorney for guidance specific to your situation
 - Missouri victim advocates: statewide list at mocadsv.org
 - Legal Services of Eastern Missouri: 314-534-4200
+- Outside Missouri: WomensLaw.org (your state's protective-order law and local programs); lawhelp.org for legal aid
 
 ---
 
@@ -175,6 +176,7 @@ Common provisions that a court may include in a protective order:
 - **Contact a victim advocate** for guidance specific to your situation. Advocates can help you understand the process, prepare paperwork, and accompany you to court.
 - **Missouri Coalition Against Domestic and Sexual Violence:** statewide directory at mocadsv.org
 - **Legal Services of Eastern Missouri:** 314-534-4200 (free legal assistance for eligible individuals)
+- **Outside Missouri:** WomensLaw.org (your state's protective-order law and local programs); lawhelp.org for legal aid
 - **National Domestic Violence Hotline:** 1-800-799-7233 (available 24/7, confidential)
 
 *This information is educational only and does not constitute legal advice. Every situation is different. An attorney or victim advocate can help you understand how the law applies to your specific circumstances.*
