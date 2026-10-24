@@ -1,5 +1,5 @@
 {
-  "$comment": "Fact ledger: every phone number, dollar figure, deadline and program-status claim this skill states, with the primary source it was verified on, the date, and the files that carry it. scripts/check-facts.mjs fails CI when a fact is past its recheck date, a listed file is missing, or the value no longer appears in any listed file. Only add an entry you verified on its source that day; never back-date.",
+  "$comment": "Fact ledger: every phone number, dollar figure, deadline and program-status claim this skill states, with the primary source it was verified on, the date, and the files that carry it. scripts/check-facts.mjs fails CI when a fact is past its recheck date, a listed file is missing, or the value (or each string in match) no longer appears in its listed files. Recheck intervals: phone numbers 180 days; dollar figures and program status 90; annual-cycle figures use recheck_on with the next cycle's date. Only add an entry you verified on its source that day; never back-date.",
   "recheck_days_default": 90,
   "facts": [
     {
@@ -7,7 +7,7 @@
       "claim": "988 Suicide & Crisis Lifeline: call or text 988, 24/7",
       "value": "988",
       "source": "https://988lifeline.org/",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
       "files": [
         "DISCLAIMER.md",
@@ -54,7 +54,7 @@
       "claim": "988 in Spanish: press 2 on a call, or text AYUDA to 988",
       "value": "AYUDA",
       "source": "https://988lifeline.org/get-help/what-to-expect/",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
       "files": [
         "SKILL.md",
@@ -66,8 +66,8 @@
       "id": "veterans-crisis-line-text",
       "claim": "Veterans Crisis Line: dial 988 then press 1, or text 838255",
       "value": "838255",
-      "source": "https://www.va.gov/southeast-louisiana-health-care/news-releases/veterans-crisis-line-dial-988-then-press-1/",
-      "verified_on": "2026-10-23",
+      "source": "https://988lifeline.org/get-help/what-to-expect/",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
       "files": [
         "chatbot/system-prompt.md",
@@ -84,7 +84,7 @@
       "claim": "Crisis Text Line: text HOME to 741741",
       "value": "HOME to 741741",
       "source": "https://www.crisistextline.org/",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
       "files": [
         "README.md",
@@ -108,7 +108,7 @@
       "claim": "Crisis Text Line in Spanish: text HOLA to 741741",
       "value": "HOLA",
       "source": "https://www.crisistextline.org/",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
       "files": [
         "SKILL.md",
@@ -121,8 +121,8 @@
       "id": "ndvh-phone",
       "claim": "National Domestic Violence Hotline, 24/7 (text START to 88788)",
       "value": "1-800-799-7233",
-      "source": "https://thehotline.org/?p=2209",
-      "verified_on": "2026-10-23",
+      "source": "https://www.thehotline.org/",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
       "files": [
         "README.md",
@@ -165,7 +165,7 @@
       "claim": "Childhelp National Child Abuse Hotline (call or text)",
       "value": "1-800-422-4453",
       "source": "https://www.childhelphotline.org/",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
       "files": [
         "SKILL.md",
@@ -191,7 +191,7 @@
       "claim": "Missouri Child Abuse & Neglect Hotline (Children's Division), 24/7",
       "value": "800-392-3738",
       "source": "https://dss.mo.gov/cd/keeping-kids-safe/can.htm",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
       "files": [
         "checklists/all-checklists.md",
@@ -219,7 +219,7 @@
       "claim": "Missouri Adult Abuse and Neglect Hotline, 7 days a week 7:00 a.m. to 8:00 p.m.; online reporting any time",
       "value": "800-392-0210",
       "source": "https://health.mo.gov/report-adult-abuse/stop-adult-abuse",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
       "files": [
         "checklists/all-checklists.md",
@@ -236,7 +236,7 @@
       "claim": "RAINN National Sexual Assault Hotline (800-656-HOPE), online chat at hotline.rainn.org",
       "value": "1-800-656-4673",
       "source": "https://rainn.org/contact",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
       "files": [
         "SKILL.md",
@@ -254,7 +254,7 @@
       "claim": "Trans Lifeline US hotline (press 2 for Spanish)",
       "value": "877-565-8860",
       "source": "https://translifeline.org/hotline/",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
       "files": [
         "chatbot/system-prompt.md",
@@ -271,7 +271,7 @@
       "claim": "Trans Lifeline hours: Monday–Friday 1–9 p.m. ET; not 24/7",
       "value": "1–9 p.m. ET",
       "source": "https://translifeline.org/hotline/",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
       "files": [
         "chatbot/system-prompt.md",
@@ -283,7 +283,7 @@
       "claim": "SAMHSA National Helpline (1-800-662-HELP), 24/7, English and Spanish",
       "value": "1-800-662-4357",
       "source": "https://www.samhsa.gov/find-help/helplines/national-helpline",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
       "files": [
         "chatbot/system-prompt.md",
@@ -309,7 +309,7 @@
       "claim": "Trevor Project crisis line for LGBTQ+ young people, 24/7",
       "value": "1-866-488-7386",
       "source": "https://www.thetrevorproject.org/get-help/",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
       "files": [
         "chatbot/system-prompt.md",
@@ -326,7 +326,7 @@
       "claim": "DOJ National Elder Fraud Hotline (1-833-FRAUD-11), Monday–Friday 10 a.m.–6 p.m. ET",
       "value": "1-833-372-8311",
       "source": "https://www.justice.gov/elderjustice/contact",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
       "files": [
         "references/crisis-resources.md"
@@ -337,7 +337,7 @@
       "claim": "Legal Services of Eastern Missouri, St. Louis main office",
       "value": "314-534-4200",
       "source": "https://lsmo.org/node/747/offices",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
       "files": [
         "locales/ar/crisis-resources.md",
@@ -363,7 +363,7 @@
       "claim": "The Missouri Bar main line",
       "value": "573-635-4128",
       "source": "https://mobar.org/about_us/",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
       "files": [
         "locales/ar/crisis-resources.md",
@@ -386,7 +386,7 @@
       "claim": "NAMI Missouri (state organization)",
       "value": "573-634-7727",
       "source": "https://www.nami.org/Affiliate?state=mo",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
       "files": [
         "locales/ar/crisis-resources.md",
@@ -403,7 +403,7 @@
       "claim": "Missouri Department of Mental Health main switchboard",
       "value": "573-751-4122",
       "source": "https://dmh.mo.gov/contact-us",
-      "verified_on": "2026-10-23",
+      "verified_on": "2026-10-24",
       "recheck_days": 180,
       "files": [
         "locales/ar/crisis-resources.md",
