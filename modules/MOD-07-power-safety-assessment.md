@@ -15,14 +15,14 @@ Orange — safety gate runs before question set
 
 ```mermaid
 flowchart TD
-    T14["T-14: Safety concern"] --> ENTRY
-    T15["T-15: Power imbalance"] --> ENTRY
-    T18["T-18: Threats reported"] --> ENTRY
-    T19["T-19: Violence indicated"] --> ENTRY
-    T71["T-71: DV indicators"] --> ENTRY
-    T72["T-72: Stalking behavior"] --> ENTRY
-    T77["T-77: Weapon mention"] --> ENTRY
-    T78["T-78: Child at risk"] --> ENTRY
+    T14["T-14: I don't feel safe"] --> ENTRY
+    T15["T-15: They threatened me"] --> ENTRY
+    T18["T-18: Power imbalance"] --> ENTRY
+    T19["T-19: I feel manipulated"] --> ENTRY
+    T71["T-71: I'm scared"] --> ENTRY
+    T72["T-72: Help me / I need help now"] --> ENTRY
+    T77["T-77: Child abuse"] --> ENTRY
+    T78["T-78: Elder abuse"] --> ENTRY
 
     ENTRY["MOD-07: Power &\nSafety Assessment"]:::blue --> GATE{"MANDATORY\nSAFETY GATE:\nImmediate danger?"}:::orange
 
