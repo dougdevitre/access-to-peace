@@ -155,6 +155,7 @@ Append Blocks A, C, F.
 - **MOD-13** Emotional Regulation Plan — build regulation tools alongside the safety plan
 - **MOD-25** Service Referral Builder — connect to DV services, shelters, legal aid
 - **MOD-15** Trauma-Informed Self-Care Plan — for ongoing resilience alongside safety
+- **For leaving an abusive relationship** — use access-to-safety's safety plan if it is installed, or call the National DV Hotline (1-800-799-7233) to make a plan with an advocate
 
 ---
 

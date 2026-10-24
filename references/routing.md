@@ -86,6 +86,15 @@ agreements or direct-contact steps; offer MOD-07, MOD-14 and MOD-19 instead. If 
 is already Orange because of abuse, threats, stalking or control by the other party, do
 not route to these modules at all.
 
+**Court-order question for messages and interests maps.** MOD-01, MOD-04 and MOD-08 ask
+first, before anything else: "Is there a protective order, no-contact order, or a court
+rule limiting how you contact them?" (yes / no / unsure). On yes or unsure, draft no
+message and build no map; explain that contact has to go through the channel the order
+allows (parenting app, attorney, court) and offer MOD-18 or MOD-19. MOD-01 and MOD-04 then
+run a decline gate before scoring: a message that asks where the other person or the
+children are, asks for a new address, phone, workplace or routine, demands a reply by a
+deadline under threat, or mentions showing up is declined, not rewritten.
+
 ---
 
 ## Safety Level Definitions

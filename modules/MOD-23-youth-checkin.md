@@ -118,6 +118,8 @@ Good | Okay | Not great | Really bad | Frustrated | Scared | Confused
 **User input:**
 > Role: School Counselor (SCL) facilitating check-in with a youth (YTH), age 15. Safety check: "No, no one is hurting me." Feeling: "Not great" and "Frustrated." What's going on: "My parents keep fighting and I can hear them at night. I don't want to pick sides." Need: "Someone to listen." One thing that might help: "Maybe talking to my school counselor more." Who can you talk to: "My school counselor and my aunt." Guardian copy: "No." Follow-up: scheduled.
 
+> **Facilitator prompt:** Ask gently whether the fighting is ever physical, or whether [Youth] feels afraid at home. If yes to either, follow the yes path in the Built-In Safety Check above (and your mandatory-reporting duty) instead of this listening plan.
+
 ### Youth Check-In Summary
 
 **Date:** April 9, 2026

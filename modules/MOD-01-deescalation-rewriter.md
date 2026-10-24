@@ -11,7 +11,8 @@ T-01, T-02, T-03, T-06, T-07
 All
 
 ## Safety Level
-Green (standard) / Yellow if T-06 or T-07
+Green (standard) / Yellow if T-06 or T-07. The court-order question is always asked
+first, and the decline gate always runs before the neutrality assessment.
 
 ```mermaid
 flowchart TD
@@ -21,16 +22,20 @@ flowchart TD
     T06["T-06: Threatening language"] --> ENTRY
     T07["T-07: Escalation pattern"] --> ENTRY
 
-    ENTRY["MOD-01: De-Escalation\nMessage Rewriter"]:::blue --> SAFETY{"Safety Check:\nT-06 or T-07 present?"}
-    SAFETY -- "No → Green" --> Q1
+    ENTRY["MOD-01: De-Escalation\nMessage Rewriter"]:::blue --> ORDER{"Q1 (required, first):\nProtective order, no-contact order\nor court rule on contact?"}
+    ORDER -- "Yes / unsure" --> CHANNEL["Do not draft.\nExplain the channel\nthe order allows.\nOffer MOD-18 · MOD-19"]:::orange
+    ORDER -- "No" --> SAFETY{"Safety Check:\nT-06 or T-07 present?"}
+    SAFETY -- "No → Green" --> Q2
     SAFETY -- "Yes → Yellow" --> YELLOW["Flag elevated concern\nProceed with caution"]:::orange
-    YELLOW --> Q1
+    YELLOW --> Q2
 
-    Q1["Q1: Paste original message"] --> Q2["Q2: Relationship to recipient"]
-    Q2 --> Q3["Q3: Core need from message"]
-    Q3 --> Q4["Q4-Q6: Tone, child involved,\naudience (optional)"]
+    Q2["Q2: Paste original message"] --> Q3["Q3: Relationship to recipient"]
+    Q3 --> Q4["Q4: Core need from message"]
+    Q4 --> Q5["Q5-Q7: Tone, child involved,\naudience (optional)"]
 
-    Q4 --> ASSESS["Neutrality Assessment\nAccusatory / Escalation / Child-centering"]
+    Q5 --> GATE{"Decline gate:\nwhereabouts · contact info or routine ·\ndeadline under threat · showing up?"}
+    GATE -- "Yes" --> DECLINE["Decline calmly.\nSay what can be sent instead"]:::orange
+    GATE -- "No" --> ASSESS["Neutrality Assessment\nAccusatory / Escalation / Child-centering"]
     ASSESS --> V1["Version 1: Firm"]
     ASSESS --> V2["Version 2: Collaborative"]
     ASSESS --> V3["Version 3: Minimal"]
@@ -54,15 +59,49 @@ flowchart TD
 
 ## Question Set
 
-**Required:**
-1. What is the message you want to send? (paste or describe)
-2. What is your relationship to the recipient? (co-parent, neighbor, colleague, family member, other)
-3. What is the core thing you need from this message? (response, agreement, acknowledgment, boundary, information)
+**Required — ask first, before anything else:**
+1. Is there a protective order, no-contact order, or a court rule limiting how you contact them? (yes / no / unsure)
+
+**If the answer is yes or unsure:** do not draft, assess or rewrite a message. Say, calmly:
+
+> Thank you for telling me. When there's an order like that, messages have to go only
+> through the channel the order allows, such as a parenting app, your attorney, or the
+> court. Sending one any other way could go against the order, so I won't draft it here.
+> If you're not sure what your order allows, your attorney, the court clerk or a victim
+> advocate can tell you. I can help you get ready to ask them (MOD-18 Court Preparation
+> Checklist), or explain how protective orders work (MOD-19, educational only).
+
+Then offer **MOD-18** or **MOD-19**. If the person says they are afraid of the other
+person, give the crisis resources too.
+
+**Required (only when the answer to 1 is no):**
+2. What is the message you want to send? (paste or describe)
+3. What is your relationship to the recipient? (co-parent, neighbor, colleague, family member, other)
+4. What is the core thing you need from this message? (response, agreement, acknowledgment, boundary, information)
 
 **Optional:**
-4. What tone is most important to you? (firm / collaborative / minimal)
-5. Is there a child involved in this situation? (yes / no)
-6. Will this message likely be seen by anyone else? (court, attorney, mediator, teacher)
+5. What tone is most important to you? (firm / collaborative / minimal)
+6. Is there a child involved in this situation? (yes / no)
+7. Will this message likely be seen by anyone else? (court, attorney, mediator, teacher)
+
+---
+
+## Decline Gate (run before the neutrality assessment)
+
+Read the original message. Decline, and do not assess or rewrite it, if it does any of
+these:
+
+1. Asks where the other person (or their children) is, or where they are staying.
+2. Asks for a new address, phone number, workplace, or daily routine.
+3. Demands a reply by a deadline under threat ("answer by tonight or ...").
+4. Mentions showing up somewhere the other person is, such as their home, their work or
+   a relative's home.
+
+A calmer version would carry the same demand, so rewriting it would not make it safe.
+Decline under the Prohibited guardrail in SKILL.md, in one or two calm sentences that
+say why, then say what the person can send instead (the practical issue itself, without
+the demand), through any channel a court allows. Offer **MOD-13** if the person is
+upset, and **MOD-18** if a court is involved. MOD-04 Worked Example 2 shows the wording.
 
 ---
 
@@ -91,6 +130,8 @@ Brief bullet list: specific changes made and why.
 ---
 
 ## Quality Gates
+- [ ] Contact is not barred by an order: Q1 was answered "no" (on "yes" or "unsure", no message was drafted)
+- [ ] The message does not seek the other party's whereabouts: no request for where they are, a new address, phone, workplace or routine, no deadline under threat, no mention of showing up (decline gate passed)
 - [ ] All three versions pass neutrality check
 - [ ] No accusatory, absolute, or inflammatory language remains
 - [ ] Core need of user is preserved in all versions
@@ -111,7 +152,9 @@ Brief bullet list: specific changes made and why.
 **User input:**
 > "I want to send this to my neighbor: 'You are the most inconsiderate person alive. Your dog barks ALL NIGHT and you clearly don't care about anyone but yourself. If this doesn't stop I'm calling the cops and filing a complaint with the HOA. Don't test me.'"
 >
-> Relationship: neighbor. Core need: the barking to stop. Tone: firm.
+> Order limiting contact: no. Relationship: neighbor. Core need: the barking to stop. Tone: firm.
+
+*Decline gate: passed. The message is hostile, but it does not ask where anyone is, ask for contact details or a routine, set a deadline under threat, or mention showing up.*
 
 ### Neutrality Assessment
 - Accusatory language: 2/10 (heavy — "most inconsiderate," "don't care about anyone")
