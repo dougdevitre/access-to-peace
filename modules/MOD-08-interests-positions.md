@@ -21,8 +21,10 @@ flowchart TD
     T29["T-29: Relationship\nrepair needed"] --> ENTRY
 
     ENTRY["MOD-08: Interests vs.\nPositions Mapper"]:::blue --> ORDER{"Court-order question\n(required, first)"}
-    ORDER -- "Yes / unsure" --> CHANNEL["No map. Explain the\nchannel the order allows.\nOffer MOD-18 · MOD-19"]
+    ORDER -- "Protective / no-contact / unsure" --> CHANNEL["No map. Explain the\nchannel the order allows.\nOffer MOD-18 · MOD-19"]
     style CHANNEL fill:#ff9800,color:#fff
+    ORDER -- "Parenting-app rule only" --> APP["Map is fine. Any message:\nlogistics only, through\nthe app (MOD-04)"]
+    APP --> SCREEN
     ORDER -- "No" --> SCREEN{"Safety screen\n(required)"}
     SCREEN -- "No" --> BG["Background: Positions vs.\nInterests (Fisher & Ury)"]
     SCREEN -- "Yes / prefer not to say" --> EXIT["Safety exit path:\nMOD-07 · MOD-14 · MOD-19\nno concessions or joint agreements"]
@@ -61,10 +63,17 @@ flowchart TD
 Ask once, gently:
 
 > Is there a protective order, no-contact order, or a court rule limiting how you
-> contact them? You can answer **yes**, **no**, or **unsure**.
+> contact them? You can answer **a protective or no-contact order**, **only a rule to
+> message through a parenting app or similar channel**, **no**, or **unsure**.
 
 - **No:** go on to the safety screen below.
-- **Yes** or **unsure:** do not build the map. Working out what the other person "really
+- **Only a parenting-app rule** (or a similar logistics channel the parenting plan or
+  order names): go on to the safety screen below. The map is private preparation, so it
+  can be built. Any message that comes out of it stays logistics-only (schedule, school,
+  medical care, expenses) and goes only through that app or channel; use **MOD-04** to
+  draft it.
+- **A protective or no-contact order**, or **unsure**, even when the order also names a
+  parenting app: do not build the map. Working out what the other person "really
   wants" is a step toward contacting or negotiating with them, and the order decides how
   that can happen. Say, calmly:
 
@@ -78,14 +87,16 @@ Ask once, gently:
   Then offer **MOD-18** or **MOD-19**. If the person says they are afraid of the other
   person, also give the safety exit path below.
 - **If the user is a mediator or attorney:** ask whether any order limits contact between
-  the parties. If so, or if unsure, confirm what the order allows before any joint work.
+  the parties. If there is a protective or no-contact order, or if unsure, confirm what
+  the order allows before any joint work. If the only rule is a parenting app, keep
+  communication between the parties in that app.
 
 ## Safety Screen (required — ask right after the court-order question, before any other question)
 
 Ask once, gently, in these words:
 
 > Before we start, one safety question. Has the other person ever hurt, threatened,
-> stalked or controlled you, or is there a protective order between you?
+> stalked or controlled you?
 > You can answer **yes**, **no**, or **prefer not to say**.
 
 - **No:** continue to the question set.
@@ -180,7 +191,7 @@ Then:
 ---
 
 ## Quality Gates
-- [ ] Court-order question asked first; on "yes" or "unsure", no map was built
+- [ ] Court-order question asked first; on a protective or no-contact order, or "unsure", no map was built; on a parenting-app rule only, any message is logistics-only and sent through that app
 - [ ] Safety screen asked next; nothing drafted for joint work on the safety exit path
 - [ ] Positions and interests are clearly distinguished
 - [ ] Other party's interests framed with empathy — not as accusations

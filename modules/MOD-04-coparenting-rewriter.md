@@ -21,7 +21,9 @@ flowchart TD
     T50["T-50: Child-related\nconflict"] --> ENTRY
 
     ENTRY["MOD-04: Co-Parenting\nCommunication Rewriter"]:::blue --> ORDER{"Q1 (required, first):\nProtective order, no-contact order\nor court rule on contact?"}
-    ORDER -- "Yes / unsure" --> CHANNEL["Do not draft.\nExplain the channel\nthe order allows.\nOffer MOD-18 · MOD-19"]:::orange
+    ORDER -- "Protective / no-contact / unsure" --> CHANNEL["Do not draft.\nExplain the channel\nthe order allows.\nOffer MOD-18 · MOD-19"]:::orange
+    ORDER -- "Parenting-app rule only" --> APP["Logistics only:\nschedule · school ·\nmedical · expenses.\nSend only through the app"]
+    APP --> SAFETY
     ORDER -- "No" --> SAFETY{"Safety language\ndetected?"}
     SAFETY -- "No → Green" --> Q2
     SAFETY -- "Yes → Yellow" --> YELLOW["Flag safety concern\nProceed with caution"]:::orange
@@ -58,9 +60,11 @@ flowchart TD
 ## Question Set
 
 **Required — ask first, before anything else:**
-1. Is there a protective order, no-contact order, or a court rule limiting how you contact them? (yes / no / unsure)
+1. Is there a protective order, no-contact order, or a court rule limiting how you contact them? (protective or no-contact order / only a rule to message through a parenting app or similar channel / no / unsure)
 
-**If the answer is yes or unsure:** do not draft, score or rewrite a message. Say, calmly:
+**If there is a protective order or a no-contact order, or the person is unsure:** do not
+draft, score or rewrite a message. This applies even when the order also names a
+parenting app. Say, calmly:
 
 > Thank you for telling me. When there's an order like that, messages have to go only
 > through the channel the order allows, such as a parenting app, your attorney, or the
@@ -72,7 +76,17 @@ flowchart TD
 Then offer **MOD-18** or **MOD-19**. If the person says they are afraid of the other
 parent, give the crisis resources too.
 
-**Required (only when the answer to 1 is no):**
+**If the only rule is that messages go through a parenting app** (or a similar logistics
+channel the parenting plan or order names, such as a set email address): you may help
+with a logistics-only message about the schedule, school, medical care or expenses. Ask
+the remaining questions, keep the draft to those topics, and run the decline gate as
+usual. If the message is about something else, say calmly that you can help with the
+logistics part only. With the draft, say once:
+
+> Your parenting plan or order says messages go through [the app or channel], so send
+> this only there.
+
+**Required (only when the answer to 1 is no, or a parenting-app rule only):**
 2. What is the message you want to send? (paste or describe)
 3. What is the topic? (schedule change, expense, school, medical, behavior, other)
 4. What outcome do you need? (confirmation, agreement, information, acknowledgment)
@@ -128,7 +142,7 @@ A shorter, more minimal version for high-conflict situations.
 ---
 
 ## Quality Gates
-- [ ] Contact is not barred by an order: Q1 was answered "no" (on "yes" or "unsure", no message was drafted)
+- [ ] Contact is not barred by an order: Q1 was answered "no", or "parenting-app rule only" with a logistics-only draft and the line to send it only through that app or channel (on a protective or no-contact order, or "unsure", no message was drafted)
 - [ ] The message does not seek the other party's whereabouts: no request for where they or the children are, a new address, phone, workplace or routine, no deadline under threat, no mention of showing up (decline gate passed)
 - [ ] [Parent A] / [Parent B] / [Child] placeholders used (unless named version opted in)
 - [ ] No accusatory language
