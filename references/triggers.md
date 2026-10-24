@@ -72,15 +72,15 @@ Each trigger includes: safety level, primary module, and artifact output.
 
 | # | Trigger | Safety Level | Module | Artifact |
 |---|---------|-------------|--------|---------|
-| T-21 | "Preparing for mediation" | Green | MOD-09 | Mediation prep sheet |
-| T-22 | "Write a peace agreement" | Green | MOD-10 | Peace agreement draft |
-| T-23 | "We reached an agreement" | Green | MOD-10 | Formalized agreement |
+| T-21 | "Preparing for mediation" | Green after safety screen | MOD-09 | Mediation prep sheet |
+| T-22 | "Write a peace agreement" | Green after safety screen | MOD-10 | Peace agreement draft |
+| T-23 | "We reached an agreement" | Green after safety screen | MOD-10 | Formalized agreement |
 | T-24 | "Restorative circle" | Green | MOD-11 | Circle agenda + prep |
 | T-25 | "Harm repair" | Green | MOD-11 | Harm repair plan |
 | T-26 | "Facilitate a group discussion" | Green | MOD-12 | Dialogue facilitation guide |
 | T-27 | "Arbitration prep" | Green | MOD-09 | Hearing prep sheet |
 | T-28 | "Agreement fell apart" | Yellow | MOD-05 + MOD-10 | Re-intake + revised agreement |
-| T-29 | "Help me negotiate" | Green | MOD-08 + MOD-09 | Interests map + negotiation framework |
+| T-29 | "Help me negotiate" | Green after safety screen | MOD-08 + MOD-09 | Interests map + negotiation framework |
 | T-30 | "Community meeting" | Green | MOD-12 | Community dialogue agenda |
 
 ---
